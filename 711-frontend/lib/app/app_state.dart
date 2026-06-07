@@ -11,6 +11,8 @@ class _AppState {
     this.lockedStopIndexes = const {0},
     this.hiddenStopIndexes = const {},
     this.routeStops = _stops,
+    this.routeOptions = const [],
+    this.selectedRouteOptionIndex = 0,
     this.routeLoading = false,
     this.routeLoadingMessage = '',
     this.planSummary,
@@ -41,6 +43,8 @@ class _AppState {
   final Set<int> lockedStopIndexes;
   final Set<int> hiddenStopIndexes;
   final List<_Stop> routeStops;
+  final List<_RouteOption> routeOptions;
+  final int selectedRouteOptionIndex;
   final bool routeLoading;
   final String routeLoadingMessage;
   final _PlanSummary? planSummary;
@@ -80,8 +84,9 @@ class _AppState {
       };
 
   _AppState goTo(ScreenStage next) {
-    final gatedNext =
-        !profileLoggedIn && next != ScreenStage.profile ? ScreenStage.profile : next;
+    final gatedNext = !profileLoggedIn && next != ScreenStage.profile
+        ? ScreenStage.profile
+        : next;
     return copyWith(
       stage: gatedNext,
       previousStage: stage,
@@ -121,6 +126,8 @@ class _AppState {
       routeLoading: true,
       routeLoadingMessage: '正在理解你的偏好...',
       overlay: _AppOverlay.none,
+      routeOptions: const [],
+      selectedRouteOptionIndex: 0,
     );
   }
 
@@ -147,14 +154,20 @@ class _AppState {
     );
   }
 
-  _AppState finishRouteGeneration(List<_Stop> stops) {
-    final nextStops = stops.isEmpty ? _stops : stops;
+  _AppState finishRouteGeneration(List<_RouteOption> options) {
+    final nextOptions = options;
+    final nextStops =
+        nextOptions.isNotEmpty && nextOptions.first.stops.isNotEmpty
+            ? nextOptions.first.stops
+            : _stops;
     final nextBookings = _bookingsFromStops(nextStops);
     return copyWith(
-      stage: ScreenStage.route,
+      stage: ScreenStage.agent,
       previousStage: stage,
       overlay: _AppOverlay.none,
       routeStops: nextStops,
+      routeOptions: nextOptions,
+      selectedRouteOptionIndex: 0,
       routeLoading: false,
       routeLoadingMessage: '',
       bookings: nextBookings,
@@ -166,6 +179,46 @@ class _AppState {
       guideStopIndex: 0,
       selectedStopIndex: 0,
       hasActivePlan: true,
+    );
+  }
+
+  _AppState selectRouteOption(int index) {
+    if (index < 0 || index >= routeOptions.length) return this;
+    final selected = routeOptions[index];
+    final nextStops = selected.stops.isEmpty ? routeStops : selected.stops;
+    final nextBookings = _bookingsFromStops(nextStops);
+    return copyWith(
+      selectedRouteOptionIndex: index,
+      routeStops: nextStops,
+      bookings: nextBookings,
+      selectedBookingIndexes: {
+        for (var i = 0; i < nextBookings.length; i++) i,
+      },
+    );
+  }
+
+  _AppState confirmSelectedRouteOption() {
+    return copyWith(
+      stage: ScreenStage.route,
+      previousStage: stage,
+      overlay: _AppOverlay.none,
+    );
+  }
+
+  _AppState replaceRouteInPlace(List<_Stop> stops) {
+    if (stops.isEmpty) return this;
+    final nextBookings = _bookingsFromStops(stops);
+    return copyWith(
+      routeStops: stops,
+      bookings: nextBookings,
+      hiddenStopIndexes: const {},
+      lockedStopIndexes: const {0},
+      selectedBookingIndexes: {
+        for (var i = 0; i < nextBookings.length; i++) i,
+      },
+      overlay: _AppOverlay.none,
+      guideStopIndex: _clampIndex(guideStopIndex, stops.length),
+      selectedStopIndex: _clampIndex(selectedStopIndex, stops.length),
     );
   }
 
@@ -265,12 +318,14 @@ class _AppState {
                   _RecommendationItem.fromJson(item),
             ]
           : recommendations,
-      lockedStopIndexes: _normalizedIndexSet(lockedStopIndexes, safeStops.length),
-      hiddenStopIndexes: _normalizedIndexSet(hiddenStopIndexes, safeStops.length),
+      lockedStopIndexes:
+          _normalizedIndexSet(lockedStopIndexes, safeStops.length),
+      hiddenStopIndexes:
+          _normalizedIndexSet(hiddenStopIndexes, safeStops.length),
       guideStopIndex: _clampIndex(guideStopIndex, safeStops.length),
       selectedStopIndex: _clampIndex(selectedStopIndex, safeStops.length),
-      selectedBookingIndexes:
-          _normalizedIndexSet(selectedBookingIndexes, (bookingsJson is List ? bookingsJson.length : bookings.length)),
+      selectedBookingIndexes: _normalizedIndexSet(selectedBookingIndexes,
+          (bookingsJson is List ? bookingsJson.length : bookings.length)),
       weather: _WeatherSummary.fromDashboard(data),
       hasActivePlan: activePlan is Map<String, dynamic> || hasActivePlan,
     );
@@ -281,6 +336,7 @@ class _AppState {
     final routeJson = data['route'];
     final bookingsJson = data['bookings'];
     final historyJson = data['history'];
+    final lastAction = data['last_action'];
     final nextStops = routeJson is List
         ? [
             for (var i = 0; i < routeJson.length; i++)
@@ -290,16 +346,18 @@ class _AppState {
           ]
         : routeStops;
     final safeStops = nextStops.isEmpty ? routeStops : nextStops;
-    final nextLocked =
-        _normalizedIndexSet(_intSet(data['locked_indexes']) ?? lockedStopIndexes, safeStops.length);
-    final nextHidden =
-        _normalizedIndexSet(_intSet(data['hidden_indexes']) ?? hiddenStopIndexes, safeStops.length);
+    final nextLocked = _normalizedIndexSet(
+        _intSet(data['locked_indexes']) ?? lockedStopIndexes, safeStops.length);
+    final nextHidden = _normalizedIndexSet(
+        _intSet(data['hidden_indexes']) ?? hiddenStopIndexes, safeStops.length);
     final archivedNow = historyJson is List && historyJson.isNotEmpty;
+    final shouldJumpToHistory = lastAction is Map<String, dynamic> &&
+        lastAction['type'] == 'archive';
     return copyWith(
       planSummary: plan is Map<String, dynamic>
           ? _PlanSummary.fromJson(plan)
           : planSummary,
-      stage: archivedNow ? ScreenStage.history : stage,
+      stage: shouldJumpToHistory ? ScreenStage.history : stage,
       routeStops: safeStops,
       lockedStopIndexes: nextLocked,
       hiddenStopIndexes: nextHidden,
@@ -317,8 +375,8 @@ class _AppState {
       overlay: _AppOverlay.none,
       guideStopIndex: _clampIndex(guideStopIndex, safeStops.length),
       selectedStopIndex: _clampIndex(selectedStopIndex, safeStops.length),
-      selectedBookingIndexes:
-          _normalizedIndexSet(selectedBookingIndexes, (bookingsJson is List ? bookingsJson.length : bookings.length)),
+      selectedBookingIndexes: _normalizedIndexSet(selectedBookingIndexes,
+          (bookingsJson is List ? bookingsJson.length : bookings.length)),
       hasActivePlan: true,
     );
   }
@@ -328,7 +386,8 @@ class _AppState {
   }
 
   _AppState loginProfile(String phone) {
-    final suffix = phone.length >= 4 ? phone.substring(phone.length - 4) : phone;
+    final suffix =
+        phone.length >= 4 ? phone.substring(phone.length - 4) : phone;
     final nextProfile = (profileData ??
             const _UserProfileData(
               name: '用户',
@@ -372,6 +431,8 @@ class _AppState {
     Set<int>? lockedStopIndexes,
     Set<int>? hiddenStopIndexes,
     List<_Stop>? routeStops,
+    List<_RouteOption>? routeOptions,
+    int? selectedRouteOptionIndex,
     bool? routeLoading,
     String? routeLoadingMessage,
     _PlanSummary? planSummary,
@@ -402,6 +463,9 @@ class _AppState {
       lockedStopIndexes: lockedStopIndexes ?? this.lockedStopIndexes,
       hiddenStopIndexes: hiddenStopIndexes ?? this.hiddenStopIndexes,
       routeStops: routeStops ?? this.routeStops,
+      routeOptions: routeOptions ?? this.routeOptions,
+      selectedRouteOptionIndex:
+          selectedRouteOptionIndex ?? this.selectedRouteOptionIndex,
       routeLoading: routeLoading ?? this.routeLoading,
       routeLoadingMessage: routeLoadingMessage ?? this.routeLoadingMessage,
       planSummary: planSummary ?? this.planSummary,
@@ -424,8 +488,9 @@ class _AppState {
       currentLat: currentLat ?? this.currentLat,
       currentLng: currentLng ?? this.currentLng,
       locationLoading: locationLoading ?? this.locationLoading,
-      locationError:
-          identical(locationError, _unset) ? this.locationError : locationError as String?,
+      locationError: identical(locationError, _unset)
+          ? this.locationError
+          : locationError as String?,
     );
   }
 

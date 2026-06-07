@@ -7,6 +7,7 @@ from typing import Any
 
 from backend.data.seeds import MEALS, RECOMMENDATIONS, SPOTS
 from backend.schemas import RouteGenerateRequest
+from backend.services.weather_api import fetch_weather
 
 
 def load_711_data(filename: str) -> list[dict[str, Any]]:
@@ -27,27 +28,32 @@ def build_stops(req: RouteGenerateRequest) -> list[dict[str, Any]]:
 
 def generate_route_options(req: RouteGenerateRequest) -> dict[str, Any]:
     base_stops = build_stops(req)
+    distance_stops = sorted(base_stops, key=lambda stop: stop.get("transitMin") or 0)
+    rating_stops = sorted(base_stops, key=lambda stop: _rank_score(stop), reverse=True)
     routes = [
         {
-            "id": "route-soft",
-            "name": f"{req.location.area or req.location.city}慢悠悠之旅",
-            "label": "轻松首选",
-            "summary": route_summary(req, "节奏轻一点，保留发呆和临时调整空间"),
+            "id": "route-distance",
+            "name": f"{req.location.area or req.location.city}近距离顺路线",
+            "label": "距离优先",
+            "summary": route_summary(req, "尽量少绕路，优先把相近地点串起来"),
+            "stops": distance_stops,
+            **_route_meta(distance_stops, strategy="distance"),
+        },
+        {
+            "id": "route-rating",
+            "name": "高口碑体验路线",
+            "label": "评分最高",
+            "summary": route_summary(req, "优先保留评分和口碑更高的点位"),
+            "stops": rating_stops,
+            **_route_meta(rating_stops, strategy="rating"),
+        },
+        {
+            "id": "route-fit",
+            "name": "懂你偏好的路线",
+            "label": "最适合你",
+            "summary": route_summary(req, "结合你的偏好，整体节奏最均衡"),
             "stops": base_stops,
-        },
-        {
-            "id": "route-photo",
-            "name": "出片灵感路线",
-            "label": "好拍版本",
-            "summary": route_summary(req, "把采光、展览和街区质感排在前面"),
-            "stops": rotate_stops(base_stops, 1),
-        },
-        {
-            "id": "route-hidden",
-            "name": "小众惊喜路线",
-            "label": "小众版本",
-            "summary": route_summary(req, "少走热门点，多留一些本地感选择"),
-            "stops": rotate_stops(base_stops, 2),
+            **_route_meta(base_stops, strategy="fit"),
         },
     ]
     return {
@@ -148,6 +154,44 @@ def rotate_stops(stops: list[dict[str, Any]], offset: int) -> list[dict[str, Any
     return stops[offset:] + stops[:offset]
 
 
+def _rank_score(stop: dict[str, Any]) -> float:
+    category = str(stop.get("category", ""))
+    if "展" in category:
+        return 4.8
+    if "咖啡" in category:
+        return 4.7
+    if "书" in category or "图书馆" in category:
+        return 4.6
+    if "手工" in category or "DIY" in category:
+        return 4.5
+    return 4.4
+
+
+def _route_meta(stops: list[dict[str, Any]], strategy: str) -> dict[str, Any]:
+    total_minutes = sum(duration_to_minutes(stop.get("dur", "约1h")) for stop in stops)
+    total_minutes += sum(int(stop.get("transitMin") or 0) for stop in stops[1:])
+    if total_minutes >= 300 or len(stops) >= 5:
+        overload_level = "high"
+        overload_hint = "行程偏赶，建议删掉 1 站或减少绕路"
+    elif total_minutes >= 240 or len(stops) == 4:
+        overload_level = "medium"
+        overload_hint = "节奏稍满，适合行动力比较稳定的时候走"
+    else:
+        overload_level = "low"
+        overload_hint = "整体比较轻松，留有发呆和临时调整空间"
+    priority_hint = {
+        "distance": "更适合不想走太多路",
+        "rating": "更适合第一次来、优先体验口碑点",
+        "fit": "更适合按你的偏好稳妥出行",
+    }.get(strategy, "适合当前偏好")
+    return {
+        "totalMinutes": total_minutes,
+        "overloadLevel": overload_level,
+        "overloadHint": overload_hint,
+        "priorityHint": priority_hint,
+    }
+
+
 def route_summary(req: RouteGenerateRequest, suffix: str) -> str:
     moods = "、".join(req.moods) if req.moods else "随心"
     people = req.people or "2人"
@@ -155,7 +199,7 @@ def route_summary(req: RouteGenerateRequest, suffix: str) -> str:
 
 
 def weather(city: str) -> dict[str, str]:
-    return {"city": city, "date": "今天", "temp": "24-29°C", "condition": "多云转晴", "rain": "15%", "suitable": "适合出行"}
+    return fetch_weather(city)
 
 
 def outfit() -> dict[str, Any]:

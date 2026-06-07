@@ -15,10 +15,13 @@ class _AppContent extends StatelessWidget {
     required this.onRouteChatCommand,
     required this.onApplyChatSuggestedRoute,
     required this.onGenerateRoute,
+    required this.onSelectRouteOption,
+    required this.onConfirmSelectedRoute,
     required this.onLogin,
     required this.onNextGuideStop,
     required this.onToggleBookingSelection,
     required this.onRefreshCurrentLocation,
+    required this.onHeartbeatAdjust,
   });
 
   final _AppState state;
@@ -34,10 +37,13 @@ class _AppContent extends StatelessWidget {
   final Stream<_ChatStreamEvent> Function(String message) onRouteChatCommand;
   final ValueChanged<List<_Stop>> onApplyChatSuggestedRoute;
   final Future<void> Function({String freeText}) onGenerateRoute;
+  final ValueChanged<int> onSelectRouteOption;
+  final VoidCallback onConfirmSelectedRoute;
   final ValueChanged<String> onLogin;
   final VoidCallback onNextGuideStop;
   final ValueChanged<int> onToggleBookingSelection;
   final Future<void> Function() onRefreshCurrentLocation;
+  final Future<void> Function({required String reason}) onHeartbeatAdjust;
 
   @override
   Widget build(BuildContext context) {
@@ -60,7 +66,11 @@ class _AppContent extends StatelessWidget {
         ),
       ScreenStage.agent => _AgentScreen(
           stops: state.routeStops,
+          routeOptions: state.routeOptions,
+          selectedRouteOptionIndex: state.selectedRouteOptionIndex,
           onGo: onGo,
+          onSelectRouteOption: onSelectRouteOption,
+          onConfirmSelectedRoute: onConfirmSelectedRoute,
           onShowOverlay: onShowOverlay,
         ),
       ScreenStage.route => _RouteScreen(
@@ -115,6 +125,7 @@ class _AppContent extends StatelessWidget {
         ),
       ScreenStage.guide => _GuideScreen(
           stops: state.routeStops,
+          weather: state.weather,
           stopIndex: state.guideStopIndex,
           visibleStopIndexes: state.visibleStopIndexes,
           currentLat: state.currentLat,
@@ -125,6 +136,7 @@ class _AppContent extends StatelessWidget {
           onShowOverlay: onShowOverlay,
           onNext: onNextGuideStop,
           onRefreshLocation: onRefreshCurrentLocation,
+          onHeartbeatAdjust: onHeartbeatAdjust,
         ),
       ScreenStage.profile => _ProfileScreen(
           loggedIn: state.profileLoggedIn,

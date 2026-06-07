@@ -453,9 +453,7 @@ class _ChatRouteStatusCard extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              loading
-                  ? 'Agent 正在根据你的输入召回地点并生成真实路线。'
-                  : '路线已经准备好了，点下面按钮查看今日路线。',
+              loading ? 'Agent 正在根据你的输入召回地点并生成真实路线。' : '路线已经准备好了，点下面按钮查看今日路线。',
               style: const TextStyle(
                 color: _inkSoft,
                 height: 1.4,
@@ -563,6 +561,7 @@ class _ChatBubble extends StatelessWidget {
 class _GuideScreen extends StatelessWidget {
   const _GuideScreen({
     required this.stops,
+    required this.weather,
     required this.stopIndex,
     required this.visibleStopIndexes,
     required this.currentLat,
@@ -573,9 +572,11 @@ class _GuideScreen extends StatelessWidget {
     required this.onShowOverlay,
     required this.onNext,
     required this.onRefreshLocation,
+    required this.onHeartbeatAdjust,
   });
 
   final List<_Stop> stops;
+  final _WeatherSummary? weather;
   final int stopIndex;
   final List<int> visibleStopIndexes;
   final double? currentLat;
@@ -586,6 +587,7 @@ class _GuideScreen extends StatelessWidget {
   final ValueChanged<_AppOverlay> onShowOverlay;
   final VoidCallback onNext;
   final Future<void> Function() onRefreshLocation;
+  final Future<void> Function({required String reason}) onHeartbeatAdjust;
 
   @override
   Widget build(BuildContext context) {
@@ -606,7 +608,7 @@ class _GuideScreen extends StatelessWidget {
       stop.lng,
     );
     final distanceLabel = distanceKm == null
-        ? '等待定位'
+        ? '位置待更新'
         : distanceKm < 1
             ? '${(distanceKm * 1000).round()}m'
             : '${distanceKm.toStringAsFixed(1)}km';
@@ -620,13 +622,15 @@ class _GuideScreen extends StatelessWidget {
       stop.lng,
     );
     final locationStatus = locationLoading
-        ? '正在读取你的位置...'
-        : locationError?.isNotEmpty == true
-            ? locationError!
-            : currentLat != null && currentLng != null
-                ? '已定位，可开始前往当前景点'
-                : '请开启定位权限后刷新定位';
+        ? '正在尝试获取当前位置...'
+        : currentLat != null && currentLng != null
+            ? '已定位，可开始前往当前景点'
+            : '暂未获取当前位置，仍可先查看下一站和路线方向';
     final refreshLocation = locationLoading ? () {} : () => onRefreshLocation();
+    final queueMinutes = _queueMinutesFromStop(stop);
+    final rainRisk = _hasRainRisk(weather);
+    final heartbeatReason =
+        queueMinutes >= 35 ? 'queue' : (rainRisk ? 'weather' : '');
 
     return Column(
       key: const ValueKey('guide'),
@@ -693,10 +697,34 @@ class _GuideScreen extends StatelessWidget {
                 ),
               ),
               Positioned(
+                top: 122,
+                left: 16,
+                right: 16,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    if (weather != null || queueMinutes > 0)
+                      _GuideStatusStrip(
+                        weather: weather,
+                        queueMinutes: queueMinutes,
+                      ),
+                    if (heartbeatReason.isNotEmpty) ...[
+                      const SizedBox(height: 8),
+                      _HeartbeatBanner(
+                        reason: heartbeatReason,
+                        onAdjust: () =>
+                            onHeartbeatAdjust(reason: heartbeatReason),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+              Positioned(
                   bottom: 24,
                   left: 24,
                   child: _SoftPill(
-                      label: directionLabel ?? (next == null ? '已到最后一站' : next.transit))),
+                      label: directionLabel ??
+                          (next == null ? '已到最后一站' : next.transit))),
             ],
           ),
         ),
@@ -712,7 +740,8 @@ class _GuideScreen extends StatelessWidget {
               builder: (context, constraints) {
                 return SingleChildScrollView(
                   child: ConstrainedBox(
-                    constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                    constraints:
+                        BoxConstraints(minHeight: constraints.maxHeight),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -743,6 +772,20 @@ class _GuideScreen extends StatelessWidget {
                                 fontWeight: FontWeight.w700,
                               ),
                             ),
+                            if (queueMinutes > 0) ...[
+                              const SizedBox(height: 10),
+                              _SoftPill(
+                                label: queueMinutes >= 35
+                                    ? '前方排队约 $queueMinutes 分钟 · 建议考虑替换'
+                                    : '前方排队约 $queueMinutes 分钟',
+                              ),
+                            ],
+                            if (rainRisk) ...[
+                              const SizedBox(height: 8),
+                              _SoftPill(
+                                label: '2小时后可能有雨 · 建议提前出发或换室内点',
+                              ),
+                            ],
                           ],
                         ),
                         const SizedBox(height: 12),
@@ -783,6 +826,98 @@ class _GuideScreen extends StatelessWidget {
   }
 }
 
+class _GuideStatusStrip extends StatelessWidget {
+  const _GuideStatusStrip({
+    required this.weather,
+    required this.queueMinutes,
+  });
+
+  final _WeatherSummary? weather;
+  final int queueMinutes;
+
+  @override
+  Widget build(BuildContext context) {
+    final chips = <String>[
+      if (weather != null)
+        '天气 ${weather!.conditionLabel} ${weather!.temperatureLabel}',
+      if ((weather?.rainLabel ?? '').isNotEmpty) '降雨 ${weather!.rainLabel}',
+      if (queueMinutes > 0) '排队约 $queueMinutes 分钟',
+    ];
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: .95),
+        borderRadius: BorderRadius.circular(18),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: .08),
+            blurRadius: 16,
+            offset: const Offset(0, 6),
+          ),
+        ],
+      ),
+      child: Wrap(
+        spacing: 8,
+        runSpacing: 8,
+        children: [
+          for (final chip in chips) _SoftPill(label: chip),
+        ],
+      ),
+    );
+  }
+}
+
+class _HeartbeatBanner extends StatelessWidget {
+  const _HeartbeatBanner({
+    required this.reason,
+    required this.onAdjust,
+  });
+
+  final String reason;
+  final VoidCallback onAdjust;
+
+  @override
+  Widget build(BuildContext context) {
+    final text = reason == 'queue'
+        ? '前方排队约 45 分钟 · 发现更顺路的替代地点'
+        : '2小时后可能下雨 · 建议优先改成室内路线';
+    return Container(
+      padding: const EdgeInsets.fromLTRB(14, 12, 12, 12),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFF1E6),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: const Color(0xFFF0B588)),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFFA05A32).withValues(alpha: .10),
+            blurRadius: 16,
+            offset: const Offset(0, 6),
+          ),
+        ],
+      ),
+      child: Row(
+        children: [
+          const Text('💓', style: TextStyle(fontSize: 20)),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              text,
+              style: const TextStyle(
+                color: _ink,
+                fontSize: 13,
+                height: 1.35,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+          ),
+          const SizedBox(width: 10),
+          _SmallButton(label: '换一下', onTap: onAdjust),
+        ],
+      ),
+    );
+  }
+}
+
 double? _distanceKm(double? lat1, double? lng1, double? lat2, double? lng2) {
   if (lat1 == null || lng1 == null || lat2 == null || lng2 == null) {
     return null;
@@ -798,13 +933,30 @@ double? _distanceKm(double? lat1, double? lng1, double? lat2, double? lng2) {
   return 6371 * c;
 }
 
+int _queueMinutesFromStop(_Stop stop) {
+  final match = RegExp(r'排队\s*(\d+)').firstMatch(stop.note);
+  return int.tryParse(match?.group(1) ?? '') ?? 0;
+}
+
+bool _hasRainRisk(_WeatherSummary? weather) {
+  final condition = weather?.conditionLabel ?? '';
+  if (condition.contains('雨') || condition.contains('雷')) return true;
+  final rain = weather?.rainLabel ?? '';
+  if (rain.isEmpty) return false;
+  final match = RegExp(r'(\d+(?:\.\d+)?)').firstMatch(rain)?.group(1);
+  final value = double.tryParse(match ?? '');
+  return value != null && value > 0;
+}
+
 double _guideDegToRad(double degree) => degree * math.pi / 180;
 
-String? _directionLabel(double? lat1, double? lng1, double? lat2, double? lng2) {
+String? _directionLabel(
+    double? lat1, double? lng1, double? lat2, double? lng2) {
   if (lat1 == null || lng1 == null || lat2 == null || lng2 == null) {
     return null;
   }
-  final y = math.sin(_guideDegToRad(lng2 - lng1)) * math.cos(_guideDegToRad(lat2));
+  final y =
+      math.sin(_guideDegToRad(lng2 - lng1)) * math.cos(_guideDegToRad(lat2));
   final x = math.cos(_guideDegToRad(lat1)) * math.sin(_guideDegToRad(lat2)) -
       math.sin(_guideDegToRad(lat1)) *
           math.cos(_guideDegToRad(lat2)) *

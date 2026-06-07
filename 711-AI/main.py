@@ -96,6 +96,8 @@ class PlanRequest(BaseModel):
     user_id: str = "anon"
     intent: IntentInput
     weather: Optional[dict] = None
+    fast_mode: bool = True
+    include_enrichment: bool = False
 
 
 class FeedbackRequest(BaseModel):
@@ -202,11 +204,11 @@ def get_restaurant_queue(rid: str):
 
 @app.post("/plan")
 def plan(req: PlanRequest):
-    graph = get_planning_graph()
     initial = {
         "user_id": req.user_id,
         "intent": req.intent.model_dump(),
         "weather": req.weather or {"condition": "晴"},
+        "fast_mode": req.fast_mode,
         "follow_up_rounds": 0,
         "candidate_pool": [],
         "candidate_routes": [],
@@ -214,7 +216,28 @@ def plan(req: PlanRequest):
         "top_routes": [],
     }
     try:
-        result = graph.invoke(initial)
+        if req.fast_mode and not req.include_enrichment:
+            state = dict(initial)
+            state.update(node_intent_parse(state))
+            state.update(node_profile_load(state))
+            state.update(node_reachable(state))
+            state.update(node_time_slots(state))
+            state.update(node_candidates(state))
+            state.update(node_score(state))
+            state.update(node_cluster_and_pool(state))
+            state.update(node_route_gen(state))
+            state.update(node_filter_rank(state))
+            result = {
+                **state,
+                "top_routes": (state.get("candidate_routes") or [])[:3],
+                "pre_brief": "",
+                "debate_transcript": [],
+                "llm_degraded": True,
+                "navigation_degraded": True,
+            }
+        else:
+            graph = get_planning_graph()
+            result = graph.invoke(initial)
     except Exception as e:
         logging.exception("plan failed")
         raise HTTPException(status_code=500, detail=str(e))
@@ -261,6 +284,7 @@ def plan_stream(req: PlanRequest):
             "user_id": req.user_id,
             "intent": req.intent.model_dump(),
             "weather": req.weather or {"condition": "晴"},
+            "fast_mode": req.fast_mode,
             "follow_up_rounds": 0,
             "candidate_pool": [],
             "candidate_routes": [],

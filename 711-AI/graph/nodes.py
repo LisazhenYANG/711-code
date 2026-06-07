@@ -24,7 +24,7 @@ from algorithm.time_budget import (
     compute_reachable_radius_km, compute_time_window,
     compute_max_pois, trim_excess_categories,
 )
-from providers.commute import CommuteProvider, get_default_commute_provider
+from providers.commute import CommuteProvider, MockCommute, get_default_commute_provider
 from providers.embedding import get_embedder
 from providers.llm import get_llm
 from providers.places import PlacesProvider, get_default_places_provider
@@ -128,7 +128,7 @@ def node_intent_parse(state: TripState) -> dict:
     # 自由文本解析(如果 LLM 可用)
     free_text = intent.get("free_text", "").strip()
     llm = get_llm()
-    if free_text and llm.available:
+    if free_text and llm.available and not state.get("fast_mode"):
         try:
             messages = [
                 {"role": "system", "content":
@@ -514,8 +514,10 @@ def _build_route(
     }
 
 
-def _commute_provider_singleton() -> CommuteProvider:
+def _commute_provider_singleton(force_mock: bool = False) -> CommuteProvider:
     """单例 commute provider,避免每节点重复创建。"""
+    if force_mock:
+        return MockCommute()
     if not hasattr(_commute_provider_singleton, "_p"):
         _commute_provider_singleton._p = get_default_commute_provider()
     return _commute_provider_singleton._p
@@ -530,7 +532,7 @@ def node_route_gen(state: TripState) -> dict:
     scored_pool = state["candidate_pool"]
     selected_cats = clusters[0]["categories_kept"] if clusters else []
     max_pois = state.get("max_pois_per_day", 3)
-    commute = _commute_provider_singleton()
+    commute = _commute_provider_singleton(force_mock=bool(state.get("fast_mode")))
     candidate_routes: list[Route] = []
 
     origin = (intent["origin_lat"], intent["origin_lng"])

@@ -23,6 +23,7 @@ part 'app/app_overlays.dart';
 part 'services/manyou_api.dart';
 part 'models/mood_option.dart';
 part 'models/backend_models.dart';
+part 'models/route_option.dart';
 part 'features/home/home_screen.dart';
 part 'features/planning/mood_screen.dart';
 part 'features/planning/agent_screen.dart';

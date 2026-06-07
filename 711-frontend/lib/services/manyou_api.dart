@@ -12,45 +12,52 @@ class _ManyouApi {
     defaultValue: 'http://127.0.0.1:8001',
   );
 
-  Future<List<_Stop>> generateRoute({
+  Future<List<_RouteOption>> generateRouteOptions({
     required List<String> moods,
     required List<String> discoverItems,
     String freeText = '',
   }) async {
-    final uri = Uri.parse('$_baseUrl/api/routes/generate');
+    final uri = Uri.parse('$_aiBaseUrl/plan');
     final response = await http.post(
       uri,
       headers: const {'Content-Type': 'application/json'},
       body: jsonEncode({
-        'location': const {'city': '上海', 'area': '静安区'},
-        'time_slot': _guessTimeSlot(freeText),
-        'people': _guessPeople(freeText),
-        'moods': moods.isEmpty ? const ['静下来'] : moods,
-        'discover_items': discoverItems,
-        'user_profile': {'free_text': freeText},
+        'user_id': 'demo-user',
+        'intent': {
+          'origin_lat': 31.2304,
+          'origin_lng': 121.4737,
+          'origin_name': '上海',
+          'time_slot': _guessTimeSlot(freeText),
+          'people_count': _guessPeopleCount(freeText),
+          'transport_mode': 'transit',
+          'moods': moods.isEmpty ? const ['静下来'] : moods,
+          'sub_categories': discoverItems,
+          'free_text': freeText,
+          'city_code': '021',
+        },
+        'weather': const {'condition': '晴'},
+        'fast_mode': true,
+        'include_enrichment': false,
       }),
     );
 
     if (response.statusCode < 200 || response.statusCode >= 300) {
-      throw Exception('Route API ${response.statusCode}: ${response.body}');
+      throw Exception('AI Route API ${response.statusCode}: ${response.body}');
     }
 
     final data = jsonDecode(response.body) as Map<String, dynamic>;
-    final routes = data['routes'];
+    final routes = data['top_routes'];
     if (routes is! List || routes.isEmpty) {
-      throw Exception('Route API returned no routes');
+      throw Exception('AI Route API returned no routes');
     }
-
-    final route = routes.first as Map<String, dynamic>;
-    final stops = route['stops'];
-    if (stops is! List || stops.isEmpty) {
-      throw Exception('Route API returned no stops');
-    }
-
-    return [
-      for (var i = 0; i < stops.length; i++)
-        _Stop.fromBackend(stops[i] as Map<String, dynamic>, index: i),
+    final parsed = [
+      for (final route in routes)
+        if (route is Map<String, dynamic>) route,
     ];
+    if (parsed.isEmpty) {
+      throw Exception('AI Route API returned no valid routes');
+    }
+    return _labelAiRoutes(parsed);
   }
 
   Stream<_RoutePlanStreamEvent> streamGenerateRoute({
@@ -94,8 +101,9 @@ class _ManyouApi {
         final type = '${data['type'] ?? 'status'}';
         if (type == 'final') {
           final payload = data['payload'];
-          final payloadMap =
-              payload is Map<String, dynamic> ? payload : const <String, dynamic>{};
+          final payloadMap = payload is Map<String, dynamic>
+              ? payload
+              : const <String, dynamic>{};
           final stops = payloadMap['stops'];
           yield _RoutePlanStreamEvent(
             message: '${data['message'] ?? '我已经整理好一版今日路线。'}',
@@ -104,7 +112,8 @@ class _ManyouApi {
                 ? [
                     for (var i = 0; i < stops.length; i++)
                       if (stops[i] is Map<String, dynamic>)
-                        _Stop.fromBackend(stops[i] as Map<String, dynamic>, index: i),
+                        _Stop.fromBackend(stops[i] as Map<String, dynamic>,
+                            index: i),
                   ]
                 : const [],
           );
@@ -173,7 +182,8 @@ class _ManyouApi {
           title: '${entry.poi['name'] ?? ''}',
           subtitle:
               '${entry.poi['category_sub'] ?? entry.poi['category_main'] ?? '地点'} · ${entry.distanceKm.toStringAsFixed(1)}km',
-          rating: '★ ${_number(entry.poi['rank_score'])?.toStringAsFixed(1) ?? '4.6'}',
+          rating:
+              '★ ${_number(entry.poi['rank_score'])?.toStringAsFixed(1) ?? '4.6'}',
           price: '',
           duration: '约 ${entry.poi['stay_minutes'] ?? 60} 分',
           gallery: [_Stop._categoryIcon('${entry.poi['category_sub'] ?? ''}')],
@@ -249,6 +259,7 @@ class _ManyouApi {
   Stream<_ChatStreamEvent> streamAiChat({
     required String message,
     required List<_Stop> route,
+    String weatherCondition = '晴',
   }) async* {
     final client = http.Client();
     try {
@@ -261,7 +272,7 @@ class _ManyouApi {
         'user_id': 'demo-user',
         'message': message,
         'current_route': [for (final stop in route) _stopToAiJson(stop)],
-        'weather': const {'condition': '晴'},
+        'weather': {'condition': weatherCondition},
         'intent_context': {
           'origin_lat': 31.2304,
           'origin_lng': 121.4737,
@@ -285,8 +296,9 @@ class _ManyouApi {
         final type = '${data['type'] ?? 'status'}';
         if (type == 'final') {
           final payload = data['payload'];
-          final payloadMap =
-              payload is Map<String, dynamic> ? payload : const <String, dynamic>{};
+          final payloadMap = payload is Map<String, dynamic>
+              ? payload
+              : const <String, dynamic>{};
           final recommendations = payloadMap['recommendations'];
           yield _ChatStreamEvent(
             message: '${data['message'] ?? '我已经处理好了。'}',
@@ -304,7 +316,8 @@ class _ManyouApi {
                               '${item['name'] ?? item['poi_name'] ?? '推荐地点'}',
                           subtitle:
                               '${item['category_sub'] ?? item['category_main'] ?? '地点'}',
-                          rating: '★ ${_number(item['rank_score'])?.toStringAsFixed(1) ?? '4.6'}',
+                          rating:
+                              '★ ${_number(item['rank_score'])?.toStringAsFixed(1) ?? '4.6'}',
                           price: '',
                           duration:
                               '约 ${((item['stay_minutes'] is num) ? item['stay_minutes'] : 60)} 分',
@@ -359,13 +372,6 @@ class _ManyouApi {
     return '下午';
   }
 
-  String _guessPeople(String text) {
-    if (text.contains('一个人') || text.contains('自己')) return '1人';
-    if (text.contains('三个人') || text.contains('3人')) return '3人';
-    if (text.contains('四个人') || text.contains('4人')) return '4人';
-    return '2人';
-  }
-
   int _guessPeopleCount(String text) {
     if (text.contains('一个人') || text.contains('自己')) return 1;
     if (text.contains('三个人') || text.contains('3人')) return 3;
@@ -399,7 +405,8 @@ class _ManyouApi {
   }
 
   int _transitMinutes(String label) {
-    return int.tryParse(RegExp(r'(\d+)').firstMatch(label)?.group(1) ?? '') ?? 0;
+    return int.tryParse(RegExp(r'(\d+)').firstMatch(label)?.group(1) ?? '') ??
+        0;
   }
 
   String _transitMode(String label) {
@@ -459,17 +466,83 @@ class _ManyouApi {
     const earthRadiusKm = 6371.0;
     final dLat = _degToRad(lat2 - lat1);
     final dLng = _degToRad(lng2 - lng1);
-    final a =
-        math.sin(dLat / 2) * math.sin(dLat / 2) +
-            math.cos(_degToRad(lat1)) *
-                math.cos(_degToRad(lat2)) *
-                math.sin(dLng / 2) *
-                math.sin(dLng / 2);
+    final a = math.sin(dLat / 2) * math.sin(dLat / 2) +
+        math.cos(_degToRad(lat1)) *
+            math.cos(_degToRad(lat2)) *
+            math.sin(dLng / 2) *
+            math.sin(dLng / 2);
     final c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a));
     return earthRadiusKm * c;
   }
 
   double _degToRad(double degrees) => degrees * (math.pi / 180);
+
+  List<_RouteOption> _labelAiRoutes(List<Map<String, dynamic>> routes) {
+    final indexed = [
+      for (var i = 0; i < routes.length; i++)
+        (
+          index: i,
+          route: routes[i],
+          commute: _num(routes[i]['total_commute_minutes']) ?? 9999,
+          score: _num(routes[i]['total_score']) ?? 0,
+          quality: _num(routes[i]['quality_score']) ?? 0,
+        ),
+    ];
+    final byDistance = [...indexed]
+      ..sort((a, b) => a.commute.compareTo(b.commute));
+    final byScore = [...indexed]..sort((a, b) => b.score.compareTo(a.score));
+    final byFit = [...indexed]..sort((a, b) => b.quality.compareTo(a.quality));
+
+    final assigned = <int, ({String label, String summary})>{};
+    if (byDistance.isNotEmpty) {
+      assigned[byDistance.first.index] = (
+        label: '距离优先',
+        summary: '更适合不想走太多路，通勤更紧凑。',
+      );
+    }
+    if (byScore.isNotEmpty) {
+      assigned.putIfAbsent(
+        byScore.first.index,
+        () => (
+          label: '评分最高',
+          summary: '优先保留口碑和综合评分更高的点位。',
+        ),
+      );
+    }
+    if (byFit.isNotEmpty) {
+      assigned.putIfAbsent(
+        byFit.first.index,
+        () => (
+          label: '最适合你',
+          summary: '结合你当前需求，整体体验最均衡。',
+        ),
+      );
+    }
+    final fallbackLabels = [
+      (label: '距离优先', summary: '更适合不想走太多路，通勤更紧凑。'),
+      (label: '评分最高', summary: '优先保留口碑和综合评分更高的点位。'),
+      (label: '最适合你', summary: '结合你当前需求，整体体验最均衡。'),
+    ];
+    for (final item in indexed) {
+      assigned.putIfAbsent(
+          item.index,
+          () => fallbackLabels[
+              assigned.length.clamp(0, fallbackLabels.length - 1)]);
+    }
+    return [
+      for (final item in indexed)
+        _RouteOption.fromAiRoute(
+          item.route,
+          label: assigned[item.index]!.label,
+          summary: assigned[item.index]!.summary,
+        ),
+    ];
+  }
+
+  double? _num(Object? value) {
+    if (value is num) return value.toDouble();
+    return double.tryParse('$value');
+  }
 }
 
 class _ChatStreamEvent {

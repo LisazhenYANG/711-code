@@ -11,6 +11,63 @@ class _ShellState extends State<Shell> {
   _AppState state = const _AppState();
   final _ManyouApi api = const _ManyouApi();
 
+  void selectRouteOption(int index) {
+    setState(() => state = state.selectRouteOption(index));
+  }
+
+  void confirmSelectedRouteOption() {
+    setState(() => state = state.confirmSelectedRouteOption());
+  }
+
+  Future<void> triggerHeartbeatAdjustment({
+    required String reason,
+  }) async {
+    final weatherCondition = state.weather?.conditionLabel ?? '晴';
+    final prompt = switch (reason) {
+      'queue' => '请重新排路线，替换掉当前排队太久的站点，保持顺路、少走路，并优先换成附近更轻松的选择',
+      'weather' => '现在天气可能下雨，请重新排路线，把后面的室外点尽量替换成室内点，并保持顺路',
+      _ => '请重新排路线，换成更顺路、更轻松的版本',
+    };
+    try {
+      var changed = false;
+      final beforeSignature =
+          state.routeStops.map((stop) => stop.name).join('|');
+      await for (final event in api.streamAiChat(
+        message: prompt,
+        route: state.routeStops,
+        weatherCondition: weatherCondition,
+      )) {
+        if (!mounted) return;
+        if (event.updatedStops.isNotEmpty) {
+          final afterSignature =
+              event.updatedStops.map((stop) => stop.name).join('|');
+          changed = afterSignature != beforeSignature;
+          if (changed) {
+            setState(
+                () => state = state.replaceRouteInPlace(event.updatedStops));
+          }
+        }
+      }
+      if (!mounted) return;
+      if (!changed) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('附近没有更优替代，先保留当前路线。'),
+            behavior: SnackBarBehavior.floating,
+          ),
+        );
+      }
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('这次没有成功换线，先保留当前路线。'),
+          behavior: SnackBarBehavior.floating,
+        ),
+      );
+    }
+  }
+
   @override
   void initState() {
     super.initState();
@@ -19,8 +76,9 @@ class _ShellState extends State<Shell> {
 
   void go(ScreenStage next) {
     setState(() => state = state.goTo(next));
-    final effectiveNext =
-        !state.profileLoggedIn && next != ScreenStage.profile ? ScreenStage.profile : next;
+    final effectiveNext = !state.profileLoggedIn && next != ScreenStage.profile
+        ? ScreenStage.profile
+        : next;
     if (effectiveNext == ScreenStage.guide) {
       unawaited(refreshCurrentLocation());
     }
@@ -52,7 +110,10 @@ class _ShellState extends State<Shell> {
 
   Future<List<_MealRestaurant>> loadMealRestaurants(String slot) async {
     final sourceStops = state.visibleStopIndexes.isNotEmpty
-        ? [for (final index in state.visibleStopIndexes) state.routeStops[index]]
+        ? [
+            for (final index in state.visibleStopIndexes)
+              state.routeStops[index]
+          ]
         : state.routeStops;
     final withCoords = [
       for (final stop in sourceStops)
@@ -66,14 +127,27 @@ class _ShellState extends State<Shell> {
 
   Future<List<_RecommendationItem>> loadAddPlaceRecommendations() {
     final sourceStops = state.visibleStopIndexes.isNotEmpty
-        ? [for (final index in state.visibleStopIndexes) state.routeStops[index]]
+        ? [
+            for (final index in state.visibleStopIndexes)
+              state.routeStops[index]
+          ]
         : state.routeStops;
     return api.nearbyPlaceRecommendations(sourceStops);
   }
 
   void applyChatSuggestedRoute(List<_Stop> stops) {
     if (stops.isEmpty) return;
-    setState(() => state = state.finishRouteGeneration(stops));
+    setState(() => state = state.finishRouteGeneration([
+          _RouteOption(
+            id: 'chat-route',
+            name: '调整后路线',
+            label: '最适合你',
+            summary: '这是根据你刚才的要求调整后的路线。',
+            stops: stops,
+            overloadLevel: 'low',
+            overloadHint: '轻松',
+          ),
+        ]));
   }
 
   (double, double)? _mealAnchorForSlot(List<_Stop> stops, String slot) {
@@ -91,7 +165,9 @@ class _ShellState extends State<Shell> {
     }
     if (timedStops.isEmpty) {
       final first = stops.first;
-      return first.lat != null && first.lng != null ? (first.lat!, first.lng!) : null;
+      return first.lat != null && first.lng != null
+          ? (first.lat!, first.lng!)
+          : null;
     }
     timedStops.sort((a, b) => a.minute.compareTo(b.minute));
 
@@ -99,9 +175,12 @@ class _ShellState extends State<Shell> {
       final current = timedStops[i];
       final next = timedStops[i + 1];
       if (targetMinute >= current.minute && targetMinute <= next.minute) {
-        final ratio = (targetMinute - current.minute) / (next.minute - current.minute);
-        final lat = current.stop.lat! + ((next.stop.lat! - current.stop.lat!) * ratio);
-        final lng = current.stop.lng! + ((next.stop.lng! - current.stop.lng!) * ratio);
+        final ratio =
+            (targetMinute - current.minute) / (next.minute - current.minute);
+        final lat =
+            current.stop.lat! + ((next.stop.lat! - current.stop.lat!) * ratio);
+        final lng =
+            current.stop.lng! + ((next.stop.lng! - current.stop.lng!) * ratio);
         return (lat, lng);
       }
     }
@@ -159,7 +238,9 @@ class _ShellState extends State<Shell> {
     }
 
     final normalized = text.toLowerCase();
-    if (text.contains('晚饭') || text.contains('晚餐') || normalized.contains('dinner')) {
+    if (text.contains('晚饭') ||
+        text.contains('晚餐') ||
+        normalized.contains('dinner')) {
       final restaurant = text.contains('烧鸟') ? '鸟啸炭火烧' : '老克勒西餐';
       yield const _ChatStreamEvent(message: '正在安排晚饭...');
       await runRouteAction('add_meal', value: 'dinner|$restaurant');
@@ -169,7 +250,10 @@ class _ShellState extends State<Shell> {
       );
       return;
     }
-    if (text.contains('中饭') || text.contains('午饭') || text.contains('午餐') || normalized.contains('lunch')) {
+    if (text.contains('中饭') ||
+        text.contains('午饭') ||
+        text.contains('午餐') ||
+        normalized.contains('lunch')) {
       final restaurant = text.contains('杏花') ? '杏花楼' : '沈大成';
       yield const _ChatStreamEvent(message: '正在安排午饭...');
       await runRouteAction('add_meal', value: 'lunch|$restaurant');
@@ -209,12 +293,27 @@ class _ShellState extends State<Shell> {
       return;
     }
     try {
-      await for (final event
-          in api.streamAiChat(message: text, route: state.routeStops)) {
+      await for (final event in api.streamAiChat(
+        message: text,
+        route: state.routeStops,
+        weatherCondition: state.weather?.conditionLabel ?? '晴',
+      )) {
         if (event.intent != 'recommend_place' &&
             event.updatedStops.isNotEmpty &&
             mounted) {
-          setState(() => state = state.finishRouteGeneration(event.updatedStops));
+          setState(() {
+            state = state.finishRouteGeneration([
+              _RouteOption(
+                id: 'chat-updated',
+                name: '调整后路线',
+                label: '最适合你',
+                summary: '这是根据你刚才的要求调整后的路线。',
+                stops: event.updatedStops,
+                overloadLevel: 'low',
+                overloadHint: '轻松',
+              ),
+            ]);
+          });
         }
         yield event;
       }
@@ -231,18 +330,26 @@ class _ShellState extends State<Shell> {
     final match = RegExp(r'第\s*(\d+)\s*站').firstMatch(text);
     if (match != null) {
       final parsed = int.tryParse(match.group(1) ?? '');
-      if (parsed != null) return (parsed - 1).clamp(0, state.routeStops.length - 1).toInt();
+      if (parsed != null) {
+        return (parsed - 1).clamp(0, state.routeStops.length - 1).toInt();
+      }
     }
     if (text.contains('第一')) return 0;
-    if (text.contains('第二')) return 1.clamp(0, state.routeStops.length - 1).toInt();
-    if (text.contains('第三')) return 2.clamp(0, state.routeStops.length - 1).toInt();
+    if (text.contains('第二')) {
+      return 1.clamp(0, state.routeStops.length - 1).toInt();
+    }
+    if (text.contains('第三')) {
+      return 2.clamp(0, state.routeStops.length - 1).toInt();
+    }
     if (text.contains('最后')) return state.routeStops.length - 1;
     return null;
   }
 
   Future<void> completeBooking() async {
     final items = state.bookings.isEmpty
-        ? state.finishRouteGeneration(state.routeStops).bookings
+        ? state
+            .copyWith(bookings: state._bookingsFromStops(state.routeStops))
+            .bookings
         : state.bookings;
     try {
       final nextBookings = await api.checkoutBookings(items);
@@ -284,7 +391,8 @@ class _ShellState extends State<Shell> {
     final result = await fetchCurrentLocation();
     if (!mounted) return;
     if (result.hasLocation) {
-      setState(() => state = state.updateCurrentLocation(result.lat!, result.lng!));
+      setState(
+          () => state = state.updateCurrentLocation(result.lat!, result.lng!));
       return;
     }
     setState(() => state = state.failCurrentLocation(
@@ -340,7 +448,7 @@ class _ShellState extends State<Shell> {
       setState(() {
         state = state.copyWith(
           bookings: state.bookings.isEmpty
-              ? state.finishRouteGeneration(state.routeStops).bookings
+              ? state._bookingsFromStops(state.routeStops)
               : state.bookings,
         );
       });
@@ -358,31 +466,23 @@ class _ShellState extends State<Shell> {
 
     setState(() => state = state.startRouteGeneration());
     try {
-      await for (final event in api.streamGenerateRoute(
+      final options = await api.generateRouteOptions(
         moods: moods,
         discoverItems: discoverItems,
         freeText: freeText,
-      )) {
-        if (!mounted) return;
-        if (event.done) {
-          final hasStops = event.stops.isNotEmpty;
-          if (hasStops) {
-            setState(() => state = state.finishRouteGeneration(event.stops));
-          } else {
-            setState(() => state = state.failRouteGeneration());
-          }
-          if (!hasStops) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('这次规划没有生成可用路线，请换个偏好再试一次。'),
-                behavior: SnackBarBehavior.floating,
-              ),
-            );
-          }
-        } else {
-          setState(() => state = state.updateRouteLoadingMessage(event.message));
-        }
+      );
+      if (!mounted) return;
+      if (options.isEmpty) {
+        setState(() => state = state.failRouteGeneration());
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('这次规划没有生成可用路线，请换个偏好再试一次。'),
+            behavior: SnackBarBehavior.floating,
+          ),
+        );
+        return;
       }
+      setState(() => state = state.finishRouteGeneration(options));
     } catch (error) {
       if (!mounted) return;
       setState(() => state = state.failRouteGeneration());
@@ -484,10 +584,13 @@ class _ShellState extends State<Shell> {
                         onRouteChatCommand: handleRouteChatCommand,
                         onApplyChatSuggestedRoute: applyChatSuggestedRoute,
                         onGenerateRoute: generateRoute,
+                        onSelectRouteOption: selectRouteOption,
+                        onConfirmSelectedRoute: confirmSelectedRouteOption,
                         onLogin: loginProfile,
                         onNextGuideStop: nextGuideStop,
                         onToggleBookingSelection: toggleBookingSelection,
                         onRefreshCurrentLocation: refreshCurrentLocation,
+                        onHeartbeatAdjust: triggerHeartbeatAdjustment,
                       ),
                       if (state.stage.showsPrimaryTabs &&
                           !(state.stage == ScreenStage.profile &&
