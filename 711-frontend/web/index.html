@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="慢游 Flutter high-fidelity prototype">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>慢游 · Flutter</title>
+  <style>
+    html, body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "SF Pro Display", "PingFang SC", "Hiragino Sans GB",
+        "Helvetica Neue", sans-serif;
+    }
+  </style>
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function () {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: { serviceWorkerVersion: null },
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine().then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
