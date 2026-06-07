@@ -1,0 +1,7663 @@
+[
+  {
+    "id": "HK001",
+    "name": "君之溪棋牌室",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.269918,
+    "lng": 121.493583,
+    "open_hours": [
+      [
+        10,
+        26
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "社区型棋牌室，配备自动麻将机，环境整洁安静，适合休闲对弈，有独立包间和茶水服务。"
+  },
+  {
+    "id": "HK002",
+    "name": "财富棋牌茶艺",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.267833,
+    "lng": 121.493325,
+    "open_hours": [
+      [
+        10,
+        26
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "融合棋牌娱乐与茶艺休闲的复合空间，麻将、扑克均可，有独立包间，茶文化氛围雅致。"
+  },
+  {
+    "id": "HK003",
+    "name": "达高棋牌室",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.273362,
+    "lng": 121.492098,
+    "open_hours": [
+      [
+        10,
+        26
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "独立包间，注重私密性，配备自动麻将机、空调及茶水服务，价格亲民。"
+  },
+  {
+    "id": "HK004",
+    "name": "莫慌侦探社剧本杀（虹口店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.256931,
+    "lng": 121.49901,
+    "open_hours": [
+      [
+        13,
+        24
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 210,
+    "fit_group": [
+      "独行",
+      "小团"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "精品沉浸式剧本杀，主题场景丰富，含城市限定本，服装道具齐备，演绎感强。"
+  },
+  {
+    "id": "HK005",
+    "name": "格局桌游咖啡（今潮8弄）",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.258001,
+    "lng": 121.498608,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "小团"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "精选200+桌游，结合咖啡饮品，氛围舒适，从轻量聚会到重策略均有覆盖。"
+  },
+  {
+    "id": "HK006",
+    "name": "逍遥台球会（欧阳路店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.259436,
+    "lng": 121.485993,
+    "open_hours": [
+      [
+        10,
+        25
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 40,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 40
+      }
+    ],
+    "tags": [],
+    "intro": "提供标准英式台球桌，环境整洁，配有零食饮品区，可承接小型球友会活动。"
+  },
+  {
+    "id": "HK007",
+    "name": "时光剧本杀工作室（四川北路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.266648,
+    "lng": 121.493136,
+    "open_hours": [
+      [
+        12,
+        23
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 210,
+    "fit_group": [
+      "独行",
+      "小团"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "多主题剧本杀，提供服装道具，场景精心布置，有海量剧本可选，DM经验丰富。"
+  },
+  {
+    "id": "HK008",
+    "name": "快乐玩国桌游（欧阳路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.268295,
+    "lng": 121.481932,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "亲子",
+      "小团"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "500+桌游馆，入门游戏到重度策略均覆盖，店员可讲解规则，适合新手入坑。"
+  },
+  {
+    "id": "HK009",
+    "name": "星球台球俱乐部（广中路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.268395,
+    "lng": 121.496048,
+    "open_hours": [
+      [
+        10,
+        25
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 35,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 35
+      }
+    ],
+    "tags": [],
+    "intro": "提供标准台球桌，有教练可指导，可承接团体比赛，价格亲民，设备维护良好。"
+  },
+  {
+    "id": "HK010",
+    "name": "幻境密室逃脱（北外滩来福士）",
+    "category_main": "休闲娱乐",
+    "category_sub": "剧本杀",
+    "lat": 31.266871,
+    "lng": 121.481079,
+    "open_hours": [
+      [
+        12,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "小团",
+      "情侣"
+    ],
+    "avg_price": 130,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 130
+      }
+    ],
+    "tags": [],
+    "intro": "沉浸式密室逃脱，多主题场景（惊悚、解谜、科幻），道具精良，通关率适中，团建热门。"
+  },
+  {
+    "id": "HK011",
+    "name": "淘喵喵猫咖（虹口四川北路店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.256931,
+    "lng": 121.49901,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "小团"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "连锁猫咖品牌，多只成年猫近距离互动，设有独立桌游区，猫咪有定期体检。"
+  },
+  {
+    "id": "HK012",
+    "name": "喵星人精品猫咖（欧阳路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.266145,
+    "lng": 121.496743,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 70,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 70
+      }
+    ],
+    "tags": [],
+    "intro": "INS风装修猫咖，有布偶、英短、橘猫等名贵品种，饮品精致，拍照氛围感强。"
+  },
+  {
+    "id": "HK013",
+    "name": "毛孩子综合萌宠体验馆（瑞虹天地）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.25854,
+    "lng": 121.485571,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 90,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 90
+      }
+    ],
+    "tags": [],
+    "intro": "综合萌宠体验，有猫、兔、龙猫、仓鼠等多种小动物可互动抱抱，配套饮品区。"
+  },
+  {
+    "id": "HK014",
+    "name": "小精灵仓鼠主题馆（凯德虹口）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.272288,
+    "lng": 121.499369,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "亲子",
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "仓鼠主题萌宠体验，可近距离喂食互动，有仓鼠周边售卖，环境整洁卫生。"
+  },
+  {
+    "id": "HK015",
+    "name": "麻鸭萌宠乐园（曲阳路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.263044,
+    "lng": 121.499661,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "亲子"
+    ],
+    "avg_price": 65,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 65
+      }
+    ],
+    "tags": [],
+    "intro": "小型萌宠乐园，有鸭子、兔子、豚鼠等可互动，适合带孩子体验亲近自然。"
+  },
+  {
+    "id": "HK016",
+    "name": "云端猫舍书吧（今潮8弄）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.264369,
+    "lng": 121.482859,
+    "open_hours": [
+      [
+        11,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 85,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 85
+      }
+    ],
+    "tags": [],
+    "intro": "精品猫咖结合书吧，猫咪均有完整体检档案，有精品咖啡和轻食，文艺氛围浓厚。"
+  },
+  {
+    "id": "HK017",
+    "name": "汪星人狗咖（欧阳路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.273328,
+    "lng": 121.485436,
+    "open_hours": [
+      [
+        10,
+        20
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 75,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 75
+      }
+    ],
+    "tags": [],
+    "intro": "狗咖，多只训练有素的小型犬（泰迪、柴犬等）可互动，8岁以下儿童需监护人陪同。"
+  },
+  {
+    "id": "HK018",
+    "name": "兔兔星球（四川北路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.265169,
+    "lng": 121.49955,
+    "open_hours": [
+      [
+        11,
+        20
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "亲子",
+      "情侣"
+    ],
+    "avg_price": 55,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 55
+      }
+    ],
+    "tags": [],
+    "intro": "以温顺兔子为主角的萌宠体验店，可喂食、抚摸，兔子有定期健康检查。"
+  },
+  {
+    "id": "HK019",
+    "name": "栖奉中式猫舍（虹口）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.271644,
+    "lng": 121.480369,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "文艺爱好者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "中式风格猫舍，木质装修搭配古典陈设，猫咪品种精选，结合茶饮，气质独特。"
+  },
+  {
+    "id": "HK020",
+    "name": "小动物森林萌宠馆（北外滩来福士）",
+    "category_main": "休闲娱乐",
+    "category_sub": "萌宠体验",
+    "lat": 31.260148,
+    "lng": 121.480394,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "情侣",
+      "独行"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "综合萌宠馆，有猫、兔、仓鼠、蜥蜴、龟等多种动物，配套饮品区，位于商场内购物方便。"
+  },
+  {
+    "id": "HK021",
+    "name": "Good猫泥·陶艺工作室（今潮8弄）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.258001,
+    "lng": 121.498608,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "亲子"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "提供拉坯制作、捏塑创作、彩绘装饰、陶艺拼接等体验，作品可烧制后寄回，百年弄堂中的手作乐趣。"
+  },
+  {
+    "id": "HK022",
+    "name": "pupu workshop 噗噗手作（四川北路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.256931,
+    "lng": 121.49901,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "闺蜜团"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "提供tufting地毯刺绣、肌理画等潮流手工项目，小班教学，店主原为幼教，氛围轻松友好。"
+  },
+  {
+    "id": "HK023",
+    "name": "回归线·手工编织DIY（今潮8弄）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.260876,
+    "lng": 121.489869,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "手工编织品牌旗舰店，DIY毛衣/围巾/帽子，可按自己尺寸和喜好选毛线和花样，成品带走。"
+  },
+  {
+    "id": "HK024",
+    "name": "pm·香薰蜡烛·花艺工作室（今潮8弄）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.258001,
+    "lng": 121.498608,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "闺蜜团"
+    ],
+    "avg_price": 160,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 160
+      }
+    ],
+    "tags": [],
+    "intro": "香薰蜡烛DIY+花艺设计双体验，用天然大豆蜡和精油定制专属香氛，配玫瑰干花装饰。"
+  },
+  {
+    "id": "HK025",
+    "name": "手泥工作室·皮具DIY（北外滩）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.269501,
+    "lng": 121.494409,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 280,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 280
+      }
+    ],
+    "tags": [],
+    "intro": "真皮皮具DIY体验，提供皮钱包、皮卡包、皮手环等制作，所有工具现场使用，成品自带回。"
+  },
+  {
+    "id": "HK026",
+    "name": "遇见·花艺生活馆（欧阳路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.268091,
+    "lng": 121.491307,
+    "open_hours": [
+      [
+        10,
+        20
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "女性"
+    ],
+    "avg_price": 130,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 130
+      }
+    ],
+    "tags": [],
+    "intro": "花艺DIY工作室，提供束花、瓶花、花冠等多种插花体验，使用当季鲜花，专业花艺师指导。"
+  },
+  {
+    "id": "HK027",
+    "name": "木艺小站（凯德虹口）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.265481,
+    "lng": 121.495564,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "亲子",
+      "独行"
+    ],
+    "avg_price": 180,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 180
+      }
+    ],
+    "tags": [],
+    "intro": "木工手作工坊，提供简单木艺小件（相框、小凳、木牌等），锯切、打磨、上色全程体验。"
+  },
+  {
+    "id": "HK028",
+    "name": "光粒·版画艺术工坊（多伦路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.267657,
+    "lng": 121.487634,
+    "open_hours": [
+      [
+        10,
+        18
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "文化爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "版画体验工作室，提供木版画、丝网版画入门体验课，在文化历史街区中体验传统印刷艺术。"
+  },
+  {
+    "id": "HK029",
+    "name": "手造·软陶DIY工作室（瑞虹天地）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.272025,
+    "lng": 121.494774,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "亲子",
+      "情侣"
+    ],
+    "avg_price": 90,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 90
+      }
+    ],
+    "tags": [],
+    "intro": "软陶DIY，制作卡通人偶、手机挂件、戒指等，颜色丰富，当场完成即可带走。"
+  },
+  {
+    "id": "HK030",
+    "name": "调色板·水彩插画体验课（1933老场坊）",
+    "category_main": "休闲娱乐",
+    "category_sub": "DIY工坊",
+    "lat": 31.273577,
+    "lng": 121.497125,
+    "open_hours": [
+      [
+        13,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "艺术爱好者"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "水彩插画入门体验课，专业画师带领完成一幅作品，在百年工业建筑中感受艺术熏陶。"
+  },
+  {
+    "id": "HK031",
+    "name": "好乐迪KTV（四川北路店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.26498,
+    "lng": 121.497499,
+    "open_hours": [
+      [
+        11,
+        30
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行",
+      "小团",
+      "亲子"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "知名量贩式KTV连锁，包厢数量多，音响设备专业，歌库10万+首实时更新，有零食饮品服务。"
+  },
+  {
+    "id": "HK032",
+    "name": "麦颂KTV（凯德虹口店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.27061,
+    "lng": 121.48348,
+    "open_hours": [
+      [
+        11,
+        29
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行",
+      "小团"
+    ],
+    "avg_price": 90,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 90
+      }
+    ],
+    "tags": [],
+    "intro": "连锁量贩式KTV，装修时尚年轻，设备专业，包含茶水零食，日场有优惠套餐。"
+  },
+  {
+    "id": "HK033",
+    "name": "星聚会KTV（北外滩店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.266871,
+    "lng": 121.481079,
+    "open_hours": [
+      [
+        11,
+        30
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行",
+      "小团",
+      "情侣"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "社交型KTV头部品牌，多主题包厢，可定制生日派对，视野好，靠近北外滩地标。"
+  },
+  {
+    "id": "HK034",
+    "name": "钱柜KTV（瑞虹天地店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.262163,
+    "lng": 121.489864,
+    "open_hours": [
+      [
+        12,
+        30
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行",
+      "亲子"
+    ],
+    "avg_price": 85,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 85
+      }
+    ],
+    "tags": [],
+    "intro": "经典KTV品牌，包厢风格多样，有儿童友好包厢和家庭套餐，歌库丰富覆盖各年代。"
+  },
+  {
+    "id": "HK035",
+    "name": "纯K主题KTV（欧阳路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.266295,
+    "lng": 121.499586,
+    "open_hours": [
+      [
+        12,
+        29
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "小团"
+    ],
+    "avg_price": 75,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 75
+      }
+    ],
+    "tags": [],
+    "intro": "主题包厢风格多样，有日系、港风、工业风等特色包厢，配备专业麦克风和音响。"
+  },
+  {
+    "id": "HK036",
+    "name": "宝乐迪KTV（广中路店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.262231,
+    "lng": 121.485914,
+    "open_hours": [
+      [
+        11,
+        29
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行",
+      "小团",
+      "亲子"
+    ],
+    "avg_price": 65,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 65
+      }
+    ],
+    "tags": [],
+    "intro": "平价量贩式KTV，性价比高，有午场优惠套餐，歌库实时更新，适合周边居民休闲。"
+  },
+  {
+    "id": "HK037",
+    "name": "爱唱KTV（曲阳路店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.272104,
+    "lng": 121.490256,
+    "open_hours": [
+      [
+        12,
+        28
+      ]
+    ],
+    "rank_score": 4.0,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "亲子"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "社区型量贩KTV，环境舒适，价格亲民，有各类包厢大小可选，适合本地居民聚会。"
+  },
+  {
+    "id": "HK038",
+    "name": "VSHOW概念KTV（1933创意园）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.273577,
+    "lng": 121.497125,
+    "open_hours": [
+      [
+        14,
+        26
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "小团"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "落地百年工业建筑的高端概念KTV，工业风设计，包厢私密，配有专业私人定制服务。"
+  },
+  {
+    "id": "HK039",
+    "name": "皇家量贩KTV（凉城路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.263753,
+    "lng": 121.482053,
+    "open_hours": [
+      [
+        12,
+        29
+      ]
+    ],
+    "rank_score": 4.0,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "小团"
+    ],
+    "avg_price": 70,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 70
+      }
+    ],
+    "tags": [],
+    "intro": "本地量贩KTV，包厢大小齐全（小包至超大包），设备稳定，适合周边居民日常聚会。"
+  },
+  {
+    "id": "HK040",
+    "name": "欢乐歌声量贩KTV（鲁迅公园店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "KTV",
+    "lat": 31.261373,
+    "lng": 121.487333,
+    "open_hours": [
+      [
+        11,
+        28
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "小团",
+      "亲子"
+    ],
+    "avg_price": 65,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 65
+      }
+    ],
+    "tags": [],
+    "intro": "紧邻鲁迅公园，平日午间有优惠套餐，包厢干净整洁，适合公园游玩后续消费。"
+  },
+  {
+    "id": "HK041",
+    "name": "上海寰映影城（瑞虹天地太阳宫）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.261605,
+    "lng": 121.49808,
+    "open_hours": [
+      [
+        9,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "万达旗下首家IMAX激光影城，11厅1198座，含IMAX激光厅、VIP厅、亲子厅、情侣厅，硬件顶级。"
+  },
+  {
+    "id": "HK042",
+    "name": "百丽宫影城（北外滩来福士店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.261375,
+    "lng": 121.495623,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "高端连锁影城，激光放映+杜比影院，含VIP包厢影厅（2-6人专属），视听体验顶级。"
+  },
+  {
+    "id": "HK043",
+    "name": "金逸影城（凯德虹口激光IMAX店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.265714,
+    "lng": 121.488022,
+    "open_hours": [
+      [
+        9,
+        23
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 75,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 75
+      }
+    ],
+    "tags": [],
+    "intro": "上海市四星级影院，IMAX激光厅，座位宽敞舒适，有配套简餐零食，购物后消费方便。"
+  },
+  {
+    "id": "HK044",
+    "name": "曲阳影都",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.270275,
+    "lng": 121.497416,
+    "open_hours": [
+      [
+        9,
+        22
+      ]
+    ],
+    "rank_score": 4.0,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 55,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 55
+      }
+    ],
+    "tags": [],
+    "intro": "上海市三星级社区影院，价格亲民，有老年优惠场，银幕设备齐全，常有特价午场。"
+  },
+  {
+    "id": "HK045",
+    "name": "光影秘境私人影院（北外滩）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.264329,
+    "lng": 121.488367,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "情侣",
+      "小团",
+      "亲子"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "私人点播影院，独立包厢超大屏幕+5.1环绕声，上万部片源自选，可带外卖入场。"
+  },
+  {
+    "id": "HK046",
+    "name": "星空私人影院（四川北路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.259801,
+    "lng": 121.485136,
+    "open_hours": [
+      [
+        11,
+        25
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "情侣",
+      "小团"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "沉浸式私人影院，多主题包厢（宇宙、海洋、森林等风格），可定制生日布置。"
+  },
+  {
+    "id": "HK047",
+    "name": "蜜月私人影厅（欧阳路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.257548,
+    "lng": 121.486371,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "情侣"
+    ],
+    "avg_price": 110,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 110
+      }
+    ],
+    "tags": [],
+    "intro": "情侣主题私人影院，沙发双人卧看模式，可提前定制鲜花零食套餐，浪漫度高。"
+  },
+  {
+    "id": "HK048",
+    "name": "梦工坊私人影院（瑞虹天地）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.260716,
+    "lng": 121.489471,
+    "open_hours": [
+      [
+        10,
+        23
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "情侣",
+      "小团",
+      "亲子"
+    ],
+    "avg_price": 130,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 130
+      }
+    ],
+    "tags": [],
+    "intro": "连锁私人影院，包厢整洁环境好，片库丰富含院线新片和经典老片，有亲子专属场。"
+  },
+  {
+    "id": "HK049",
+    "name": "万影私人点播影院（广中路）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.268821,
+    "lng": 121.481872,
+    "open_hours": [
+      [
+        10,
+        24
+      ]
+    ],
+    "rank_score": 4.0,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "情侣",
+      "小团"
+    ],
+    "avg_price": 90,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 90
+      }
+    ],
+    "tags": [],
+    "intro": "平价私人影院，2-8人包厢均有，价格实惠，性价比高，适合朋友聚会自选影片。"
+  },
+  {
+    "id": "HK050",
+    "name": "迷你影院MINIMAX（今潮8弄）",
+    "category_main": "休闲娱乐",
+    "category_sub": "私人影院",
+    "lat": 31.261612,
+    "lng": 121.485555,
+    "open_hours": [
+      [
+        12,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "情侣",
+      "独行"
+    ],
+    "avg_price": 160,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 160
+      }
+    ],
+    "tags": [],
+    "intro": "设计感私人影院，文艺风装修，结合今潮8弄历史街区气质，观影+逛街一体化体验。"
+  },
+  {
+    "id": "HK051",
+    "name": "E Cube儿童乐园（瑞虹新城店）",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.270969,
+    "lng": 121.499109,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "亲子（0-12岁）"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "上海知名室内儿童乐园品牌，此店规模最大，超大海洋球滑梯区、攀爬网、益智区一应俱全。"
+  },
+  {
+    "id": "HK052",
+    "name": "和平公园儿童游乐区",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.260501,
+    "lng": 121.481133,
+    "open_hours": [
+      [
+        6,
+        18
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 120,
+    "fit_group": [
+      "亲子（3-12岁）",
+      "独行"
+    ],
+    "avg_price": 10,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 10
+      }
+    ],
+    "tags": [],
+    "intro": "AAA级公园内设儿童游乐区，有碰碰车、旋转木马、小火车等传统游乐设施，价格亲民。"
+  },
+  {
+    "id": "HK053",
+    "name": "鲁迅公园（休闲运动区）",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.265276,
+    "lng": 121.486284,
+    "open_hours": [
+      [
+        5,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 120,
+    "fit_group": [
+      "亲子",
+      "老年",
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "AAAA级景区，22公顷绿地公园，内有儿童游乐设施、健身器材、樱花园，春季赏樱圣地。"
+  },
+  {
+    "id": "HK054",
+    "name": "快乐星球亲子乐园（凯德虹口）",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.272288,
+    "lng": 121.499369,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "亲子（2-12岁）"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "大型室内亲子乐园，含攀爬、滑梯、沙池、职业体验区等，配备亲子餐饮区，一站式玩乐。"
+  },
+  {
+    "id": "HK055",
+    "name": "北外滩滨江草坪休闲公园",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.260642,
+    "lng": 121.48711,
+    "open_hours": [
+      [
+        6,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "宽阔江边草坪，可野餐、放风筝、遛娃，同时欣赏黄浦江两岸景色，网红小巨蛋旁。"
+  },
+  {
+    "id": "HK056",
+    "name": "乐高认证体验中心（瑞虹天地）",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.263431,
+    "lng": 121.484967,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子（4-14岁）"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "乐高品牌官方体验中心，多个乐高主题互动体验区，可DIY拼砌并购买限定商品。"
+  },
+  {
+    "id": "HK057",
+    "name": "VR极限体验馆（1933老场坊）",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.262703,
+    "lng": 121.494536,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "亲子（10岁+）"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "多种VR/AR体验项目，含恐龙园、太空冒险、极速赛车等主题，在工业风建筑内玩转未来科技。"
+  },
+  {
+    "id": "HK058",
+    "name": "奈尔宝国际儿童中心（虹口）",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.272666,
+    "lng": 121.484148,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子（0-8岁）"
+    ],
+    "avg_price": 90,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 90
+      }
+    ],
+    "tags": [],
+    "intro": "专注0-8岁儿童早教型亲子乐园，含垂直滑梯、攀爬架、职业体验区，有专业教师陪同。"
+  },
+  {
+    "id": "HK059",
+    "name": "超级猩猩精品健身（北外滩来福士）",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.270948,
+    "lng": 121.494387,
+    "open_hours": [
+      [
+        7,
+        23
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 59,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 59
+      }
+    ],
+    "tags": [],
+    "intro": "连锁精品健身，提供力量、HIIT、搏击、瑜伽等团课，无需年卡可单次体验。"
+  },
+  {
+    "id": "HK060",
+    "name": "凉城新村绿地运动公园",
+    "category_main": "休闲娱乐",
+    "category_sub": "乐园",
+    "lat": 31.263755,
+    "lng": 121.49284,
+    "open_hours": [
+      [
+        6,
+        22
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "社区综合运动公园，含篮球场、儿童游乐设施、健身步道，周末有居民自发运动活动。"
+  },
+  {
+    "id": "HK061",
+    "name": "1933老场坊",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.263374,
+    "lng": 121.49494,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "摄影爱好者",
+      "文艺青年"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "1933年英国设计师打造的宰牲场改建创意园，'无梁楼盖'建筑奇观，《小时代》《极限挑战》取景地，常有沉浸式展览。"
+  },
+  {
+    "id": "HK062",
+    "name": "北外滩【网红小巨蛋】",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.264631,
+    "lng": 121.482426,
+    "open_hours": [
+      [
+        6,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "摄影爱好者",
+      "情侣"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "未来感球形建筑，与陆家嘴天际线相互呼应，是黄浦江两岸绝佳观景和拍照点，旁有Manner咖啡。"
+  },
+  {
+    "id": "HK063",
+    "name": "今潮8弄（百年弄堂创意街区）",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.266663,
+    "lng": 121.484631,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "文艺青年",
+      "情侣"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "由8排百年石库门里弄改造，融合新潮文创、餐饮、手作工坊，常举办市集，可持续生活理念。"
+  },
+  {
+    "id": "HK064",
+    "name": "虹口酱园弄（老上海复古场景）",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.261389,
+    "lng": 121.484083,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "摄影爱好者",
+      "情侣"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "电影《酱园弄·悬案》主场景搭建地，还原1940年代老上海弄堂风貌，可租旗袍拍老上海风格照。"
+  },
+  {
+    "id": "HK065",
+    "name": "哈尔滨路老桥（工业复古拍照点）",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.273518,
+    "lng": 121.492145,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "摄影爱好者",
+      "独行"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "百年红砖老桥，复古工业气息与远处高楼形成强烈对比，是摄影圈知名的胶片感机位点。"
+  },
+  {
+    "id": "HK066",
+    "name": "乍浦·锦裏（新老融合街区）",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.259515,
+    "lng": 121.492172,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "文艺青年"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "传统街巷融合新潮文创店和文艺打卡装置，复古与潮流碰撞，定期举办市集和快闪活动。"
+  },
+  {
+    "id": "HK067",
+    "name": "北外滩白玉兰广场观景台",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.271927,
+    "lng": 121.484064,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "66层甲级写字楼底部商场，户外平台俯瞰北外滩江景，夜间可欣赏陆家嘴+外滩双向灯光秀。"
+  },
+  {
+    "id": "HK068",
+    "name": "甜爱路（上海最浪漫小马路）",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.26447,
+    "lng": 121.483384,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "情侣",
+      "独行",
+      "摄影爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "上海知名「爱情路」，沿路有爱情主题涂鸦和诗歌围墙，独特小资气息，情侣必打卡。"
+  },
+  {
+    "id": "HK069",
+    "name": "多伦路文化名人街",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.271662,
+    "lng": 121.485649,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄",
+      "文化爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "550米文化街，鲁迅、郭沫若、茅盾等文化名人旧居汇聚，沿路有古玩、书画店、美术馆、咖啡馆。"
+  },
+  {
+    "id": "HK070",
+    "name": "北外滩【一滴水】景观装置",
+    "category_main": "热门打卡",
+    "category_sub": "网红地标",
+    "lat": 31.2696,
+    "lng": 121.497197,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "摄影爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "北外滩标志性景观装置之一，造型独特，配合滨江绿地草坪和江景背景，是小红书高频打卡点。"
+  },
+  {
+    "id": "HK071",
+    "name": "鲁迅公园",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.265276,
+    "lng": 121.486284,
+    "open_hours": [
+      [
+        5,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 120,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "AAAA级景区，22公顷，含鲁迅墓园、鲁迅纪念馆、樱花园，每年3月樱花季万人打卡，是虹口绿肺。"
+  },
+  {
+    "id": "HK072",
+    "name": "上海上港邮轮城（北外滩邮轮港）",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.265779,
+    "lng": 121.497634,
+    "open_hours": [
+      [
+        9,
+        18
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 120,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "AAAA级景区，上海国际邮轮母港，可近距离观看大型邮轮靠泊起航，有港口文化展示区。"
+  },
+  {
+    "id": "HK073",
+    "name": "上海音乐谷",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.256087,
+    "lng": 121.494162,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄",
+      "音乐爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "AAA级景区，以音乐为主题的商业+演艺+餐饮街区，常举办现场演出和音乐节活动，体验感强。"
+  },
+  {
+    "id": "HK074",
+    "name": "和平公园",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.27073,
+    "lng": 121.484412,
+    "open_hours": [
+      [
+        6,
+        18
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 120,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 2,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 2
+      }
+    ],
+    "tags": [],
+    "intro": "AAA级景区，建于1958年，264亩，有百花馆、水榭、石舫、动物观赏区和儿童娱乐区，价格极亲民。"
+  },
+  {
+    "id": "HK075",
+    "name": "北外滩滨江步道",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.269906,
+    "lng": 121.493372,
+    "open_hours": [
+      [
+        6,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "上海最美江景步道之一，「一滴水」「彩虹桥」「音乐之门」三大景观，对岸即陆家嘴天际线。"
+  },
+  {
+    "id": "HK076",
+    "name": "山阴路历史文化风貌区",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.273598,
+    "lng": 121.489708,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文化爱好者",
+      "历史爱好者",
+      "摄影爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "上海重要历史保护风貌区，保存大量30年代新式里弄建筑，内山书店、鲁迅故居等历史遗址汇聚。"
+  },
+  {
+    "id": "HK077",
+    "name": "上海犹太难民纪念馆（摩西会堂旧址）",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.2663,
+    "lng": 121.491174,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄",
+      "历史爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "二战期间接纳2.5万欧洲犹太难民的历史见证地，摩西会堂旧址，展览珍贵，习近平访问过的地方。"
+  },
+  {
+    "id": "HK078",
+    "name": "鲁迅故居",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.272174,
+    "lng": 121.480878,
+    "open_hours": [
+      [
+        9,
+        16
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄",
+      "文化爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "鲁迅在上海最后9年居所，全国重点文物保护单位，书房、卧室等保留原有陈设，历史感强。"
+  },
+  {
+    "id": "HK079",
+    "name": "上海邮政博物馆",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.259079,
+    "lng": 121.496418,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄",
+      "历史爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "1924年欧洲古典风格建筑，中国邮政史全面展示，可登楼顶平台眺望苏州河，建筑本身即是景点。"
+  },
+  {
+    "id": "HK080",
+    "name": "中国左翼作家联盟纪念馆",
+    "category_main": "热门打卡",
+    "category_sub": "特色景区",
+    "lat": 31.262148,
+    "lng": 121.483089,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "文化爱好者",
+      "历史爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "中国左翼作家联盟成立旧址，展示20世纪初中国进步文学运动历史，与多伦路文化街区相连。"
+  },
+  {
+    "id": "HK081",
+    "name": "上海多伦现代美术馆",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.258368,
+    "lng": 121.49577,
+    "open_hours": [
+      [
+        10,
+        18
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "艺术爱好者",
+      "独行",
+      "文化人士"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "首批上海「星级美术馆」，非营利当代艺术机构，聚焦中国当代艺术发展，展览学术性强，氛围好。"
+  },
+  {
+    "id": "HK082",
+    "name": "朱屺瞻艺术馆",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.262662,
+    "lng": 121.49831,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "艺术爱好者",
+      "全年龄"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "灰墙青瓦江南风格3层展馆，常年陈列朱屺瞻书画，并举办当代书画主题展览，是多伦路文化街区核心。"
+  },
+  {
+    "id": "HK083",
+    "name": "上海虹口青藤美术馆",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.269029,
+    "lng": 121.485,
+    "open_hours": [
+      [
+        10,
+        18
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "艺术爱好者",
+      "独行"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "民营美术馆，聚焦新媒体、雕塑、建筑、装置艺术，获「百佳公共文化空间奖」，展览具实验性。"
+  },
+  {
+    "id": "HK084",
+    "name": "鲁迅纪念馆",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.258088,
+    "lng": 121.491466,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄",
+      "文化爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "全国重点文物保护单位，全面展示鲁迅生平著作，藏有大量珍贵手稿，公园内也有鲁迅墓可参拜。"
+  },
+  {
+    "id": "HK085",
+    "name": "上海犹太难民纪念馆文化交流区",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.2663,
+    "lng": 121.491174,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄",
+      "文化爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "结合历史展览与艺术展陈，定期举办中犹文化交流展览，是沪上跨文化艺术体验的独特场所。"
+  },
+  {
+    "id": "HK086",
+    "name": "1933老场坊当代艺术展区",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.262772,
+    "lng": 121.48524,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "艺术爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "百年宰牲场工业建筑内的流动展览空间，定期举办当代艺术展、摄影展、设计展和品牌快闪。"
+  },
+  {
+    "id": "HK087",
+    "name": "上海邮政博物馆（文化艺术区）",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.259079,
+    "lng": 121.496418,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "文化爱好者",
+      "历史爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "1924年欧洲古典建筑，二楼设有集邮文化展示厅，定期举办邮票文化主题艺术展，楼顶观景台免费。"
+  },
+  {
+    "id": "HK088",
+    "name": "海派文化艺术活动中心（虹口）",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.263594,
+    "lng": 121.492473,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "全年龄",
+      "文化爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "展示海派文化艺术精华，定期举办传统戏曲演出、书画展览和手工艺展，社区文化氛围浓厚。"
+  },
+  {
+    "id": "HK089",
+    "name": "上海老照片影像馆（多伦路）",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.26421,
+    "lng": 121.497321,
+    "open_hours": [
+      [
+        10,
+        18
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "摄影爱好者",
+      "历史爱好者",
+      "全年龄"
+    ],
+    "avg_price": 20,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 20
+      }
+    ],
+    "tags": [],
+    "intro": "展示20世纪上海珍贵老照片，记录城市百年历史变迁，是了解老上海生活方式的影像档案馆。"
+  },
+  {
+    "id": "HK090",
+    "name": "北外滩国际文化演艺中心",
+    "category_main": "热门打卡",
+    "category_sub": "文化艺术",
+    "lat": 31.264517,
+    "lng": 121.49327,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "全年龄",
+      "艺术爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "北外滩重要演艺场所，承接音乐会、戏剧、话剧、展览等多类文艺演出，是虹口文化艺术新地标。"
+  },
+  {
+    "id": "HK091",
+    "name": "LABELHOOD蕾虎",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.258001,
+    "lng": 121.498608,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻人",
+      "时尚爱好者"
+    ],
+    "avg_price": 500,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 500
+      }
+    ],
+    "tags": [],
+    "intro": "国内领先的设计师品牌买手集合店，汇聚20余位新锐中国设计师作品，主理人亲选原创服饰、配件，每季上新，是上海设计师时尚生态的重要展示窗口。"
+  },
+  {
+    "id": "HK092",
+    "name": "The Alpha手作设计工坊",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.267521,
+    "lng": 121.485066,
+    "open_hours": [
+      [
+        10,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "文艺青年",
+      "设计爱好者"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "本土原创设计师主理的手作工坊店铺，兼售手工皮具、织物与装置艺术品，每件作品限量生产，可与设计师直接交流创作理念。"
+  },
+  {
+    "id": "HK093",
+    "name": "野兽派虹口旗舰店",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.262934,
+    "lng": 121.484378,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "女性",
+      "送礼需求"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "国内知名花艺生活方式品牌，以玫瑰为核心设计元素，出售鲜花、香氛、首饰及家居产品，门店设计精致，是虹口打卡拍照的热门地点。"
+  },
+  {
+    "id": "HK094",
+    "name": "塔卡沙TAKASHA设计师集合店",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.271301,
+    "lng": 121.49645,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "时尚女性",
+      "设计爱好者"
+    ],
+    "avg_price": 400,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 400
+      }
+    ],
+    "tags": [],
+    "intro": "汇聚多位亚洲新锐设计师的买手集合店，专注女装与配饰品类，风格融合东西方美学，定期举办设计师见面会与新品发布活动。"
+  },
+  {
+    "id": "HK095",
+    "name": "素然ZUCZUG虹口店",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.263605,
+    "lng": 121.486777,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "追求品质生活者"
+    ],
+    "avg_price": 600,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 600
+      }
+    ],
+    "tags": [],
+    "intro": "上海本土设计师品牌，以自然面料与东方剪裁为核心，风格简约而有质感，在今潮8弄的选址与其文化气质高度契合，是上海都市慢生活的代表性店铺之一。"
+  },
+  {
+    "id": "HK096",
+    "name": "初稿设计师杂货铺",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.265552,
+    "lng": 121.498627,
+    "open_hours": [
+      [
+        11,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "收藏爱好者"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "位于多伦路历史街区的独立设计师杂货铺，出售原创版画、手绘明信片、设计文具及小型艺术装置，价格亲民，是发现原创好物的宝藏小店。"
+  },
+  {
+    "id": "HK097",
+    "name": "Randomevent虹口概念店",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.27192,
+    "lng": 121.494841,
+    "open_hours": [
+      [
+        12,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "潮流青年"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "国内潮流设计师主理的概念买手店，汇聚街头文化与艺术装置，主营限量联名单品、潮流服饰与艺术周边，不定期举办快闪活动与签名会。"
+  },
+  {
+    "id": "HK098",
+    "name": "N+设计师家居生活馆",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.269614,
+    "lng": 121.490912,
+    "open_hours": [
+      [
+        10,
+        20
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "家居爱好者",
+      "新婚夫妇"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "聚焦设计师原创家居与生活用品的精品店，出售餐具、灯具、布艺及装饰小件，所有商品均有设计师认证，风格北欧与东方并存。"
+  },
+  {
+    "id": "HK099",
+    "name": "WOOCHING吴氏珠宝设计工作室",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.257607,
+    "lng": 121.482149,
+    "open_hours": [
+      [
+        11,
+        19
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "女性",
+      "追求原创首饰者"
+    ],
+    "avg_price": 800,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 800
+      }
+    ],
+    "tags": [],
+    "intro": "本土设计师珠宝工作室，以传统工艺结合现代设计，出售手工银饰、黄铜与宝石首饰，可定制刻字，每件作品均附设计师签名证书。"
+  },
+  {
+    "id": "HK100",
+    "name": "MING LAB明室设计工作坊",
+    "category_main": "购物",
+    "category_sub": "设计师店",
+    "lat": 31.262008,
+    "lng": 121.489821,
+    "open_hours": [
+      [
+        11,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "文艺青年",
+      "设计从业者"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "位于溧阳路老弄堂改造空间的独立设计工作坊，兼具展览与销售功能，主营设计师服装、版画与陶瓷，同时开设短期工作坊课程，氛围创意而放松。"
+  },
+  {
+    "id": "HK101",
+    "name": "今潮8弄独立品牌集合区",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.266663,
+    "lng": 121.484631,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻人",
+      "潮流爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "由22栋历史建筑改造而成的潮流文化街区，汇聚60余家独立品牌、买手店与创意餐饮，是上海最具活力的独立品牌聚集地之一，周末常有快闪和市集活动。"
+  },
+  {
+    "id": "HK102",
+    "name": "奇谷米QIMI上海旗舰店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.263605,
+    "lng": 121.486777,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "年轻女性",
+      "国潮爱好者"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "主打国潮美妆与护肤的独立品牌，上海旗舰店设于今潮8弄，产品结合东方草本与现代配方，包装设计具有强烈国风审美，深受年轻消费群体喜爱。"
+  },
+  {
+    "id": "HK103",
+    "name": "MONOLIKE独立家居品牌店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.258721,
+    "lng": 121.481381,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "家居爱好者",
+      "白领"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "韩国知名独立生活方式品牌，出售文具、收纳、家居小物等，风格简约克制，性价比高，是喜欢精致日常生活的消费者的热门选择。"
+  },
+  {
+    "id": "HK104",
+    "name": "ARK LIVE HOUSE周边店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.257917,
+    "lng": 121.481526,
+    "open_hours": [
+      [
+        14,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "音乐爱好者",
+      "年轻人"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "依托今潮8弄ARK LIVE HOUSE的官方周边店，出售独立乐队限量周边、黑胶唱片、音乐主题服饰，演出夜人气爆棚，平时也是音乐文化爱好者的聚集地。"
+  },
+  {
+    "id": "HK105",
+    "name": "URBAN REVIVO虹口店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.268244,
+    "lng": 121.48134,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "时尚年轻女性"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "国内头部时尚独立品牌，以快时尚切入高端品质赛道，设计感强、性价比高，门店陈列精致，每周上新，是年轻女性更新衣橱的高频目的地。"
+  },
+  {
+    "id": "HK106",
+    "name": "HARMAY話梅虹口店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.261504,
+    "lng": 121.495071,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "美妆爱好者",
+      "年轻女性"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "以仓储风陈列著称的网红美妆集合店，精选全球小众与大牌护肤品，零售与体验并重，空间设计工业感十足，是美妆爱好者的圣地。"
+  },
+  {
+    "id": "HK107",
+    "name": "三顿半独立零售体验店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.262934,
+    "lng": 121.484378,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "咖啡爱好者",
+      "白领"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "国内精品速溶咖啡独立品牌，零售体验店设计简洁时尚，现场可品鉴多款咖啡产品，并售卖限定周边与联名礼盒，是咖啡爱好者的打卡地。"
+  },
+  {
+    "id": "HK108",
+    "name": "BEAMS JAPAN虹口精选店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.270948,
+    "lng": 121.494387,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "日系文化爱好者",
+      "时尚达人"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "日本知名生活方式独立品牌，精选日本工艺品、服饰与生活杂货，将日本美学带入上海，以严苛选品标准著称，是日系爱好者必逛的品牌。"
+  },
+  {
+    "id": "HK109",
+    "name": "观夏TO SUMMER虹口店",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.263605,
+    "lng": 121.486777,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "香氛爱好者",
+      "女性"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "国内顶级东方香氛独立品牌，以中国传统植物香料为灵感，出售香薰蜡烛、室内喷雾与护肤品，门店设计充满东方美学，线下体验极佳。"
+  },
+  {
+    "id": "HK110",
+    "name": "NOME生活家居虹口旗舰",
+    "category_main": "购物",
+    "category_sub": "独立品牌",
+    "lat": 31.271989,
+    "lng": 121.498037,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "年轻白领"
+    ],
+    "avg_price": 20,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 20
+      }
+    ],
+    "tags": [],
+    "intro": "北欧风格原创家居生活品牌，产品线涵盖家居收纳、餐厨用品、床品与装饰品，设计简约实用，价格亲民，是宿舍和新居装扮的热门品牌。"
+  },
+  {
+    "id": "HK111",
+    "name": "三三古着店",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.272853,
+    "lng": 121.492949,
+    "open_hours": [
+      [
+        12,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻人",
+      "时尚爱好者"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区知名古着集散地，精选欧美日韩二手服饰，每周更新货品，品类涵盖复古夹克、针织衫、印花T恤等，定期举办古着特卖会，深受复古风爱好者追捧。"
+  },
+  {
+    "id": "HK112",
+    "name": "VINTAGE KINGDOM复古王国",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.267897,
+    "lng": 121.485238,
+    "open_hours": [
+      [
+        13,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "潮流青年",
+      "古着爱好者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "今潮8弄内的人气古着店，汇聚来自日本、美国的精选vintage单品，同时兼售复古配件与老物件，空间布置充满年代感，是古着玩家的宝藏挖掘地。"
+  },
+  {
+    "id": "HK113",
+    "name": "衣旧情深古着铺",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.26449,
+    "lng": 121.483027,
+    "open_hours": [
+      [
+        12,
+        20
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "年轻人",
+      "独行"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "乍浦路老街区内的平价古着小铺，货品种类丰富但价格亲民，专注90年代至千禧年代风格，老板对每件衣服的来历如数家珍，是学生党淘货的好去处。"
+  },
+  {
+    "id": "HK114",
+    "name": "胶囊衣橱Capsule Wardrobe",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.260148,
+    "lng": 121.480394,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "时尚女性",
+      "可持续消费理念者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "主打可持续时尚的精选vintage集合店，甄选欧洲名品古着与精品二手，附带清洁整理后出售，兼做换衣、寄卖服务，倡导更环保的时尚消费理念。"
+  },
+  {
+    "id": "HK115",
+    "name": "REPLAY STORE日系古着",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.256134,
+    "lng": 121.482585,
+    "open_hours": [
+      [
+        13,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "日系爱好者",
+      "年轻人"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "专注日本古着进口的买手店，每批货直接从大阪、东京采购，品类以工装、运动复古、和风单品为主，上货频率高，是日系古着爱好者的必逛清单之一。"
+  },
+  {
+    "id": "HK116",
+    "name": "旧衣新生环保古着市集",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.264536,
+    "lng": 121.488097,
+    "open_hours": [
+      [
+        10,
+        18
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "独行",
+      "古着爱好者"
+    ],
+    "avg_price": 20,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 20
+      }
+    ],
+    "tags": [],
+    "intro": "依托鲁迅公园定期举办的古着市集，参与者自带二手服饰摆摊交易，气氛轻松社交，兼有手作与文创摊位，是虹口古着生态的草根阵地。"
+  },
+  {
+    "id": "HK117",
+    "name": "时光倒流Vintage收藏店",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.268486,
+    "lng": 121.481653,
+    "open_hours": [
+      [
+        12,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "收藏爱好者",
+      "复古风爱好者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "专注复古配件与老物件的收藏级古着店，出售老款腕表、搪瓷器皿、复古相机及年代服饰，店主有多年收藏经验，每件物品都有详细的年代背景说明。"
+  },
+  {
+    "id": "HK118",
+    "name": "THE ARCHIVE典藏古着",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.257607,
+    "lng": 121.482149,
+    "open_hours": [
+      [
+        12,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "时尚达人",
+      "收藏爱好者"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "精品级古着买手店，专注欧洲高端vintage，包括法国复古大衣、意大利皮具及稀有联名单品，每件均经过品质认证，面向对品质有更高追求的古着消费者。"
+  },
+  {
+    "id": "HK119",
+    "name": "旧时光杂货铺",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.261887,
+    "lng": 121.489219,
+    "open_hours": [
+      [
+        11,
+        19
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "怀旧爱好者"
+    ],
+    "avg_price": 20,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 20
+      }
+    ],
+    "tags": [],
+    "intro": "多伦路上的复古杂货铺，售卖旧时上海风格的瓷器、搪瓷杯、老式玩具、连环画等，同时有少量复古服饰，是怀旧风格拍摄和收藏的好去处。"
+  },
+  {
+    "id": "HK120",
+    "name": "二次元素古着与潮流集合",
+    "category_main": "购物",
+    "category_sub": "古着vintage",
+    "lat": 31.271027,
+    "lng": 121.48413,
+    "open_hours": [
+      [
+        12,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "Z世代",
+      "动漫爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "融合复古vintage与ACG文化的特色店铺，出售动漫周边与古着单品的混搭组合，兼售绝版漫画与旧款游戏机，是新一代年轻人诠释复古潮流的新型态买手店。"
+  },
+  {
+    "id": "HK121",
+    "name": "凯德龙之梦虹口购物中心",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.267411,
+    "lng": 121.490699,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "亲子",
+      "白领",
+      "独行"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区最大的一站式购物中心，建筑面积约17万平方米，汇聚国内外品牌300余家，涵盖餐饮、服饰、电影院、儿童娱乐等业态，地铁3/8号线直达，是区域商业地标。"
+  },
+  {
+    "id": "HK122",
+    "name": "瑞虹天地太阳宫",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.269619,
+    "lng": 121.483001,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "中高端消费者",
+      "亲子"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "以全球最大采光天幕穹顶为标志性建筑特征的高端商业综合体，引入多家首店与旗舰店，室内自然采光极佳，商场内常有艺术装置，是购物与打卡并重的目的地。"
+  },
+  {
+    "id": "HK123",
+    "name": "北外滩来福士广场",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.259043,
+    "lng": 121.499944,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "中高端消费者",
+      "商务人士"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "2021年开业，毗邻北外滩核心商务区，商业面积约12万平方米，引进众多国际品牌首店与旗舰店，顶层设有观景平台，可俯瞰外滩与黄浦江，购物与景观兼得。"
+  },
+  {
+    "id": "HK124",
+    "name": "虹口龙之梦购物中心（老馆）",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.256737,
+    "lng": 121.490548,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "中老年消费者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "四川北路商圈历史较久的综合商场，经历多轮改造升级，品牌以本土大众消费品牌为主，配套超市、餐饮与电影院，客群多为周边居民，日常消费氛围浓厚。"
+  },
+  {
+    "id": "HK125",
+    "name": "宝地广场虹口店",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.271865,
+    "lng": 121.489992,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "周边居民",
+      "独行"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "面向周边社区居民的社区型购物中心，以大型超市为核心主力店，配套服饰、餐饮、家电、美容等生活服务业态，是虹口区居民日常购物的便利去处。"
+  },
+  {
+    "id": "HK126",
+    "name": "嘉杰国际广场",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.257727,
+    "lng": 121.481452,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "白领",
+      "亲子"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "四川北路北段的综合商业体，引入运动品牌、教育机构、餐饮与零售，毗邻地铁站交通便利，楼层错落有致，是四川北路商圈向北延伸的重要商业节点。"
+  },
+  {
+    "id": "HK127",
+    "name": "东方渔人码头商业区",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.267992,
+    "lng": 121.495587,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "情侣"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "滨江开放式商业街区，融合餐饮、零售与休闲业态，以滨水景观为特色，傍晚可欣赏黄浦江夕阳，周末常有户外市集和文艺演出活动。"
+  },
+  {
+    "id": "HK128",
+    "name": "海上海商业广场",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.256453,
+    "lng": 121.496645,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.0,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "周边居民"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区社区型商业中心，以大润发超市为主力店，配套餐饮、服饰、美容美发及生活服务，是附近居民一站式日常购物的便利选择。"
+  },
+  {
+    "id": "HK129",
+    "name": "悠迈生活广场虹口店",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.261806,
+    "lng": 121.497112,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "独行"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "以家电与数码为特色的综合商业体，同时配有餐饮、文具、玩具及母婴品牌，定期举办家电促销展，是家庭置业和亲子购物的热门目的地。"
+  },
+  {
+    "id": "HK130",
+    "name": "四川北路商业步行街",
+    "category_main": "购物",
+    "category_sub": "正常商场",
+    "lat": 31.268644,
+    "lng": 121.489444,
+    "open_hours": [
+      [
+        9,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "上海四大商业街之一，全长约1.5公里，汇聚国内外品牌门店、小吃街与连锁餐饮，人气旺盛，是虹口区最具烟火气的购物街道，也是历史上的商业名街。"
+  },
+  {
+    "id": "HK131",
+    "name": "丽人丽妆虹口旗舰美容中心",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.271301,
+    "lng": 121.49645,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "女性"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "专业美容连锁品牌旗舰店，提供皮肤管理、美白淡斑、补水焕肤等项目，配备专业检测仪器，由持证美容师提供服务，注重皮肤健康与系统性护理方案。"
+  },
+  {
+    "id": "HK132",
+    "name": "植美村皮肤管理中心虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.262163,
+    "lng": 121.489864,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "女性",
+      "注重护肤者"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "主打天然植物萃取配方的皮肤管理品牌，提供深层清洁、抗衰提升、祛痘修复等个性化定制护肤方案，使用进口仪器配合手法护理，口碑良好。"
+  },
+  {
+    "id": "HK133",
+    "name": "美丽田园虹口美容院",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.268534,
+    "lng": 121.495542,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "女性",
+      "中年人"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "深耕虹口社区多年的口碑美容院，以亲切的服务和稳定的护肤效果赢得回头客，主打面部护理、脱毛与肩颈护理，价格实惠，适合长期皮肤保养。"
+  },
+  {
+    "id": "HK134",
+    "name": "HAYDON黑洞虹口美妆体验店",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.261504,
+    "lng": 121.495071,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "年轻女性",
+      "美妆爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "新锐高端美妆集合店，精选全球600余个美妆护肤品牌，提供专业彩妆体验和皮肤测试服务，空间设计前卫，是美妆爱好者探索新品的首选目的地。"
+  },
+  {
+    "id": "HK135",
+    "name": "颜究院医美轻护理",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.257841,
+    "lng": 121.48767,
+    "open_hours": [
+      [
+        10,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "女性",
+      "追求精致外表者"
+    ],
+    "avg_price": 500,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 500
+      }
+    ],
+    "tags": [],
+    "intro": "专注轻医美项目的专业护理机构，提供水光针、光子嫩肤、热玛吉等非手术美容项目，由持证医师操作，环境无菌专业，注重安全与效果并重。"
+  },
+  {
+    "id": "HK136",
+    "name": "伊丽汇美甲美睫工作室",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.259027,
+    "lng": 121.497587,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻女性"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区人气美甲美睫工作室，提供日式美甲、美睫嫁接、修眉等一站式美容服务，技师手艺细腻，款式更新及时，环境整洁，常常需要提前预约。"
+  },
+  {
+    "id": "HK137",
+    "name": "自然堂专柜虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.259411,
+    "lng": 121.496273,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 37,
+    "fit_group": [
+      "女性",
+      "中年消费者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "国内知名护肤品牌专柜，提供免费皮肤检测与护肤咨询，现场可体验产品，定期有优惠促销活动，是国货护肤品牌中品质口碑稳定的一线品牌。"
+  },
+  {
+    "id": "HK138",
+    "name": "优雅女人美体塑身虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.262354,
+    "lng": 121.494673,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "女性",
+      "产后恢复者"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "专注女性美体塑身与产后修复的专业机构，提供淋巴排毒、仪器纤体、中医调理等项目，注重整体健康美丽，技师经过系统培训，多数顾客为长期会员。"
+  },
+  {
+    "id": "HK139",
+    "name": "沙宣发型造型中心虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.265979,
+    "lng": 121.490968,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "国际知名美发品牌，专业造型师团队提供剪发、染发、烫发及护发服务，技师技术稳定，适合对发型有一定要求的消费者，也提供婚礼及活动造型服务。"
+  },
+  {
+    "id": "HK140",
+    "name": "芳颜阁中医美容馆",
+    "category_main": "身心焕新",
+    "category_sub": "美容",
+    "lat": 31.273337,
+    "lng": 121.49225,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "女性",
+      "注重养生美容者"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "融合中医调理与现代美容技术的特色美容馆，提供艾灸美容、面部刮痧、穴位按摩及草本面膜护理，强调由内而外调节身体状态，实现自然美肌效果。"
+  },
+  {
+    "id": "HK141",
+    "name": "御足坊足道养生馆虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.271526,
+    "lng": 121.490286,
+    "open_hours": [
+      [
+        12,
+        26
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "白领"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "连锁足疗养生品牌，提供足底按摩、全身推拿及颈肩放松，技师经过专业培训，手法扎实，环境安静舒适，营业至凌晨方便夜归族下班后放松。"
+  },
+  {
+    "id": "HK142",
+    "name": "然道养生馆虹口旗舰",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.269061,
+    "lng": 121.485898,
+    "open_hours": [
+      [
+        10,
+        24
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "注重养生者"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "高端养生连锁品牌虹口旗舰店，装修典雅，提供足浴、经络推拿、艾灸、中式刮痧等中医养生项目，每个包间配备独立浴桶，私密感强，是商务宴请后放松的首选。"
+  },
+  {
+    "id": "HK143",
+    "name": "顺康足道虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.270953,
+    "lng": 121.488055,
+    "open_hours": [
+      [
+        11,
+        25
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "中老年人"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "平价社区足疗店，以扎实的按摩手法和亲民价格吸引大量回头客，主营足底反射区按摩、背部舒缓和颈椎放松，无需预约即可进门服务。"
+  },
+  {
+    "id": "HK144",
+    "name": "忘忧谷盲人按摩中心",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.273296,
+    "lng": 121.48002,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "养生爱好者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "专业盲人按摩机构，技师均持有国家按摩师证书，手法力度精准到位，提供全身推拿、足底按摩及眼部穴位按摩，同时践行公益就业理念，深受顾客好评。"
+  },
+  {
+    "id": "HK145",
+    "name": "宝源泰中医推拿馆",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.265985,
+    "lng": 121.499759,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "颈椎腰椎不适者"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "以中医正骨推拿为特色的专业按摩馆，技师有中医专业背景，针对颈椎病、腰椎间盘突出、肩周炎等职业病有显著缓解效果，是久坐白领的康复圣地。"
+  },
+  {
+    "id": "HK146",
+    "name": "润身堂泰式按摩",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.269517,
+    "lng": 121.499951,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "白领"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "正宗泰式按摩馆，技师来自泰国，提供泰式传统按摩、泰式足底及泰式草药热敷，结合传统拉伸手法疏通全身经络，改善疲劳和循环，氛围东南亚风情。"
+  },
+  {
+    "id": "HK147",
+    "name": "逸足汇养生足道",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.265378,
+    "lng": 121.487984,
+    "open_hours": [
+      [
+        13,
+        25
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 70,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 70
+      }
+    ],
+    "tags": [],
+    "intro": "社区平价足疗门店，以卫生干净和性价比高著称，提供足浴泡脚、基础足底按摩和颈肩放松项目，周边居民常客多，是下班后快速放松的实惠选择。"
+  },
+  {
+    "id": "HK148",
+    "name": "东方神韵养生推拿中心",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.258012,
+    "lng": 121.490776,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "融合中医理念的综合养生中心，提供足疗、艾灸、刮痧、拔罐组合调理，技师了解经络穴位知识，可根据客人体质推荐适合的调理方案，适合亚健康人群。"
+  },
+  {
+    "id": "HK149",
+    "name": "阳光健康按摩中心虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.267188,
+    "lng": 121.495312,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "中老年人"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "面向大众消费的平价按摩中心，采用特殊招聘政策优先照顾视障人士就业，提供足底、颈肩、全身按摩等基础项目，环境简洁，服务朴实，价格实惠。"
+  },
+  {
+    "id": "HK150",
+    "name": "如是SPA按摩套餐体验馆",
+    "category_main": "身心焕新",
+    "category_sub": "按摩足疗",
+    "lat": 31.273398,
+    "lng": 121.486516,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "白领",
+      "情侣"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "设于北外滩来福士的品质按摩体验馆，提供足疗+背部推拿组合套餐，双人房间适合情侣同享，空间布置精致，选用天然精油香薰，是都市人周末犒劳自己的好选择。"
+  },
+  {
+    "id": "HK151",
+    "name": "丰盛汤泉洗浴中心虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.264658,
+    "lng": 121.488231,
+    "open_hours": [
+      [
+        8,
+        26
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "亲子",
+      "独行"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "综合洗浴中心，设有大众池、按摩池、蒸汽房、韩式汗蒸房及干蒸房，配备休息区与餐饮，全天开放，是家庭周末洗浴放松的实惠选择。"
+  },
+  {
+    "id": "HK152",
+    "name": "韩式汗蒸房虹口旗舰",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.258612,
+    "lng": 121.496681,
+    "open_hours": [
+      [
+        10,
+        23
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "情侣",
+      "朋友群体"
+    ],
+    "avg_price": 99,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 99
+      }
+    ],
+    "tags": [],
+    "intro": "韩式风格汗蒸房，提供黄土房、冰雪房、碳房等多种功能蒸房，配有泥灸、排毒汗蒸和美肌护理服务，设有休息区供顾客刷剧休息，融合韩国沐浴文化体验。"
+  },
+  {
+    "id": "HK153",
+    "name": "阳光大众澡堂虹口老店",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.273534,
+    "lng": 121.482969,
+    "open_hours": [
+      [
+        6,
+        22
+      ]
+    ],
+    "rank_score": 4.1,
+    "good_review_rate": 0.95,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "中老年人",
+      "周边居民"
+    ],
+    "avg_price": 25,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 25
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区历史悠久的老式公共浴室，大池泡澡、搓澡服务价格亲民，环境干净整洁，是虹口老居民保持多年习惯的社区澡堂，充满浓厚的上海里弄生活气息。"
+  },
+  {
+    "id": "HK154",
+    "name": "天沐温泉汗蒸馆虹口店",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.257008,
+    "lng": 121.481031,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "白领"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "品质温泉汗蒸体验馆，引入天然温泉水源，设有多温区汤池与蒸汽房，配有米酒浴、牛奶浴等特色泡浴项目，环境优雅，是节假日身心放松的高品质选择。"
+  },
+  {
+    "id": "HK155",
+    "name": "蒸蒸日上汗蒸工作室",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.256458,
+    "lng": 121.484129,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "女性"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "精品汗蒸工作室，提供韩式泥灸汗蒸和岩盘浴服务，独立隔断保护隐私，配有红外线加热床，帮助排毒减脂，是白领女性午后排毒放松的热门去处。"
+  },
+  {
+    "id": "HK156",
+    "name": "御天温泉洗浴会所",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.272591,
+    "lng": 121.481262,
+    "open_hours": [
+      [
+        9,
+        25
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "亲子",
+      "独行"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "设施齐备的综合温泉洗浴会所，提供温泉浴、桑拿、汗蒸、按摩及餐饮服务，有家庭包间和大众区，可全天休息，适合合家享受悠闲的半日温泉体验。"
+  },
+  {
+    "id": "HK157",
+    "name": "原木森林桑拿浴室",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.267289,
+    "lng": 121.487198,
+    "open_hours": [
+      [
+        14,
+        23
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "独行",
+      "养生爱好者"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "主打芬兰桑拿体验的精品浴室，使用进口桑拿炉和天然木材装修，室内温度精准控制，并提供白桦树枝拍打传统仪式，配有冷热交替冰桶，是资深桑拿爱好者的心头好。"
+  },
+  {
+    "id": "HK158",
+    "name": "旺福洗浴中心北外滩店",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.264155,
+    "lng": 121.497634,
+    "open_hours": [
+      [
+        7,
+        21
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "周边居民",
+      "工薪阶层"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "面向大众的社区浴室，设施简洁实用，设有公共池和淋浴区，价格低廉，是周边老小区居民家中没有淋浴条件时的日常解决方案，已服务社区逾20年。"
+  },
+  {
+    "id": "HK159",
+    "name": "好汉桥蒸汽浴场",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.256426,
+    "lng": 121.496879,
+    "open_hours": [
+      [
+        8,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "男性为主"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "以搓澡服务著称的老式蒸汽浴场，搓澡师傅手艺老到，可按客人要求轻重调整，浴场设有蒸汽房和大池，加上简单的按摩服务，是很多老上海人的传统清洁与放松场所。"
+  },
+  {
+    "id": "HK160",
+    "name": "君悦浴道SPA洗浴会所",
+    "category_main": "身心焕新",
+    "category_sub": "洗浴汗蒸",
+    "lat": 31.261524,
+    "lng": 121.484913,
+    "open_hours": [
+      [
+        11,
+        25
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 210,
+    "fit_group": [
+      "独行",
+      "商务人士"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "高端洗浴会所，提供温泉浸泡、汗蒸、全身搓澡、精油按摩一站式服务，独立包间装修豪华，配备卧式休息区与私人沙发，适合商务接待或节日犒劳自己。"
+  },
+  {
+    "id": "HK161",
+    "name": "御庭SPA虹口旗舰店",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.262163,
+    "lng": 121.489864,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "女性",
+      "注重品质者"
+    ],
+    "avg_price": 500,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 500
+      }
+    ],
+    "tags": [],
+    "intro": "高端SPA品牌虹口旗舰，提供巴厘岛风情精油按摩、身体护理、头发spa及情侣套餐，每个房间独立设计，配备浴缸和精油蜡烛，是送礼和节日宠爱自己的优质选择。"
+  },
+  {
+    "id": "HK162",
+    "name": "悦己身体护理SPA",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.273398,
+    "lng": 121.486516,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "女性",
+      "白领"
+    ],
+    "avg_price": 400,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 400
+      }
+    ],
+    "tags": [],
+    "intro": "专注全身放松的精品SPA馆，以泰国传统SPA手法结合现代护肤理念，提供草本蒸汽浴、深层按摩与面部精华护理，环境幽静，使用天然植物精油，深受职场女性青睐。"
+  },
+  {
+    "id": "HK163",
+    "name": "HIYOU喜友亲子SPA体验馆",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.263259,
+    "lng": 121.488545,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "针对亲子群体打造的特色SPA体验馆，提供儿童安全精油抚触、亲子护肤工作坊及妈妈美肤套餐，空间设计温馨活泼，父母与孩子可同步享受护理，边放松边增进亲子感情。"
+  },
+  {
+    "id": "HK164",
+    "name": "兰熙SPA精品养生馆",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.266448,
+    "lng": 121.497158,
+    "open_hours": [
+      [
+        11,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "女性",
+      "养生爱好者"
+    ],
+    "avg_price": 350,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 350
+      }
+    ],
+    "tags": [],
+    "intro": "藏于溧阳路文创园内的隐秘SPA馆，融合中医养生与现代SPA技法，提供腹部暖宫、淋巴排毒、脊背艾灸SPA套餐，注重内外兼修，空间布置充满禅意。"
+  },
+  {
+    "id": "HK165",
+    "name": "花间堂香氛SPA体验空间",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.269304,
+    "lng": 121.497614,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "女性",
+      "追求独特体验者"
+    ],
+    "avg_price": 400,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 400
+      }
+    ],
+    "tags": [],
+    "intro": "以东方花卉香氛为主题的特色SPA体验馆，提供玫瑰浴、茉莉花精油按摩和荷花熏香面部护理，每个项目融入中国传统花卉文化，空间设计充满文人雅士情趣，体验独一无二。"
+  },
+  {
+    "id": "HK166",
+    "name": "身心SPA水疗中心",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.264341,
+    "lng": 121.48502,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "情侣"
+    ],
+    "avg_price": 250,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 250
+      }
+    ],
+    "tags": [],
+    "intro": "提供水疗与全身护理的综合SPA中心，配备水疗按摩浴缸、气泡浴与彩光治疗，搭配深层肌肉按摩，有情侣双人套间，是情人节或纪念日的浪漫选择。"
+  },
+  {
+    "id": "HK167",
+    "name": "缘来SPA经络调理馆",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.257444,
+    "lng": 121.486141,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "女性",
+      "中年人"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "融合中医经络理论的特色SPA馆，提供背部经络疏通、肩颈暖石推拿和面部穴位SPA护理，所用精油均由中草药萃取，注重改善亚健康状态，有长期调理套餐可选。"
+  },
+  {
+    "id": "HK168",
+    "name": "漫享Spa全身护理馆",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.265128,
+    "lng": 121.493641,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "白领",
+      "年轻女性"
+    ],
+    "avg_price": 200,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 200
+      }
+    ],
+    "tags": [],
+    "intro": "以轻松减压为核心理念的大众SPA馆，主推背部舒缓、头皮护理和手足养护组合套餐，价格适中，服务流程标准化，是下班后快速恢复能量的实惠选择。"
+  },
+  {
+    "id": "HK169",
+    "name": "桃源里SPA别院",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.261759,
+    "lng": 121.491877,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": true,
+    "stay_minutes": 180,
+    "fit_group": [
+      "高端消费者",
+      "商务人士"
+    ],
+    "avg_price": 600,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 600
+      }
+    ],
+    "tags": [],
+    "intro": "藏于老式里弄花园内的高端私人SPA别院，每次仅接待一组客人，全程私人定制服务，提供四手联弹精油按摩、热石脊背护理及芳香泡浴，极致私密与奢享体验兼得。"
+  },
+  {
+    "id": "HK170",
+    "name": "自愈堂SPA养生工作室",
+    "category_main": "身心焕新",
+    "category_sub": "SPA护理",
+    "lat": 31.264683,
+    "lng": 121.490764,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "文艺青年",
+      "注重内在平衡者"
+    ],
+    "avg_price": 300,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 300
+      }
+    ],
+    "tags": [],
+    "intro": "位于今潮8弄文化园区内的SPA工作室，融合正念冥想与身体护理，提供冥想引导+精油按摩组合套餐，课程由心理咨询师与SPA治疗师联合设计，关注身心一体的整体疗愈。"
+  },
+  {
+    "id": "HK171",
+    "name": "中国瑜伽联盟虹口培训总部",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.263194,
+    "lng": 121.480455,
+    "open_hours": [
+      [
+        8,
+        21
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "有志学习瑜伽者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "国内权威瑜伽培训机构上海总部，提供哈他瑜伽、阴瑜伽、流瑜伽等多种风格课程，师资均持有RYT200/500国际认证，同时开设教练培训班，适合初学者与进阶练习者。"
+  },
+  {
+    "id": "HK172",
+    "name": "梵音瑜伽虹口道场",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.263259,
+    "lng": 121.488545,
+    "open_hours": [
+      [
+        7,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "女性",
+      "上班族"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "连锁瑜伽品牌旗舰道场，提供流瑜伽、孕产瑜伽、热瑜伽及冥想课程，配备专业瑜伽教室和更衣室，早晨和傍晚各有高峰课次，是白领工作日锻炼的热门选择。"
+  },
+  {
+    "id": "HK173",
+    "name": "觉醒瑜伽虹口工作室",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.259759,
+    "lng": 121.498622,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "女性",
+      "瑜伽入门者"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "小型精品瑜伽工作室，班级人数控制在8人以内，老师可给予更多一对一指导，课程安排灵活，提供基础哈他、修复瑜伽及普拉提融合课，适合希望精细化练习的学员。"
+  },
+  {
+    "id": "HK174",
+    "name": "力扬瑜伽广场虹口店",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.262783,
+    "lng": 121.493359,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "综合型健身瑜伽馆，在提供瑜伽课程的同时配有力量训练区，提供月卡和年卡套餐，课程种类丰富，包括肚皮舞融合瑜伽、功能性瑜伽及老年舒缓瑜伽，适合全家一起运动。"
+  },
+  {
+    "id": "HK175",
+    "name": "YogaWorks流动瑜伽室",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.257353,
+    "lng": 121.487382,
+    "open_hours": [
+      [
+        8,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "年轻女性",
+      "白领"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "引进国际瑜伽课程体系的品牌工作室，注重呼吸与体式的精准结合，提供Vinyasa流动瑜伽、阴阳瑜伽与正念冥想，定期举办外教大师工作坊，学员整体练习水平较高。"
+  },
+  {
+    "id": "HK176",
+    "name": "空中瑜伽体验中心",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.26763,
+    "lng": 121.488616,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻女性",
+      "追求新鲜体验者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "专注空中瑜伽的特色工作室，配备吊床瑜伽设备，在失重感中完成深层伸展与倒置体式，课程分初级至进阶，每课限8人，有助于缓解脊椎压迫，体验感独特，拍照出片效果极佳。"
+  },
+  {
+    "id": "HK177",
+    "name": "阿南达冥想瑜伽馆",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.270438,
+    "lng": 121.481646,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "注重身心平衡者",
+      "压力大的成年人"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "深受口碑驱动的精品冥想瑜伽馆，融合阿育吠陀养生理念，除常规瑜伽课外提供声音疗愈和颂钵冥想体验，空间安静雅致，靠近多伦路文化区，课后可逛文人街区。"
+  },
+  {
+    "id": "HK178",
+    "name": "快乐妈妈孕产瑜伽中心",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.273328,
+    "lng": 121.485436,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "孕妇",
+      "产后恢复女性"
+    ],
+    "avg_price": 150,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 150
+      }
+    ],
+    "tags": [],
+    "intro": "专业孕产瑜伽机构，教练具有产科护理和瑜伽双重专业背景，提供孕期各阶段体式调整、呼吸训练及产后恢复课程，小班制教学，特别关注孕产安全，深受准妈妈好评。"
+  },
+  {
+    "id": "HK179",
+    "name": "热瑜伽会所虹口旗舰",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.257372,
+    "lng": 121.483459,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "追求排汗效果者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "专业热瑜伽馆，练习室恒温39度配合特殊湿度，帮助深度排汗和肌肉放松，提供26式热瑜伽和热流瑜伽两种课程，设备完善，配备专业更衣室和淋浴，是减脂塑形效果显著的运动选择。"
+  },
+  {
+    "id": "HK180",
+    "name": "五元素瑜伽生活馆",
+    "category_main": "运动",
+    "category_sub": "瑜伽健身",
+    "lat": 31.273337,
+    "lng": 121.49225,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "养生爱好者"
+    ],
+    "avg_price": 70,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 70
+      }
+    ],
+    "tags": [],
+    "intro": "以五行养生理论为核心的瑜伽生活馆，提供与季节相应的五行调理瑜伽课程，课前有中医体质测试，根据学员个人体质推荐适合课程，兼售有机健康产品与养生茶饮。"
+  },
+  {
+    "id": "HK181",
+    "name": "岩舞空间攀岩馆",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.258249,
+    "lng": 121.495124,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "年轻人",
+      "攀岩爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区专业室内攀岩馆，面积约400平方米，设有8条顶绳道路（高度约10米）和6条抱石道路，附设攀岩教学课程，装备可租用，适合从零基础到进阶攀岩者，教练持证上岗。"
+  },
+  {
+    "id": "HK182",
+    "name": "恒毅室内攀岩馆",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.263562,
+    "lng": 121.491061,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "攀岩爱好者",
+      "青少年"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "依托虹口足球场看台改建的攀岩馆，利用建筑高差设计抱石区与顶绳区，路线丰富多样，定期更换线路保持新鲜感，同时开设青少年攀岩培训班，是上海攀岩圈的知名据点。"
+  },
+  {
+    "id": "HK183",
+    "name": "V12攀岩训练基地虹口店",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.256118,
+    "lng": 121.481036,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "进阶攀岩者",
+      "竞技选手"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "专注进阶攀岩训练的专业场馆，拥有从V0到V10多难度抱石线路，每月由专业开线员更新赛题级别线路，配备力量训练辅助区和攀岩指导教练，吸引大量参加竞技比赛的攀岩选手。"
+  },
+  {
+    "id": "HK184",
+    "name": "岩壁探险体验馆",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.257985,
+    "lng": 121.483844,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "入门级攀岩者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "设于购物中心内的亲民攀岩体验场馆，以低难度抱石区为主，特设儿童区与成人区，工作人员可提供一对一入门指导，无需经验即可参与，是带孩子尝试攀岩运动的好地方。"
+  },
+  {
+    "id": "HK185",
+    "name": "石蛙攀岩俱乐部虹口分部",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.266496,
+    "lng": 121.487614,
+    "open_hours": [
+      [
+        14,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "攀岩爱好者"
+    ],
+    "avg_price": 90,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 90
+      }
+    ],
+    "tags": [],
+    "intro": "老牌攀岩俱乐部虹口分部，有固定的攀岩社区氛围，定期组织线上搭档匹配和户外岩壁拉练活动，馆内路线设计风格多元，教练可按需安排陪爬指导。"
+  },
+  {
+    "id": "HK186",
+    "name": "PEAK攀岩健身综合馆",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.258012,
+    "lng": 121.490776,
+    "open_hours": [
+      [
+        9,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "独行",
+      "健身爱好者"
+    ],
+    "avg_price": 120,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 120
+      }
+    ],
+    "tags": [],
+    "intro": "将攀岩与功能性训练结合的综合运动馆，提供攀岩+TRX+核心训练组合课程，以提高攀岩所需的综合体能为目标，教练具有运动科学背景，是系统提升攀岩能力的理想场所。"
+  },
+  {
+    "id": "HK187",
+    "name": "蜘蛛人攀岩乐园亲子馆",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.256639,
+    "lng": 121.494056,
+    "open_hours": [
+      [
+        10,
+        20
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "儿童（4-12岁）",
+      "家长"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "专为儿童设计的室内攀岩乐园，墙面颜色鲜艳，攀爬高度安全，配备全套防护设备和专职安全员，家长可在旁陪同，是培养孩子运动勇气和协调能力的好去处。"
+  },
+  {
+    "id": "HK188",
+    "name": "黄金岩点室内攀岩场",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.267947,
+    "lng": 121.491715,
+    "open_hours": [
+      [
+        11,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "攀岩爱好者",
+      "年轻人"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "地下空间改建的特色攀岩场，不受阳光直射温度稳定，全年适宜攀岩，设有多类型岩壁包括竖壁、斜壁和顶角壁，每月举办内部月赛，氛围友好，有活跃的社群交流群。"
+  },
+  {
+    "id": "HK189",
+    "name": "云端攀岩工作室",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.258478,
+    "lng": 121.480885,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "入门至中级攀岩者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "精品攀岩工作室，以舒适的练习氛围和细致的教学著称，提供私教课和团课两种选择，鼓励学员按自己节奏成长，墙面线路定期更新，有完善的攀岩初学者引导体系。"
+  },
+  {
+    "id": "HK190",
+    "name": "攀缘者攀岩俱乐部户外分队",
+    "category_main": "运动",
+    "category_sub": "攀岩",
+    "lat": 31.263487,
+    "lng": 121.480443,
+    "open_hours": [
+      [
+        10,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "攀岩进阶者",
+      "社交需求强的爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "以活跃社群为特色的攀岩俱乐部，馆内练习结合定期户外拉练（太湖石壁、雁荡山岩壁），会员互动频繁，每季度组织户外攀岩长途团，是希望从室内走向户外岩壁的攀岩者的理想社群。"
+  },
+  {
+    "id": "HK191",
+    "name": "虹口足球场社区足球场",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.267867,
+    "lng": 121.492849,
+    "open_hours": [
+      [
+        8,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行",
+      "球队"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "依托专业足球场附属设施开放的社区足球场，设有5人制和7人制草坪球场，灯光设施完善，夜场开放至22点，是周边球友踢球组局的首选场地，提供按小时的临时预订服务。"
+  },
+  {
+    "id": "HK192",
+    "name": "凌空体育篮球馆虹口店",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.261806,
+    "lng": 121.497112,
+    "open_hours": [
+      [
+        9,
+        23
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "篮球爱好者",
+      "青少年"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "专业室内篮球馆，配备NBA标准尺寸木地板球场，4片场地可同时使用，设有计时钟和得分系统，提供半场和整场租用，也接受球队训练预订，是虹口区篮球运动的核心场地之一。"
+  },
+  {
+    "id": "HK193",
+    "name": "碧波羽毛球馆",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.267224,
+    "lng": 121.498887,
+    "open_hours": [
+      [
+        7,
+        23
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 40,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 40
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区人气羽毛球馆，拥有8片标准羽毛球场，场地净高10米以上，照明亮度达国家标准，提供羽毛球租用和陪练服务，早场价格特惠，是上班族早起锻炼的热门去处。"
+  },
+  {
+    "id": "HK194",
+    "name": "蝴蝶乒乓球馆虹口旗舰",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.256426,
+    "lng": 121.496879,
+    "open_hours": [
+      [
+        8,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "以蝴蝶品牌器材著称的专业乒乓球馆，设有12张专业球桌，提供教练一对一指导课，定期举办业余联赛，场馆内悬挂多位国手合影，乒乓氛围浓厚，适合老少皆宜。"
+  },
+  {
+    "id": "HK195",
+    "name": "澳网网球虹口训练中心",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.273034,
+    "lng": 121.48999,
+    "open_hours": [
+      [
+        7,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "网球爱好者",
+      "青少年"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "专业网球训练中心，拥有8片硬地球场（含2片室内）和配套淋浴更衣室，提供教练团体课和私教课，适合从零基础到比赛级别的学员，是虹口区网球运动发展的重要阵地。"
+  },
+  {
+    "id": "HK196",
+    "name": "诺丁山台球俱乐部",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.272118,
+    "lng": 121.496267,
+    "open_hours": [
+      [
+        12,
+        26
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "独行",
+      "男性为主"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "氛围轻松的社区台球俱乐部，配有20张中式和英式台球桌，夜场灯光温馨，提供球杆租用和简餐饮品，是三五好友聚会、休闲娱乐的经典场所，营业至凌晨适合夜猫子。"
+  },
+  {
+    "id": "HK197",
+    "name": "功力壁球俱乐部",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.266448,
+    "lng": 121.497158,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "白领",
+      "运动爱好者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "专业壁球俱乐部，设有4片标准玻璃背壁球场，提供入门体验课和系统进阶训练，教练具有国家级裁判资质，定期举办内部联赛，是上海壁球圈活跃的训练与社交基地。"
+  },
+  {
+    "id": "HK198",
+    "name": "鲁迅公园多功能运动场",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.258088,
+    "lng": 121.491466,
+    "open_hours": [
+      [
+        6,
+        18
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 60,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "鲁迅公园内的公共运动区，设有篮球场、羽毛球场地及乒乓球台，向市民免费或低价开放，每天清晨吸引大量老年人和上班族晨练，是虹口区居民日常运动的宝贵公共资源。"
+  },
+  {
+    "id": "HK199",
+    "name": "极客飞盘虹口训练营",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.262592,
+    "lng": 121.495206,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 120,
+    "fit_group": [
+      "年轻人",
+      "运动社交爱好者"
+    ],
+    "avg_price": 50,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 50
+      }
+    ],
+    "tags": [],
+    "intro": "依托绿地草坪运营的飞盘运动训练营，每周末举办极限飞盘体验课和混合对抗赛，教练有国际飞盘协会认证资质，是近年来虹口区年轻白领和大学生热追的新型社交运动。"
+  },
+  {
+    "id": "HK200",
+    "name": "天马高尔夫球打击区虹口店",
+    "category_main": "运动",
+    "category_sub": "球类运动",
+    "lat": 31.271834,
+    "lng": 121.496987,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "白领",
+      "商务人士"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "室内高尔夫模拟打击区，配备5个3D球道模拟系统，可选择全球百余个知名球场模式练习，提供专业教练指导，适合工作繁忙无法前往真实球场的高尔夫爱好者利用碎片时间练球。"
+  },
+  {
+    "id": "HK201",
+    "name": "上海皇家空中舞蹈虹口校区",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.266223,
+    "lng": 121.49183,
+    "open_hours": [
+      [
+        12,
+        21
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻女性"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "主打钢管舞、爵士舞和空中吊绸的特色舞蹈工作室，拥有专业升降钢管和吊绸设备，教练均有演出背景，提供零基础入门至进阶课程，同时开设编舞创作班，深受勇于突破自我的女性喜爱。"
+  },
+  {
+    "id": "HK202",
+    "name": "上海文广舞之梦虹口校区",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.270278,
+    "lng": 121.487786,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "儿童",
+      "青少年",
+      "独行"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "上海文广旗下专业舞蹈学校，提供中国舞、拉丁舞、芭蕾舞和爵士舞课程，师资来自专业院团，课程体系严格，定期参加市级舞蹈比赛，是追求专业舞蹈技能的学员的首选。"
+  },
+  {
+    "id": "HK203",
+    "name": "潮流派对HipHop舞蹈工作室",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.263605,
+    "lng": 121.486777,
+    "open_hours": [
+      [
+        12,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻人",
+      "街舞爱好者"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "今潮8弄内的街舞工作室，课程涵盖Breaking、Popping、Locking及House舞种，教练均有街舞比赛获奖背景，每周举办cipher自由练习局，是虹口街舞文化的活跃聚集地。"
+  },
+  {
+    "id": "HK204",
+    "name": "芭蕾时光成人芭蕾工作室",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.269001,
+    "lng": 121.480725,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "成年女性"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "专为成人设计的芭蕾入门与进阶课，练功室配备把杆、镜面墙和专业木地板，教师有职业芭蕾背景，课程融入普拉提核心训练，帮助改善体态与气质，是白领女性最受欢迎的优雅运动之一。"
+  },
+  {
+    "id": "HK205",
+    "name": "SALSA虹口拉丁舞俱乐部",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.273667,
+    "lng": 121.486983,
+    "open_hours": [
+      [
+        14,
+        23
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "独行",
+      "社交舞爱好者"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "上海知名拉丁舞社交俱乐部虹口据点，提供Salsa、Bachata及Kizomba课程，课后定期举办社交舞会（Practica），吸引大量外籍人士参与，是跨文化社交与运动结合的理想空间。"
+  },
+  {
+    "id": "HK206",
+    "name": "星舞汇少儿舞蹈中心",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.273328,
+    "lng": 121.485436,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "儿童（4-14岁）"
+    ],
+    "avg_price": 100,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 100
+      }
+    ],
+    "tags": [],
+    "intro": "专注儿童舞蹈启蒙与培训的专业中心，提供中国舞、民族舞、现代舞及幼儿律动课，教师持有舞蹈教育相关资质，定期参加展演汇报，家长反馈孩子协调性与自信心显著提升。"
+  },
+  {
+    "id": "HK207",
+    "name": "舞·界融合舞蹈工作室",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.257549,
+    "lng": 121.492376,
+    "open_hours": [
+      [
+        11,
+        21
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "独行"
+    ],
+    "avg_price": 70,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 70
+      }
+    ],
+    "tags": [],
+    "intro": "以融合风格为特色的舞蹈工作室，将现代舞、爵士与瑜伽元素结合，创造出低门槛又有深度的身体探索课程，强调舞动的身心表达功能，课程无固定姿势要求，适合对舞蹈心存恐惧的初学者。"
+  },
+  {
+    "id": "HK208",
+    "name": "ZUMBA拉丁健身虹口体验营",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.262073,
+    "lng": 121.497442,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "独行",
+      "减脂运动爱好者"
+    ],
+    "avg_price": 60,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 60
+      }
+    ],
+    "tags": [],
+    "intro": "风靡全球的ZUMBA拉丁健身舞课程，融合萨尔萨、桑巴等拉丁音乐律动，以高能量有氧运动帮助燃脂塑形，教练持有国际ZUMBA认证，课程活泼欢乐，是减脂运动中最不像运动的运动。"
+  },
+  {
+    "id": "HK209",
+    "name": "国韵民族舞蹈培训中心",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.266713,
+    "lng": 121.485809,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "儿童至成人"
+    ],
+    "avg_price": 80,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 80
+      }
+    ],
+    "tags": [],
+    "intro": "专注中国民族舞蹈的培训机构，开设维吾尔族舞、蒙古族舞、傣族舞及汉族民间舞课程，教师来自专业院团，拥有正规排练大厅，每年参加市级展演，氛围严谨而富有文化感。"
+  },
+  {
+    "id": "HK210",
+    "name": "JIVE健美操舞蹈综合馆",
+    "category_main": "运动",
+    "category_sub": "舞蹈室",
+    "lat": 31.257008,
+    "lng": 121.481031,
+    "open_hours": [
+      [
+        9,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 70,
+    "free": false,
+    "need_booking": true,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 70
+      }
+    ],
+    "tags": [],
+    "intro": "综合型健美操与舞蹈中心，同时提供有氧踏步、舞蹈健身、啦啦操及广场舞精进版课程，班次密集全天覆盖，适合不同年龄段和健身目标的学员，月卡性价比极高。"
+  },
+  {
+    "id": "HK211",
+    "name": "上海图书馆虹口分馆",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.259998,
+    "lng": 121.480087,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "上海图书馆在虹口区的重要分馆，馆藏丰富，设有儿童阅览区、期刊区和自习室，免费向市民开放，定期举办读书分享会、讲座与展览，是虹口居民文化生活的重要组成部分。"
+  },
+  {
+    "id": "HK212",
+    "name": "半层书店",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.273273,
+    "lng": 121.490625,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": true,
+    "stay_minutes": 150,
+    "fit_group": [
+      "文艺青年",
+      "读书爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "上海网红人文书店，馆藏约1万册人文社科与艺术类书籍，内设独立放映室定期播放艺术电影，有咖啡轻食服务，空间设计感强，常举办签售、对谈等文化活动，是虹口文艺圈的重要地标。"
+  },
+  {
+    "id": "HK213",
+    "name": "建投书局虹口旗舰店",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.268749,
+    "lng": 121.49452,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "商务人士",
+      "读书爱好者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "以「不止于书」为核心理念的高端人文书店，深耕金融与人文社科领域，配有艺廊展区和多功能活动厅，毗邻北外滩商务区，商务聚会与阅读体验兼得，装修质感与选书品位并重。"
+  },
+  {
+    "id": "HK214",
+    "name": "虹口区图书馆（总馆）",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.268379,
+    "lng": 121.491033,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "虹口区政府主办的公共图书馆总馆，馆藏书目逾百万册，设有开放书架阅览区、数字阅览室及少儿馆，读者凭身份证免费办证借阅，每年举办数十场公益文化活动。"
+  },
+  {
+    "id": "HK215",
+    "name": "鲁迅纪念馆图书阅览厅",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.271174,
+    "lng": 121.491219,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文学爱好者",
+      "历史研究者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "依托鲁迅纪念馆设立的专题图书阅览厅，收藏鲁迅及中国现代文学相关文献资料，馆内有鲁迅手稿复刻展览，是研究中国现代文学史的重要资源地，环境庄重安静。"
+  },
+  {
+    "id": "HK216",
+    "name": "城市书房·北外滩智慧书房",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.268873,
+    "lng": 121.496467,
+    "open_hours": [
+      [
+        8,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "政府设立的24小时无人智慧书房，馆藏近千册，读者可用身份证自助借阅，紧邻滨江步道，阅读之余可欣赏黄浦江景，是运动散步后静下来读书的理想去处。"
+  },
+  {
+    "id": "HK217",
+    "name": "诚品书店虹口店",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.270948,
+    "lng": 121.494387,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 120,
+    "fit_group": [
+      "文艺青年",
+      "亲子"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "台湾知名人文书店大陆旗舰，精选人文、设计、生活美学类书籍，配有文创周边区与艺廊，定期举办朗读、展览等活动，书店空间延续诚品一贯的美学气质，适合悠闲翻阅半日。"
+  },
+  {
+    "id": "HK218",
+    "name": "多伦路文化书屋",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.267951,
+    "lng": 121.49439,
+    "open_hours": [
+      [
+        10,
+        18
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文史爱好者",
+      "收藏者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "位于多伦路历史街区的特色文化书屋，主营民国至当代绝版旧书、老照片与文史资料，书屋同时展示多伦路文化脉络，是寻访旧书奇遇的文化打卡地。"
+  },
+  {
+    "id": "HK219",
+    "name": "大隐书局虹口店",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.271301,
+    "lng": 121.49645,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "亲子"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "上海本土书店品牌，以「隐于市」的选书哲学著称，选品覆盖人文、设计、亲子与城市文化，空间设计温馨，配有咖啡轻食，是购物之余让心灵沉淀的好地方。"
+  },
+  {
+    "id": "HK220",
+    "name": "四平路街道社区图书室",
+    "category_main": "静下来",
+    "category_sub": "图书馆",
+    "lat": 31.258471,
+    "lng": 121.484946,
+    "open_hours": [
+      [
+        9,
+        17
+      ]
+    ],
+    "rank_score": 4.2,
+    "good_review_rate": 0.96,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "周边居民",
+      "独行"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "由街道社区中心设立的公益图书室，馆藏以科普、小说和老年健康类读物为主，另设报刊阅读区，每周三有老年人阅读交流活动，是社区居民日常文化生活的重要公共服务设施。"
+  },
+  {
+    "id": "HK221",
+    "name": "鲁迅公园中心大草坪",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.258088,
+    "lng": 121.491466,
+    "open_hours": [
+      [
+        6,
+        18
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 3,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 3
+      }
+    ],
+    "tags": [],
+    "intro": "虹口区最大的开放绿地，园内大草坪宽阔平整，是野餐、阅读、放风筝的好地方，附近有鲁迅墓和纪念馆，秋季银杏变黄时尤为美丽，是虹口居民日常休闲的城市绿肺。"
+  },
+  {
+    "id": "HK222",
+    "name": "北外滩滨江绿地草坪",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.273858,
+    "lng": 121.486185,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "全年龄段"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "沿黄浦江布局的开放式滨江绿地，铺设连续草坪和景观带，可一边躺在草地上休息一边欣赏对岸外滩和陆家嘴的城市天际线，日落时分氛围绝佳，是虹口最具诗意的户外公共空间。"
+  },
+  {
+    "id": "HK223",
+    "name": "曲阳公园草坪区",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.273286,
+    "lng": 121.480003,
+    "open_hours": [
+      [
+        6,
+        18
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "亲子",
+      "独行"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "建设较早的社区公园，设有湖泊与草坪区，湖边垂柳成荫，草坪上常有居民晨练或午后打牌，园内还有健身器材和儿童游乐设施，是典型的上海社区公园日常生活景象。"
+  },
+  {
+    "id": "HK224",
+    "name": "广中绿地公园",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.272026,
+    "lng": 121.483815,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 60,
+    "fit_group": [
+      "亲子",
+      "年轻人"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "虹口区内较大的城市绿地广场，有开阔的草坪区域和林荫小道，周末常有市民在此野餐和遛狗，夏天傍晚有社区活动和广场舞，是虹口居民休闲的重要公共绿色空间。"
+  },
+  {
+    "id": "HK225",
+    "name": "甜爱路爱情主题步道",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.265802,
+    "lng": 121.497905,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 60,
+    "fit_group": [
+      "情侣",
+      "文艺青年"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "以爱情为主题的特色步行街道，道路两侧种有爱情诗句铭牌和玫瑰花架，沿途有咖啡馆和小花园，街道安静幽雅，是上海著名的情侣散步打卡地，尤其在春季花开时最为浪漫。"
+  },
+  {
+    "id": "HK226",
+    "name": "溧阳路法式梧桐小道",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.263045,
+    "lng": 121.495022,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "摄影爱好者",
+      "情侣"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "被誉为上海最美林荫道之一，百年法国梧桐夹道而生，秋天落叶飞舞的画面极具诗意，道路两侧保留了大量民国时期历史建筑，适合漫步探店，是上海城市历史的活态展廊。"
+  },
+  {
+    "id": "HK227",
+    "name": "四川北路绿荫带休憩区",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.265362,
+    "lng": 121.495806,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.3,
+    "good_review_rate": 0.96,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "购物者",
+      "路人"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "四川北路商业街沿线设置的绿化休憩带，配有座椅与绿荫，是购物疲惫时稍事休息的公共空间，街道氛围热闹，适合观察上海市井生活百态。"
+  },
+  {
+    "id": "HK228",
+    "name": "北外滩白玉兰广场下沉绿地",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.261104,
+    "lng": 121.497212,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "白领",
+      "散步者"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "依托白玉兰广场超高层建筑设计的下沉式公共绿地，以白玉兰花景观为主题，植被丰富，座椅充足，可在草地边休息一边仰望320米高的白玉兰广场，是北外滩商务区少见的安静绿色角落。"
+  },
+  {
+    "id": "HK229",
+    "name": "今潮8弄露天庭院",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.263605,
+    "lng": 121.486777,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 60,
+    "fit_group": [
+      "年轻人",
+      "文艺青年"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "今潮8弄历史建筑群之间的露天庭院空间，保留了原有弄堂石库门院落的空间感，配有景观绿化和休闲座椅，周末常有露天市集和户外音乐活动，是都市街区里难得的呼吸空间。"
+  },
+  {
+    "id": "HK230",
+    "name": "虹口港绿道滨水休闲区",
+    "category_main": "静下来",
+    "category_sub": "草坪时光",
+    "lat": 31.262209,
+    "lng": 121.491876,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.4,
+    "good_review_rate": 0.97,
+    "indoor": false,
+    "stay_minutes": 60,
+    "fit_group": [
+      "慢跑者",
+      "散步者",
+      "亲子"
+    ],
+    "avg_price": 0,
+    "free": true,
+    "need_booking": false,
+    "ticket_tiers": [],
+    "tags": [],
+    "intro": "沿虹口港河道建设的滨水绿道，全线种植垂柳与草坪，设有木栈道和观景平台，可边走边看水景，途经多处历史建筑节点，是骑行、慢跑和亲子户外活动的优质线路。"
+  },
+  {
+    "id": "HK231",
+    "name": "涟咖啡曲阳公园店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.273373,
+    "lng": 121.483985,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "情侣"
+    ],
+    "avg_price": 35,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 35
+      }
+    ],
+    "tags": [],
+    "intro": "坐落于曲阳公园湖畔的网红咖啡馆，拥有大面积落地玻璃窗，室内可欣赏莫奈花园般的湖景绿意，手冲咖啡与花式饮品均衡出色，环境安静，是读书和发呆的绝佳窗边席位。"
+  },
+  {
+    "id": "HK232",
+    "name": "石藤咖啡·四川北路老宅店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.261697,
+    "lng": 121.49174,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "历史爱好者"
+    ],
+    "avg_price": 38,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 38
+      }
+    ],
+    "tags": [],
+    "intro": "藏在四川北路老建筑内的精品咖啡馆，临窗可看四川北路街景与历史里弄，店内陈设融合民国风格与日式简约，主理人精选单品豆出品，空间小巧私密，是闹中取静的隐秘咖啡角落。"
+  },
+  {
+    "id": "HK233",
+    "name": "一尺花园咖啡·今潮8弄店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.267521,
+    "lng": 121.485066,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "年轻人",
+      "植物爱好者"
+    ],
+    "avg_price": 40,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 40
+      }
+    ],
+    "tags": [],
+    "intro": "以植物与自然为主题的精品咖啡馆，店内绿植茂盛，窗边面朝今潮8弄的石库门庭院，咖啡豆精心甄选，饮品呈现与植物器皿结合，是ins风打卡与慢品咖啡的热门场所。"
+  },
+  {
+    "id": "HK234",
+    "name": "MANNER COFFEE北外滩来福士店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.261504,
+    "lng": 121.495071,
+    "open_hours": [
+      [
+        7,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 45,
+    "fit_group": [
+      "白领",
+      "通勤族"
+    ],
+    "avg_price": 15,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 15
+      }
+    ],
+    "tags": [],
+    "intro": "上海本土精品咖啡连锁品牌，以高品质咖啡+极具性价比著称，北外滩店设有临窗座位区，可欣赏来福士广场中庭景观，是周边商务白领早晨提神和下午续航的首选咖啡站。"
+  },
+  {
+    "id": "HK235",
+    "name": "溧阳路1082号咖啡工厂",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.258195,
+    "lng": 121.4951,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "设计师"
+    ],
+    "avg_price": 35,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 35
+      }
+    ],
+    "tags": [],
+    "intro": "入驻溧阳路文创园区的独立精品咖啡馆，工业风格装潢保留了厂房原有的钢架结构，落地大窗面朝庭院绿植，豆款涵盖埃塞俄比亚、哥伦比亚单品，适合工作日安静创作。"
+  },
+  {
+    "id": "HK236",
+    "name": "无界书咖·多伦路店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.268676,
+    "lng": 121.498976,
+    "open_hours": [
+      [
+        10,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "读书爱好者",
+      "文艺青年"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "书店与咖啡馆融合的安静场所，室内摆放文学与艺术类书籍供自由翻阅，窗边面朝多伦路幽静街道，阳光从梧桐叶间洒落，是虹口最适合边喝咖啡边读书的小众角落之一。"
+  },
+  {
+    "id": "HK237",
+    "name": "SEESAW COFFEE虹口瑞虹店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.262934,
+    "lng": 121.484378,
+    "open_hours": [
+      [
+        8,
+        22
+      ]
+    ],
+    "rank_score": 4.7,
+    "good_review_rate": 0.98,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "白领",
+      "咖啡爱好者"
+    ],
+    "avg_price": 35,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 35
+      }
+    ],
+    "tags": [],
+    "intro": "上海精品咖啡代表品牌，瑞虹天地店设有宽敞的落地玻璃座位区，面朝太阳宫中庭穹顶天幕，视觉效果壮观，精品单品与特调均出色，是附近白领工作日下午喝咖啡减压的热门选择。"
+  },
+  {
+    "id": "HK238",
+    "name": "迹外咖啡·北外滩滨江店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.2696,
+    "lng": 121.497197,
+    "open_hours": [
+      [
+        9,
+        21
+      ]
+    ],
+    "rank_score": 4.8,
+    "good_review_rate": 0.99,
+    "indoor": true,
+    "stay_minutes": 90,
+    "fit_group": [
+      "白领",
+      "情侣",
+      "摄影爱好者"
+    ],
+    "avg_price": 40,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 40
+      }
+    ],
+    "tags": [],
+    "intro": "坐落于北外滩滨江绿道内的景观咖啡馆，落地窗正对黄浦江与外滩天际线，日落时金光洒满江面，视野开阔无遮挡，是欣赏上海最美江景同时喝咖啡的稀缺窗边席位，周末常需排队。"
+  },
+  {
+    "id": "HK239",
+    "name": "轻盈咖啡·溧阳路花园里",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.259333,
+    "lng": 121.48354,
+    "open_hours": [
+      [
+        9,
+        20
+      ]
+    ],
+    "rank_score": 4.6,
+    "good_review_rate": 0.98,
+    "indoor": false,
+    "stay_minutes": 90,
+    "fit_group": [
+      "文艺青年",
+      "独处者"
+    ],
+    "avg_price": 35,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 35
+      }
+    ],
+    "tags": [],
+    "intro": "藏在老式里弄花园中的隐秘精品咖啡馆，入口不显眼需穿过弄堂方可到达，室内空间小巧但布置精致，窗边面朝私家花园绿植，提供多款花式特调，是专门寻访的宝藏咖啡角。"
+  },
+  {
+    "id": "HK240",
+    "name": "PEET'S COFFEE北外滩旗舰店",
+    "category_main": "静下来",
+    "category_sub": "窗边咖啡",
+    "lat": 31.262435,
+    "lng": 121.488858,
+    "open_hours": [
+      [
+        7,
+        21
+      ]
+    ],
+    "rank_score": 4.5,
+    "good_review_rate": 0.97,
+    "indoor": true,
+    "stay_minutes": 60,
+    "fit_group": [
+      "商务人士",
+      "白领"
+    ],
+    "avg_price": 30,
+    "free": false,
+    "need_booking": false,
+    "ticket_tiers": [
+      {
+        "type": "普通",
+        "price": 30
+      }
+    ],
+    "tags": [],
+    "intro": "美国精品咖啡品牌中国旗舰店之一，以深度烘焙咖啡豆和手工制作著称，北外滩旗舰店设有宽敞座位区及靠窗观景位，靠近商务核心区，是商务会谈与工作续航的高品质选择。"
+  }
+]

@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.venv/
+*.tmp
+data/booking_tickets.json
+data/user_profiles.json

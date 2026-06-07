@@ -1,0 +1,4894 @@
+[
+  {
+    "id": "R001",
+    "name": "老吉士(永和路店)",
+    "cuisine": "本帮菜",
+    "sub_category": "私房菜",
+    "lat": 31.270458,
+    "lng": 121.489194,
+    "address": "上海市虹口区老吉士(永",
+    "rating": 4.4,
+    "avg_price": 100,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "下饭",
+      "出片"
+    ],
+    "intro": "经典本帮味道,下饭,出片,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R002",
+    "name": "本帮人家(乍浦路店)",
+    "cuisine": "本帮菜",
+    "sub_category": "小馆",
+    "lat": 31.263407,
+    "lng": 121.493196,
+    "address": "上海市虹口区本帮人家(乍",
+    "rating": 4.7,
+    "avg_price": 140,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "下饭"
+    ],
+    "intro": "经典本帮味道,出片,下饭,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R003",
+    "name": "老正兴(虹口店)",
+    "cuisine": "本帮菜",
+    "sub_category": "私房菜",
+    "lat": 31.264539,
+    "lng": 121.481482,
+    "address": "上海市虹口区老正兴(",
+    "rating": 4.9,
+    "avg_price": 134,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "家常",
+      "出片"
+    ],
+    "intro": "经典本帮味道,家常,出片,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 17,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 34
+  },
+  {
+    "id": "R004",
+    "name": "三鲜小馆(临平店)",
+    "cuisine": "本帮菜",
+    "sub_category": "小馆",
+    "lat": 31.270367,
+    "lng": 121.499118,
+    "address": "上海市虹口区三鲜小馆(",
+    "rating": 4.6,
+    "avg_price": 82,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "下饭"
+    ],
+    "intro": "经典本帮味道,出片,下饭,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 22,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 44
+  },
+  {
+    "id": "R005",
+    "name": "上海弄堂菜(四川北路店)",
+    "cuisine": "本帮菜",
+    "sub_category": "家常",
+    "lat": 31.266465,
+    "lng": 121.499083,
+    "address": "上海市虹口区上海弄堂菜(四川",
+    "rating": 4.5,
+    "avg_price": 99,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "家常",
+      "老字号"
+    ],
+    "intro": "经典本帮味道,家常,老字号,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R006",
+    "name": "本帮人家(欧阳店)",
+    "cuisine": "本帮菜",
+    "sub_category": "小馆",
+    "lat": 31.267599,
+    "lng": 121.483151,
+    "address": "上海市虹口区本帮人家(",
+    "rating": 4.2,
+    "avg_price": 73,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "老字号",
+      "家常",
+      "下饭"
+    ],
+    "intro": "经典本帮味道,老字号,家常,下饭,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R007",
+    "name": "海上人家(凉城店)",
+    "cuisine": "本帮菜",
+    "sub_category": "私房菜",
+    "lat": 31.264005,
+    "lng": 121.499549,
+    "address": "上海市虹口区海上人家(",
+    "rating": 4.5,
+    "avg_price": 154,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "地道",
+      "下饭"
+    ],
+    "intro": "经典本帮味道,地道,下饭,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 24,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 48
+  },
+  {
+    "id": "R008",
+    "name": "上海菜馆(红口店)",
+    "cuisine": "本帮菜",
+    "sub_category": "私房菜",
+    "lat": 31.258676,
+    "lng": 121.481867,
+    "address": "上海市虹口区上海菜馆(",
+    "rating": 4.3,
+    "avg_price": 150,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "地道",
+      "出片"
+    ],
+    "intro": "经典本帮味道,地道,出片,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R009",
+    "name": "上海菜馆(北外滩店)",
+    "cuisine": "本帮菜",
+    "sub_category": "小馆",
+    "lat": 31.262743,
+    "lng": 121.489036,
+    "address": "上海市虹口区上海菜馆(北",
+    "rating": 4.4,
+    "avg_price": 111,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "老字号",
+      "出片",
+      "下饭"
+    ],
+    "intro": "经典本帮味道,老字号,出片,下饭,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R010",
+    "name": "老克勒(凉城路店)",
+    "cuisine": "本帮菜",
+    "sub_category": "私房菜",
+    "lat": 31.274975,
+    "lng": 121.500812,
+    "address": "上海市虹口区老克勒(凉",
+    "rating": 4.4,
+    "avg_price": 118,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片"
+    ],
+    "intro": "经典本帮味道,出片,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R011",
+    "name": "外婆家(欧阳店)",
+    "cuisine": "本帮菜",
+    "sub_category": "小馆",
+    "lat": 31.255091,
+    "lng": 121.496171,
+    "address": "上海市虹口区外婆家(",
+    "rating": 4.6,
+    "avg_price": 173,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "家常"
+    ],
+    "intro": "经典本帮味道,出片,家常,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 15,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 30
+  },
+  {
+    "id": "R012",
+    "name": "老吉士(曲阳店)",
+    "cuisine": "本帮菜",
+    "sub_category": "家常",
+    "lat": 31.264649,
+    "lng": 121.492048,
+    "address": "上海市虹口区老吉士(",
+    "rating": 4.7,
+    "avg_price": 162,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "地道",
+      "老字号"
+    ],
+    "intro": "经典本帮味道,地道,老字号,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 25,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 50
+  },
+  {
+    "id": "R013",
+    "name": "上海弄堂菜(红口店)",
+    "cuisine": "本帮菜",
+    "sub_category": "私房菜",
+    "lat": 31.274128,
+    "lng": 121.485377,
+    "address": "上海市虹口区上海弄堂菜(",
+    "rating": 4.5,
+    "avg_price": 86,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "老字号",
+      "家常"
+    ],
+    "intro": "经典本帮味道,出片,老字号,家常,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R014",
+    "name": "红烧记(虹湾店)",
+    "cuisine": "本帮菜",
+    "sub_category": "私房菜",
+    "lat": 31.26176,
+    "lng": 121.486758,
+    "address": "上海市虹口区红烧记(",
+    "rating": 4.2,
+    "avg_price": 90,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "老字号",
+      "家常",
+      "地道"
+    ],
+    "intro": "经典本帮味道,老字号,家常,地道,招牌红烧肉/八宝鸭/油爆虾。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R015",
+    "name": "辣府(广中店)",
+    "cuisine": "川菜",
+    "sub_category": "水煮",
+    "lat": 31.271431,
+    "lng": 121.497049,
+    "address": "上海市虹口区辣府(",
+    "rating": 4.8,
+    "avg_price": 132,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会"
+    ],
+    "intro": "地道川味,辣度可调,聚会。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R016",
+    "name": "麻辣空间(北外滩店)",
+    "cuisine": "川菜",
+    "sub_category": "川菜馆",
+    "lat": 31.263689,
+    "lng": 121.484394,
+    "address": "上海市虹口区麻辣空间(北",
+    "rating": 4.0,
+    "avg_price": 59,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "重口味"
+    ],
+    "intro": "地道川味,辣度可调,麻辣,重口味。",
+    "base_queue_at_peak": 2,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 4
+  },
+  {
+    "id": "R017",
+    "name": "蜀九香(红口店)",
+    "cuisine": "川菜",
+    "sub_category": "川菜馆",
+    "lat": 31.262787,
+    "lng": 121.488041,
+    "address": "上海市虹口区蜀九香(",
+    "rating": 4.2,
+    "avg_price": 120,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "聚会"
+    ],
+    "intro": "地道川味,辣度可调,麻辣,聚会。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R018",
+    "name": "锦城川菜(欧阳店)",
+    "cuisine": "川菜",
+    "sub_category": "钵钵鸡",
+    "lat": 31.273133,
+    "lng": 121.480941,
+    "address": "上海市虹口区锦城川菜(",
+    "rating": 4.7,
+    "avg_price": 83,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "聚会"
+    ],
+    "intro": "地道川味,辣度可调,麻辣,聚会。",
+    "base_queue_at_peak": 18,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 36
+  },
+  {
+    "id": "R019",
+    "name": "巴蜀小馆(北外滩店)",
+    "cuisine": "川菜",
+    "sub_category": "川菜馆",
+    "lat": 31.271684,
+    "lng": 121.480502,
+    "address": "上海市虹口区巴蜀小馆(北",
+    "rating": 4.5,
+    "avg_price": 92,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "下饭"
+    ],
+    "intro": "地道川味,辣度可调,麻辣,下饭。",
+    "base_queue_at_peak": 18,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 36
+  },
+  {
+    "id": "R020",
+    "name": "蓉记(花园路店)",
+    "cuisine": "川菜",
+    "sub_category": "麻辣香锅",
+    "lat": 31.265406,
+    "lng": 121.494739,
+    "address": "上海市虹口区蓉记(花",
+    "rating": 4.5,
+    "avg_price": 67,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会",
+      "麻辣"
+    ],
+    "intro": "地道川味,辣度可调,聚会,麻辣。",
+    "base_queue_at_peak": 14,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 28
+  },
+  {
+    "id": "R021",
+    "name": "川蜀人家(今潮8弄店)",
+    "cuisine": "川菜",
+    "sub_category": "麻辣香锅",
+    "lat": 31.267118,
+    "lng": 121.499139,
+    "address": "上海市虹口区川蜀人家(今潮",
+    "rating": 4.8,
+    "avg_price": 53,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "重口味"
+    ],
+    "intro": "地道川味,辣度可调,重口味。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R022",
+    "name": "蓉记(东宝兴店)",
+    "cuisine": "川菜",
+    "sub_category": "川菜馆",
+    "lat": 31.267072,
+    "lng": 121.492133,
+    "address": "上海市虹口区蓉记(东",
+    "rating": 4.6,
+    "avg_price": 67,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会",
+      "下饭"
+    ],
+    "intro": "地道川味,辣度可调,聚会,下饭。",
+    "base_queue_at_peak": 13,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 26
+  },
+  {
+    "id": "R023",
+    "name": "渝家小厨(广中店)",
+    "cuisine": "川菜",
+    "sub_category": "水煮",
+    "lat": 31.2696,
+    "lng": 121.498518,
+    "address": "上海市虹口区渝家小厨(",
+    "rating": 4.5,
+    "avg_price": 146,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会",
+      "下饭",
+      "麻辣"
+    ],
+    "intro": "地道川味,辣度可调,聚会,下饭,麻辣。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R024",
+    "name": "蜀九香(运光店)",
+    "cuisine": "川菜",
+    "sub_category": "水煮",
+    "lat": 31.260878,
+    "lng": 121.49721,
+    "address": "上海市虹口区蜀九香(",
+    "rating": 4.8,
+    "avg_price": 126,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 12,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "下饭"
+    ],
+    "intro": "地道川味,辣度可调,麻辣,下饭。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R025",
+    "name": "川香坊(四川北路店)",
+    "cuisine": "川菜",
+    "sub_category": "钵钵鸡",
+    "lat": 31.264231,
+    "lng": 121.500815,
+    "address": "上海市虹口区川香坊(四川",
+    "rating": 4.2,
+    "avg_price": 84,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会",
+      "重口味",
+      "下饭"
+    ],
+    "intro": "地道川味,辣度可调,聚会,重口味,下饭。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R026",
+    "name": "巴蜀小馆(四川北路店)",
+    "cuisine": "川菜",
+    "sub_category": "水煮",
+    "lat": 31.271202,
+    "lng": 121.494312,
+    "address": "上海市虹口区巴蜀小馆(四川",
+    "rating": 4.8,
+    "avg_price": 118,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "重口味"
+    ],
+    "intro": "地道川味,辣度可调,麻辣,重口味。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R027",
+    "name": "潮汕牛肉(海伦店)",
+    "cuisine": "粤菜",
+    "sub_category": "粤式酒楼",
+    "lat": 31.274123,
+    "lng": 121.486558,
+    "address": "上海市虹口区潮汕牛肉(",
+    "rating": 4.9,
+    "avg_price": 107,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "商务",
+      "清淡",
+      "茶点"
+    ],
+    "intro": "粤式粤式酒楼,清淡精致,商务,清淡,茶点。",
+    "base_queue_at_peak": 21,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 42
+  },
+  {
+    "id": "R028",
+    "name": "港式茶餐厅(永和路店)",
+    "cuisine": "粤菜",
+    "sub_category": "粤式酒楼",
+    "lat": 31.26676,
+    "lng": 121.481224,
+    "address": "上海市虹口区港式茶餐厅(永",
+    "rating": 4.9,
+    "avg_price": 218,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "商务",
+      "茶点"
+    ],
+    "intro": "粤式粤式酒楼,清淡精致,商务,茶点。",
+    "base_queue_at_peak": 7,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 14
+  },
+  {
+    "id": "R029",
+    "name": "潮汕牛肉(凉城路店)",
+    "cuisine": "粤菜",
+    "sub_category": "烧腊",
+    "lat": 31.261495,
+    "lng": 121.499666,
+    "address": "上海市虹口区潮汕牛肉(凉",
+    "rating": 4.2,
+    "avg_price": 83,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "商务",
+      "清淡",
+      "出片"
+    ],
+    "intro": "粤式烧腊,清淡精致,商务,清淡,出片。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R030",
+    "name": "粤味轩(东宝兴店)",
+    "cuisine": "粤菜",
+    "sub_category": "粤式酒楼",
+    "lat": 31.260145,
+    "lng": 121.492591,
+    "address": "上海市虹口区粤味轩(东",
+    "rating": 4.2,
+    "avg_price": 198,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "商务"
+    ],
+    "intro": "粤式粤式酒楼,清淡精致,出片,商务。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R031",
+    "name": "港式茶餐厅(北外滩店)",
+    "cuisine": "粤菜",
+    "sub_category": "茶餐厅",
+    "lat": 31.256419,
+    "lng": 121.487952,
+    "address": "上海市虹口区港式茶餐厅(北",
+    "rating": 4.4,
+    "avg_price": 96,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "清淡",
+      "出片"
+    ],
+    "intro": "粤式茶餐厅,清淡精致,清淡,出片。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R032",
+    "name": "粤海轩(临平店)",
+    "cuisine": "粤菜",
+    "sub_category": "茶餐厅",
+    "lat": 31.273148,
+    "lng": 121.500744,
+    "address": "上海市虹口区粤海轩(",
+    "rating": 4.5,
+    "avg_price": 86,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "商务",
+      "茶点",
+      "出片"
+    ],
+    "intro": "粤式茶餐厅,清淡精致,商务,茶点,出片。",
+    "base_queue_at_peak": 25,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 50
+  },
+  {
+    "id": "R033",
+    "name": "广式烧腊(红口店)",
+    "cuisine": "粤菜",
+    "sub_category": "潮汕菜",
+    "lat": 31.267003,
+    "lng": 121.479753,
+    "address": "上海市虹口区广式烧腊(",
+    "rating": 4.7,
+    "avg_price": 103,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "茶点",
+      "商务"
+    ],
+    "intro": "粤式潮汕菜,清淡精致,茶点,商务。",
+    "base_queue_at_peak": 17,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 34
+  },
+  {
+    "id": "R034",
+    "name": "湾仔茶记(瑞虹店)",
+    "cuisine": "粤菜",
+    "sub_category": "烧腊",
+    "lat": 31.272144,
+    "lng": 121.496309,
+    "address": "上海市虹口区湾仔茶记(",
+    "rating": 4.7,
+    "avg_price": 98,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "茶点",
+      "商务"
+    ],
+    "intro": "粤式烧腊,清淡精致,茶点,商务。",
+    "base_queue_at_peak": 17,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 34
+  },
+  {
+    "id": "R035",
+    "name": "广式茶餐厅(虹口店)",
+    "cuisine": "粤菜",
+    "sub_category": "烧腊",
+    "lat": 31.259362,
+    "lng": 121.500028,
+    "address": "上海市虹口区广式茶餐厅(",
+    "rating": 4.2,
+    "avg_price": 149,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "清淡"
+    ],
+    "intro": "粤式烧腊,清淡精致,出片,清淡。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R036",
+    "name": "广式烧腊(虹湾店)",
+    "cuisine": "粤菜",
+    "sub_category": "潮汕菜",
+    "lat": 31.266328,
+    "lng": 121.482841,
+    "address": "上海市虹口区广式烧腊(",
+    "rating": 4.4,
+    "avg_price": 193,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "茶点"
+    ],
+    "intro": "粤式潮汕菜,清淡精致,出片,茶点。",
+    "base_queue_at_peak": 7,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 14
+  },
+  {
+    "id": "R037",
+    "name": "湖南人(欧阳店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘菜馆",
+    "lat": 31.260655,
+    "lng": 121.486671,
+    "address": "上海市虹口区湖南人(",
+    "rating": 4.2,
+    "avg_price": 129,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "家常"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,家常。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R038",
+    "name": "湘味人家(乍浦路店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘西菜",
+    "lat": 31.258159,
+    "lng": 121.489506,
+    "address": "上海市虹口区湘味人家(乍",
+    "rating": 4.6,
+    "avg_price": 125,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "家常"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,麻辣,家常。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R039",
+    "name": "湘里湘亲(广中店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘菜馆",
+    "lat": 31.256289,
+    "lng": 121.495275,
+    "address": "上海市虹口区湘里湘亲(",
+    "rating": 4.9,
+    "avg_price": 92,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "下饭",
+      "家常"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,下饭,家常。",
+    "base_queue_at_peak": 24,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 48
+  },
+  {
+    "id": "R040",
+    "name": "湘里湘亲(凉城店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘菜馆",
+    "lat": 31.256,
+    "lng": 121.480237,
+    "address": "上海市虹口区湘里湘亲(",
+    "rating": 4.8,
+    "avg_price": 123,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "下饭",
+      "家常"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,下饭,家常。",
+    "base_queue_at_peak": 23,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 46
+  },
+  {
+    "id": "R041",
+    "name": "湘里湘亲(临平店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘菜馆",
+    "lat": 31.256157,
+    "lng": 121.496777,
+    "address": "上海市虹口区湘里湘亲(",
+    "rating": 4.0,
+    "avg_price": 119,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "下饭"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,麻辣,下饭。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R042",
+    "name": "湖南人(永和路店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘菜馆",
+    "lat": 31.266911,
+    "lng": 121.488988,
+    "address": "上海市虹口区湖南人(永",
+    "rating": 4.2,
+    "avg_price": 76,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "家常",
+      "下饭"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,麻辣,家常,下饭。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R043",
+    "name": "毛家饭店(北外滩店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘西菜",
+    "lat": 31.269195,
+    "lng": 121.494477,
+    "address": "上海市虹口区毛家饭店(北",
+    "rating": 4.1,
+    "avg_price": 124,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "家常",
+      "麻辣"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,家常,麻辣。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R044",
+    "name": "毛家饭店(四川北路店)",
+    "cuisine": "湘菜",
+    "sub_category": "湘西菜",
+    "lat": 31.26544,
+    "lng": 121.488293,
+    "address": "上海市虹口区毛家饭店(四川",
+    "rating": 4.4,
+    "avg_price": 118,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "麻辣",
+      "家常"
+    ],
+    "intro": "湖南家常菜,辣得过瘾,麻辣,家常。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R045",
+    "name": "东北大碗菜(北外滩店)",
+    "cuisine": "东北菜",
+    "sub_category": "东北菜",
+    "lat": 31.270332,
+    "lng": 121.489232,
+    "address": "上海市虹口区东北大碗菜(北",
+    "rating": 4.2,
+    "avg_price": 95,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "家常",
+      "分量大"
+    ],
+    "intro": "东北家常,分量足实在,家常,分量大。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R046",
+    "name": "老东北(北外滩店)",
+    "cuisine": "东北菜",
+    "sub_category": "东北菜",
+    "lat": 31.264165,
+    "lng": 121.486621,
+    "address": "上海市虹口区老东北(北",
+    "rating": 4.5,
+    "avg_price": 65,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "便宜大碗",
+      "分量大",
+      "家常"
+    ],
+    "intro": "东北家常,分量足实在,便宜大碗,分量大,家常。",
+    "base_queue_at_peak": 20,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 40
+  },
+  {
+    "id": "R047",
+    "name": "饺子馆(运光店)",
+    "cuisine": "东北菜",
+    "sub_category": "东北菜",
+    "lat": 31.25778,
+    "lng": 121.492033,
+    "address": "上海市虹口区饺子馆(",
+    "rating": 4.9,
+    "avg_price": 62,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "分量大",
+      "家常"
+    ],
+    "intro": "东北家常,分量足实在,分量大,家常。",
+    "base_queue_at_peak": 15,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 30
+  },
+  {
+    "id": "R048",
+    "name": "山海关(今潮8弄店)",
+    "cuisine": "东北菜",
+    "sub_category": "饺子馆",
+    "lat": 31.267237,
+    "lng": 121.496759,
+    "address": "上海市虹口区山海关(今潮",
+    "rating": 4.4,
+    "avg_price": 60,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "分量大",
+      "家常"
+    ],
+    "intro": "东北家常,分量足实在,分量大,家常。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R049",
+    "name": "老东北(花园路店)",
+    "cuisine": "东北菜",
+    "sub_category": "东北菜",
+    "lat": 31.271482,
+    "lng": 121.485792,
+    "address": "上海市虹口区老东北(花",
+    "rating": 4.0,
+    "avg_price": 50,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "便宜大碗",
+      "分量大"
+    ],
+    "intro": "东北家常,分量足实在,便宜大碗,分量大。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R050",
+    "name": "老东北(虹口店)",
+    "cuisine": "东北菜",
+    "sub_category": "东北菜",
+    "lat": 31.265978,
+    "lng": 121.493382,
+    "address": "上海市虹口区老东北(",
+    "rating": 4.1,
+    "avg_price": 48,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "分量大",
+      "家常"
+    ],
+    "intro": "东北家常,分量足实在,分量大,家常。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R051",
+    "name": "雪村(今潮8弄店)",
+    "cuisine": "东北菜",
+    "sub_category": "东北菜",
+    "lat": 31.264885,
+    "lng": 121.485226,
+    "address": "上海市虹口区雪村(今潮",
+    "rating": 4.1,
+    "avg_price": 75,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "分量大",
+      "家常"
+    ],
+    "intro": "东北家常,分量足实在,分量大,家常。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R052",
+    "name": "山海关(红口店)",
+    "cuisine": "东北菜",
+    "sub_category": "东北菜",
+    "lat": 31.26489,
+    "lng": 121.490541,
+    "address": "上海市虹口区山海关(",
+    "rating": 4.4,
+    "avg_price": 66,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "分量大"
+    ],
+    "intro": "东北家常,分量足实在,分量大。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R053",
+    "name": "和心日料(运光店)",
+    "cuisine": "日料",
+    "sub_category": "拉面",
+    "lat": 31.268918,
+    "lng": 121.500109,
+    "address": "上海市虹口区和心日料(",
+    "rating": 4.4,
+    "avg_price": 233,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "高级",
+      "出片"
+    ],
+    "intro": "拉面专门店,选材考究,高级,出片。",
+    "base_queue_at_peak": 10,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 20
+  },
+  {
+    "id": "R054",
+    "name": "鳥喜(曲阳店)",
+    "cuisine": "日料",
+    "sub_category": "寿司",
+    "lat": 31.259523,
+    "lng": 121.488748,
+    "address": "上海市虹口区鳥喜(",
+    "rating": 4.9,
+    "avg_price": 121,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "约会"
+    ],
+    "intro": "寿司专门店,选材考究,约会。",
+    "base_queue_at_peak": 14,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 28
+  },
+  {
+    "id": "R055",
+    "name": "鲜鱼一(北外滩店)",
+    "cuisine": "日料",
+    "sub_category": "居酒屋",
+    "lat": 31.268013,
+    "lng": 121.493498,
+    "address": "上海市虹口区鲜鱼一(北",
+    "rating": 4.3,
+    "avg_price": 198,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "约会",
+      "出片",
+      "精致"
+    ],
+    "intro": "居酒屋专门店,选材考究,约会,出片,精致。",
+    "base_queue_at_peak": 10,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 20
+  },
+  {
+    "id": "R056",
+    "name": "稻禾日料(凉城店)",
+    "cuisine": "日料",
+    "sub_category": "日式烧烤",
+    "lat": 31.268314,
+    "lng": 121.489301,
+    "address": "上海市虹口区稻禾日料(",
+    "rating": 4.0,
+    "avg_price": 349,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "高级"
+    ],
+    "intro": "日式烧烤专门店,选材考究,高级。",
+    "base_queue_at_peak": 2,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 4
+  },
+  {
+    "id": "R057",
+    "name": "蓝瓶日料(乍浦路店)",
+    "cuisine": "日料",
+    "sub_category": "寿司",
+    "lat": 31.257754,
+    "lng": 121.497841,
+    "address": "上海市虹口区蓝瓶日料(乍",
+    "rating": 4.2,
+    "avg_price": 337,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "商务",
+      "约会"
+    ],
+    "intro": "寿司专门店,选材考究,商务,约会。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R058",
+    "name": "千秋日料(永和路店)",
+    "cuisine": "日料",
+    "sub_category": "日式烧烤",
+    "lat": 31.26923,
+    "lng": 121.488736,
+    "address": "上海市虹口区千秋日料(永",
+    "rating": 4.8,
+    "avg_price": 258,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "商务"
+    ],
+    "intro": "日式烧烤专门店,选材考究,出片,商务。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R059",
+    "name": "禾绿回转(红口店)",
+    "cuisine": "日料",
+    "sub_category": "寿司",
+    "lat": 31.26548,
+    "lng": 121.486675,
+    "address": "上海市虹口区禾绿回转(",
+    "rating": 4.6,
+    "avg_price": 185,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "商务",
+      "约会",
+      "高级"
+    ],
+    "intro": "寿司专门店,选材考究,商务,约会,高级。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R060",
+    "name": "和心日料(红口店)",
+    "cuisine": "日料",
+    "sub_category": "拉面",
+    "lat": 31.257512,
+    "lng": 121.481695,
+    "address": "上海市虹口区和心日料(",
+    "rating": 4.2,
+    "avg_price": 288,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "约会"
+    ],
+    "intro": "拉面专门店,选材考究,出片,约会。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R061",
+    "name": "鳗满(海伦店)",
+    "cuisine": "日料",
+    "sub_category": "拉面",
+    "lat": 31.271621,
+    "lng": 121.498426,
+    "address": "上海市虹口区鳗满(",
+    "rating": 4.5,
+    "avg_price": 139,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "约会",
+      "出片"
+    ],
+    "intro": "拉面专门店,选材考究,约会,出片。",
+    "base_queue_at_peak": 20,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 40
+  },
+  {
+    "id": "R062",
+    "name": "鳗满(红口店)",
+    "cuisine": "日料",
+    "sub_category": "拉面",
+    "lat": 31.261005,
+    "lng": 121.480692,
+    "address": "上海市虹口区鳗满(",
+    "rating": 4.5,
+    "avg_price": 208,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "商务",
+      "精致"
+    ],
+    "intro": "拉面专门店,选材考究,商务,精致。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R063",
+    "name": "鮨之心(广中店)",
+    "cuisine": "日料",
+    "sub_category": "日式烧烤",
+    "lat": 31.259758,
+    "lng": 121.486713,
+    "address": "上海市虹口区鮨之心(",
+    "rating": 4.5,
+    "avg_price": 126,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "约会",
+      "出片"
+    ],
+    "intro": "日式烧烤专门店,选材考究,约会,出片。",
+    "base_queue_at_peak": 19,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 38
+  },
+  {
+    "id": "R064",
+    "name": "禾绿回转(花园路店)",
+    "cuisine": "日料",
+    "sub_category": "日式烧烤",
+    "lat": 31.273825,
+    "lng": 121.491494,
+    "address": "上海市虹口区禾绿回转(花",
+    "rating": 4.2,
+    "avg_price": 284,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "约会",
+      "精致"
+    ],
+    "intro": "日式烧烤专门店,选材考究,约会,精致。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R065",
+    "name": "禾绿回转(凉城店)",
+    "cuisine": "日料",
+    "sub_category": "日式烧烤",
+    "lat": 31.265992,
+    "lng": 121.484331,
+    "address": "上海市虹口区禾绿回转(",
+    "rating": 4.7,
+    "avg_price": 132,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "高级"
+    ],
+    "intro": "日式烧烤专门店,选材考究,出片,高级。",
+    "base_queue_at_peak": 20,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 40
+  },
+  {
+    "id": "R066",
+    "name": "禾绿回转(永和路店)",
+    "cuisine": "日料",
+    "sub_category": "寿司",
+    "lat": 31.261864,
+    "lng": 121.484779,
+    "address": "上海市虹口区禾绿回转(永",
+    "rating": 4.9,
+    "avg_price": 212,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "约会"
+    ],
+    "intro": "寿司专门店,选材考究,出片,约会。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R067",
+    "name": "首尔之夜(花园路店)",
+    "cuisine": "韩餐",
+    "sub_category": "炸鸡",
+    "lat": 31.272709,
+    "lng": 121.496134,
+    "address": "上海市虹口区首尔之夜(花",
+    "rating": 4.7,
+    "avg_price": 119,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会",
+      "烤肉"
+    ],
+    "intro": "韩式炸鸡,氛围地道,聚会,烤肉。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R068",
+    "name": "汉江(永和路店)",
+    "cuisine": "韩餐",
+    "sub_category": "韩式烤肉",
+    "lat": 31.256215,
+    "lng": 121.479738,
+    "address": "上海市虹口区汉江(永",
+    "rating": 4.8,
+    "avg_price": 84,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会",
+      "情侣"
+    ],
+    "intro": "韩式韩式烤肉,氛围地道,聚会,情侣。",
+    "base_queue_at_peak": 21,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 42
+  },
+  {
+    "id": "R069",
+    "name": "金家(永和路店)",
+    "cuisine": "韩餐",
+    "sub_category": "韩式烤肉",
+    "lat": 31.262333,
+    "lng": 121.48097,
+    "address": "上海市虹口区金家(永",
+    "rating": 4.8,
+    "avg_price": 122,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "情侣",
+      "烤肉"
+    ],
+    "intro": "韩式韩式烤肉,氛围地道,情侣,烤肉。",
+    "base_queue_at_peak": 24,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 48
+  },
+  {
+    "id": "R070",
+    "name": "韩国料理(虹湾店)",
+    "cuisine": "韩餐",
+    "sub_category": "炸鸡",
+    "lat": 31.258347,
+    "lng": 121.490617,
+    "address": "上海市虹口区韩国料理(",
+    "rating": 4.8,
+    "avg_price": 83,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "烤肉",
+      "情侣"
+    ],
+    "intro": "韩式炸鸡,氛围地道,烤肉,情侣。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R071",
+    "name": "金家(红口店)",
+    "cuisine": "韩餐",
+    "sub_category": "韩式烤肉",
+    "lat": 31.259976,
+    "lng": 121.487924,
+    "address": "上海市虹口区金家(",
+    "rating": 4.1,
+    "avg_price": 139,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "情侣",
+      "聚会"
+    ],
+    "intro": "韩式韩式烤肉,氛围地道,情侣,聚会。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R072",
+    "name": "首尔屋(花园路店)",
+    "cuisine": "韩餐",
+    "sub_category": "石锅拌饭",
+    "lat": 31.260494,
+    "lng": 121.494611,
+    "address": "上海市虹口区首尔屋(花",
+    "rating": 4.9,
+    "avg_price": 137,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "情侣",
+      "烤肉"
+    ],
+    "intro": "韩式石锅拌饭,氛围地道,情侣,烤肉。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R073",
+    "name": "首尔屋(临平店)",
+    "cuisine": "韩餐",
+    "sub_category": "炸鸡",
+    "lat": 31.257991,
+    "lng": 121.488126,
+    "address": "上海市虹口区首尔屋(",
+    "rating": 4.8,
+    "avg_price": 170,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "烤肉",
+      "聚会"
+    ],
+    "intro": "韩式炸鸡,氛围地道,烤肉,聚会。",
+    "base_queue_at_peak": 15,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 30
+  },
+  {
+    "id": "R074",
+    "name": "首尔之夜(东宝兴店)",
+    "cuisine": "韩餐",
+    "sub_category": "石锅拌饭",
+    "lat": 31.267462,
+    "lng": 121.485807,
+    "address": "上海市虹口区首尔之夜(东",
+    "rating": 4.7,
+    "avg_price": 170,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "聚会",
+      "情侣"
+    ],
+    "intro": "韩式石锅拌饭,氛围地道,聚会,情侣。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R075",
+    "name": "意面屋(乍浦路店)",
+    "cuisine": "西餐",
+    "sub_category": "牛排",
+    "lat": 31.25871,
+    "lng": 121.483819,
+    "address": "上海市虹口区意面屋(乍",
+    "rating": 4.7,
+    "avg_price": 255,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "精致",
+      "出片"
+    ],
+    "intro": "牛排,环境精致,精致,出片。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R076",
+    "name": "Olive (虹湾店)",
+    "cuisine": "西餐",
+    "sub_category": "牛排",
+    "lat": 31.263276,
+    "lng": 121.493644,
+    "address": "上海市虹口区Olive (",
+    "rating": 4.1,
+    "avg_price": 100,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "精致",
+      "约会"
+    ],
+    "intro": "牛排,环境精致,精致,约会。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R077",
+    "name": "牛排工房(广中店)",
+    "cuisine": "西餐",
+    "sub_category": "牛排",
+    "lat": 31.26726,
+    "lng": 121.481275,
+    "address": "上海市虹口区牛排工房(",
+    "rating": 4.5,
+    "avg_price": 271,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "精致",
+      "商务"
+    ],
+    "intro": "牛排,环境精致,精致,商务。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R078",
+    "name": "Tavolo (广中店)",
+    "cuisine": "西餐",
+    "sub_category": "牛排",
+    "lat": 31.264932,
+    "lng": 121.483982,
+    "address": "上海市虹口区Tavolo (",
+    "rating": 4.7,
+    "avg_price": 241,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "精致",
+      "出片",
+      "商务"
+    ],
+    "intro": "牛排,环境精致,精致,出片,商务。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R079",
+    "name": "牛排工房(今潮8弄店)",
+    "cuisine": "西餐",
+    "sub_category": "意餐",
+    "lat": 31.26796,
+    "lng": 121.483962,
+    "address": "上海市虹口区牛排工房(今潮",
+    "rating": 4.1,
+    "avg_price": 277,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "高级",
+      "精致"
+    ],
+    "intro": "意餐,环境精致,高级,精致。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R080",
+    "name": "Sauce (虹湾店)",
+    "cuisine": "西餐",
+    "sub_category": "牛排",
+    "lat": 31.26969,
+    "lng": 121.483904,
+    "address": "上海市虹口区Sauce (",
+    "rating": 4.4,
+    "avg_price": 305,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "高级",
+      "约会"
+    ],
+    "intro": "牛排,环境精致,高级,约会。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R081",
+    "name": "Lumiere (凉城路店)",
+    "cuisine": "西餐",
+    "sub_category": "法餐",
+    "lat": 31.272663,
+    "lng": 121.484905,
+    "address": "上海市虹口区Lumiere (凉",
+    "rating": 4.7,
+    "avg_price": 375,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "高级",
+      "出片"
+    ],
+    "intro": "法餐,环境精致,高级,出片。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R082",
+    "name": "牛排工房(凉城路店)",
+    "cuisine": "西餐",
+    "sub_category": "意餐",
+    "lat": 31.26216,
+    "lng": 121.481149,
+    "address": "上海市虹口区牛排工房(凉",
+    "rating": 4.4,
+    "avg_price": 179,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "约会",
+      "商务"
+    ],
+    "intro": "意餐,环境精致,出片,约会,商务。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R083",
+    "name": "意面屋(海伦店)",
+    "cuisine": "西餐",
+    "sub_category": "意餐",
+    "lat": 31.27034,
+    "lng": 121.479291,
+    "address": "上海市虹口区意面屋(",
+    "rating": 4.1,
+    "avg_price": 107,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "精致"
+    ],
+    "intro": "意餐,环境精致,出片,精致。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R084",
+    "name": "Sauce (北外滩店)",
+    "cuisine": "西餐",
+    "sub_category": "披萨",
+    "lat": 31.271172,
+    "lng": 121.483247,
+    "address": "上海市虹口区Sauce (北",
+    "rating": 4.2,
+    "avg_price": 247,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "精致",
+      "出片"
+    ],
+    "intro": "披萨,环境精致,精致,出片。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R085",
+    "name": "椰子鸡(运光店)",
+    "cuisine": "东南亚",
+    "sub_category": "越南菜",
+    "lat": 31.27246,
+    "lng": 121.487798,
+    "address": "上海市虹口区椰子鸡(",
+    "rating": 4.7,
+    "avg_price": 121,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "特色",
+      "约会"
+    ],
+    "intro": "越南菜风味,酸辣开胃,特色,约会。",
+    "base_queue_at_peak": 20,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 40
+  },
+  {
+    "id": "R086",
+    "name": "南洋食府(凉城路店)",
+    "cuisine": "东南亚",
+    "sub_category": "泰菜",
+    "lat": 31.262593,
+    "lng": 121.487818,
+    "address": "上海市虹口区南洋食府(凉",
+    "rating": 4.7,
+    "avg_price": 167,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "特色"
+    ],
+    "intro": "泰菜风味,酸辣开胃,特色。",
+    "base_queue_at_peak": 20,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 40
+  },
+  {
+    "id": "R087",
+    "name": "香茅(北外滩店)",
+    "cuisine": "东南亚",
+    "sub_category": "越南菜",
+    "lat": 31.255799,
+    "lng": 121.494648,
+    "address": "上海市虹口区香茅(北",
+    "rating": 4.5,
+    "avg_price": 79,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "约会"
+    ],
+    "intro": "越南菜风味,酸辣开胃,约会。",
+    "base_queue_at_peak": 21,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 42
+  },
+  {
+    "id": "R088",
+    "name": "泰象(广中店)",
+    "cuisine": "东南亚",
+    "sub_category": "越南菜",
+    "lat": 31.262697,
+    "lng": 121.493347,
+    "address": "上海市虹口区泰象(",
+    "rating": 4.8,
+    "avg_price": 160,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "特色"
+    ],
+    "intro": "越南菜风味,酸辣开胃,出片,特色。",
+    "base_queue_at_peak": 21,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 42
+  },
+  {
+    "id": "R089",
+    "name": "泰象(四川北路店)",
+    "cuisine": "东南亚",
+    "sub_category": "越南菜",
+    "lat": 31.267745,
+    "lng": 121.489566,
+    "address": "上海市虹口区泰象(四川",
+    "rating": 4.1,
+    "avg_price": 111,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "约会",
+      "特色",
+      "出片"
+    ],
+    "intro": "越南菜风味,酸辣开胃,约会,特色,出片。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R090",
+    "name": "椰岛(欧阳店)",
+    "cuisine": "东南亚",
+    "sub_category": "泰菜",
+    "lat": 31.264851,
+    "lng": 121.496307,
+    "address": "上海市虹口区椰岛(",
+    "rating": 4.5,
+    "avg_price": 160,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "约会",
+      "出片"
+    ],
+    "intro": "泰菜风味,酸辣开胃,约会,出片。",
+    "base_queue_at_peak": 25,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 50
+  },
+  {
+    "id": "R091",
+    "name": "南洋食府(凉城店)",
+    "cuisine": "东南亚",
+    "sub_category": "越南菜",
+    "lat": 31.263224,
+    "lng": 121.487053,
+    "address": "上海市虹口区南洋食府(",
+    "rating": 4.5,
+    "avg_price": 111,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "约会"
+    ],
+    "intro": "越南菜风味,酸辣开胃,出片,约会。",
+    "base_queue_at_peak": 24,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 48
+  },
+  {
+    "id": "R092",
+    "name": "椰岛(今潮8弄店)",
+    "cuisine": "东南亚",
+    "sub_category": "新马菜",
+    "lat": 31.2667,
+    "lng": 121.491792,
+    "address": "上海市虹口区椰岛(今潮",
+    "rating": 4.7,
+    "avg_price": 105,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": true,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": true,
+    "tags": [
+      "出片",
+      "特色"
+    ],
+    "intro": "新马菜风味,酸辣开胃,出片,特色。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R093",
+    "name": "沙县小吃(乍浦路店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.255702,
+    "lng": 121.4912,
+    "address": "上海市虹口区沙县小吃(乍",
+    "rating": 4.3,
+    "avg_price": 21,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快",
+      "便宜"
+    ],
+    "intro": "汉堡,出餐快效率高,快,便宜。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R094",
+    "name": "永和大王(永和路店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.265942,
+    "lng": 121.483591,
+    "address": "上海市虹口区永和大王(永",
+    "rating": 4.2,
+    "avg_price": 50,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快"
+    ],
+    "intro": "汉堡,出餐快效率高,快。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R095",
+    "name": "真功夫(凉城店)",
+    "cuisine": "快餐",
+    "sub_category": "麻辣烫",
+    "lat": 31.259485,
+    "lng": 121.49354,
+    "address": "上海市虹口区真功夫(",
+    "rating": 4.4,
+    "avg_price": 20,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "外卖",
+      "工作日"
+    ],
+    "intro": "麻辣烫,出餐快效率高,外卖,工作日。",
+    "base_queue_at_peak": 10,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 20
+  },
+  {
+    "id": "R096",
+    "name": "汉堡王(凉城路店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.269451,
+    "lng": 121.494158,
+    "address": "上海市虹口区汉堡王(凉",
+    "rating": 4.8,
+    "avg_price": 30,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "外卖",
+      "便宜"
+    ],
+    "intro": "汉堡,出餐快效率高,外卖,便宜。",
+    "base_queue_at_peak": 7,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 14
+  },
+  {
+    "id": "R097",
+    "name": "肯德基(东宝兴店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.273938,
+    "lng": 121.499659,
+    "address": "上海市虹口区肯德基(东",
+    "rating": 4.7,
+    "avg_price": 46,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "工作日",
+      "便宜"
+    ],
+    "intro": "汉堡,出餐快效率高,工作日,便宜。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R098",
+    "name": "汉堡王(临平店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.263532,
+    "lng": 121.496459,
+    "address": "上海市虹口区汉堡王(",
+    "rating": 4.7,
+    "avg_price": 32,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快",
+      "便宜",
+      "外卖"
+    ],
+    "intro": "汉堡,出餐快效率高,快,便宜,外卖。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R099",
+    "name": "吉野家(北外滩店)",
+    "cuisine": "快餐",
+    "sub_category": "麻辣烫",
+    "lat": 31.274447,
+    "lng": 121.488915,
+    "address": "上海市虹口区吉野家(北",
+    "rating": 4.2,
+    "avg_price": 22,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "工作日"
+    ],
+    "intro": "麻辣烫,出餐快效率高,工作日。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R100",
+    "name": "赛百味(乍浦路店)",
+    "cuisine": "快餐",
+    "sub_category": "麻辣烫",
+    "lat": 31.262679,
+    "lng": 121.494508,
+    "address": "上海市虹口区赛百味(乍",
+    "rating": 4.2,
+    "avg_price": 30,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "外卖",
+      "工作日",
+      "快"
+    ],
+    "intro": "麻辣烫,出餐快效率高,外卖,工作日,快。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R101",
+    "name": "杨国福(曲阳店)",
+    "cuisine": "快餐",
+    "sub_category": "中式快餐",
+    "lat": 31.263616,
+    "lng": 121.494209,
+    "address": "上海市虹口区杨国福(",
+    "rating": 4.2,
+    "avg_price": 34,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "外卖",
+      "便宜"
+    ],
+    "intro": "中式快餐,出餐快效率高,外卖,便宜。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R102",
+    "name": "麦当劳(今潮8弄店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.274777,
+    "lng": 121.497296,
+    "address": "上海市虹口区麦当劳(今潮",
+    "rating": 4.4,
+    "avg_price": 46,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "外卖",
+      "快"
+    ],
+    "intro": "汉堡,出餐快效率高,外卖,快。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R103",
+    "name": "真功夫(瑞虹店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.26611,
+    "lng": 121.496542,
+    "address": "上海市虹口区真功夫(",
+    "rating": 4.5,
+    "avg_price": 25,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快",
+      "工作日"
+    ],
+    "intro": "汉堡,出餐快效率高,快,工作日。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R104",
+    "name": "肯德基(凉城店)",
+    "cuisine": "快餐",
+    "sub_category": "汉堡",
+    "lat": 31.274709,
+    "lng": 121.48674,
+    "address": "上海市虹口区肯德基(",
+    "rating": 4.3,
+    "avg_price": 20,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "工作日"
+    ],
+    "intro": "汉堡,出餐快效率高,工作日。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R105",
+    "name": "苏州面馆(今潮8弄店)",
+    "cuisine": "面食",
+    "sub_category": "粉馆",
+    "lat": 31.263217,
+    "lng": 121.486225,
+    "address": "上海市虹口区苏州面馆(今潮",
+    "rating": 4.9,
+    "avg_price": 54,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "实惠",
+      "快"
+    ],
+    "intro": "粉馆,一碗就饱,实惠,快。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R106",
+    "name": "弄堂小面(东宝兴店)",
+    "cuisine": "面食",
+    "sub_category": "粉馆",
+    "lat": 31.271171,
+    "lng": 121.498126,
+    "address": "上海市虹口区弄堂小面(东",
+    "rating": 4.5,
+    "avg_price": 29,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "实惠",
+      "快"
+    ],
+    "intro": "粉馆,一碗就饱,实惠,快。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R107",
+    "name": "云吞大王(欧阳店)",
+    "cuisine": "面食",
+    "sub_category": "小笼",
+    "lat": 31.266214,
+    "lng": 121.489892,
+    "address": "上海市虹口区云吞大王(",
+    "rating": 4.8,
+    "avg_price": 60,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "本地",
+      "快"
+    ],
+    "intro": "小笼,一碗就饱,本地,快。",
+    "base_queue_at_peak": 23,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 46
+  },
+  {
+    "id": "R108",
+    "name": "南翔小笼(永和路店)",
+    "cuisine": "面食",
+    "sub_category": "粉馆",
+    "lat": 31.267006,
+    "lng": 121.48516,
+    "address": "上海市虹口区南翔小笼(永",
+    "rating": 4.5,
+    "avg_price": 34,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快",
+      "实惠"
+    ],
+    "intro": "粉馆,一碗就饱,快,实惠。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R109",
+    "name": "桂林米粉(东宝兴店)",
+    "cuisine": "面食",
+    "sub_category": "小笼",
+    "lat": 31.260063,
+    "lng": 121.49921,
+    "address": "上海市虹口区桂林米粉(东",
+    "rating": 4.5,
+    "avg_price": 33,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快",
+      "本地"
+    ],
+    "intro": "小笼,一碗就饱,快,本地。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R110",
+    "name": "重庆小面(东宝兴店)",
+    "cuisine": "面食",
+    "sub_category": "小笼",
+    "lat": 31.267523,
+    "lng": 121.489918,
+    "address": "上海市虹口区重庆小面(东",
+    "rating": 4.4,
+    "avg_price": 37,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "实惠",
+      "本地"
+    ],
+    "intro": "小笼,一碗就饱,实惠,本地。",
+    "base_queue_at_peak": 10,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 20
+  },
+  {
+    "id": "R111",
+    "name": "兰州牛肉面(红口店)",
+    "cuisine": "面食",
+    "sub_category": "小笼",
+    "lat": 31.258553,
+    "lng": 121.480742,
+    "address": "上海市虹口区兰州牛肉面(",
+    "rating": 4.2,
+    "avg_price": 58,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "本地",
+      "快"
+    ],
+    "intro": "小笼,一碗就饱,本地,快。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R112",
+    "name": "桂林米粉(运光店)",
+    "cuisine": "面食",
+    "sub_category": "粉馆",
+    "lat": 31.264615,
+    "lng": 121.48562,
+    "address": "上海市虹口区桂林米粉(",
+    "rating": 4.4,
+    "avg_price": 38,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "本地"
+    ],
+    "intro": "粉馆,一碗就饱,本地。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R113",
+    "name": "重庆小面(永和路店)",
+    "cuisine": "面食",
+    "sub_category": "小笼",
+    "lat": 31.269879,
+    "lng": 121.491211,
+    "address": "上海市虹口区重庆小面(永",
+    "rating": 4.7,
+    "avg_price": 26,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "本地",
+      "快"
+    ],
+    "intro": "小笼,一碗就饱,本地,快。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R114",
+    "name": "重庆小面(四川北路店)",
+    "cuisine": "面食",
+    "sub_category": "小笼",
+    "lat": 31.261842,
+    "lng": 121.492265,
+    "address": "上海市虹口区重庆小面(四川",
+    "rating": 4.6,
+    "avg_price": 42,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快"
+    ],
+    "intro": "小笼,一碗就饱,快。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R115",
+    "name": "兰州牛肉面(虹口店)",
+    "cuisine": "面食",
+    "sub_category": "面馆",
+    "lat": 31.264206,
+    "lng": 121.480463,
+    "address": "上海市虹口区兰州牛肉面(",
+    "rating": 4.5,
+    "avg_price": 58,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "快",
+      "实惠"
+    ],
+    "intro": "面馆,一碗就饱,快,实惠。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R116",
+    "name": "桂林米粉(凉城店)",
+    "cuisine": "面食",
+    "sub_category": "面馆",
+    "lat": 31.270455,
+    "lng": 121.483736,
+    "address": "上海市虹口区桂林米粉(",
+    "rating": 4.4,
+    "avg_price": 31,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "实惠",
+      "快",
+      "本地"
+    ],
+    "intro": "面馆,一碗就饱,实惠,快,本地。",
+    "base_queue_at_peak": 10,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 20
+  },
+  {
+    "id": "R117",
+    "name": "Peet's(永和路店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "精品咖啡",
+    "lat": 31.260295,
+    "lng": 121.47983,
+    "address": "上海市虹口区Peet's(永",
+    "rating": 4.7,
+    "avg_price": 73,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作",
+      "约会"
+    ],
+    "intro": "精品咖啡,氛围适合工作,约会。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R118",
+    "name": "% 浓郁(运光店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "连锁咖啡",
+    "lat": 31.263728,
+    "lng": 121.491442,
+    "address": "上海市虹口区% 浓郁(",
+    "rating": 4.4,
+    "avg_price": 56,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作",
+      "出片"
+    ],
+    "intro": "连锁咖啡,氛围适合工作,出片。",
+    "base_queue_at_peak": 7,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 14
+  },
+  {
+    "id": "R119",
+    "name": "Brew & Co(花园路店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "精品咖啡",
+    "lat": 31.272543,
+    "lng": 121.486715,
+    "address": "上海市虹口区Brew & Co(花",
+    "rating": 4.7,
+    "avg_price": 51,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作",
+      "出片"
+    ],
+    "intro": "精品咖啡,氛围适合工作,出片。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R120",
+    "name": "Blue Bottle(海伦店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "连锁咖啡",
+    "lat": 31.267893,
+    "lng": 121.479299,
+    "address": "上海市虹口区Blue Bottle(",
+    "rating": 4.9,
+    "avg_price": 41,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作",
+      "插座",
+      "约会"
+    ],
+    "intro": "连锁咖啡,氛围适合工作,插座,约会。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R121",
+    "name": "Seesaw(海伦店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "连锁咖啡",
+    "lat": 31.261473,
+    "lng": 121.481291,
+    "address": "上海市虹口区Seesaw(",
+    "rating": 4.8,
+    "avg_price": 32,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 5,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "插座",
+      "工作"
+    ],
+    "intro": "连锁咖啡,氛围适合插座,工作。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R122",
+    "name": "Seesaw(曲阳店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "精品咖啡",
+    "lat": 31.258345,
+    "lng": 121.490595,
+    "address": "上海市虹口区Seesaw(",
+    "rating": 4.2,
+    "avg_price": 34,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "出片",
+      "约会"
+    ],
+    "intro": "精品咖啡,氛围适合出片,约会。",
+    "base_queue_at_peak": 2,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 4
+  },
+  {
+    "id": "R123",
+    "name": "白夜咖啡(虹湾店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "网红咖啡",
+    "lat": 31.261797,
+    "lng": 121.498879,
+    "address": "上海市虹口区白夜咖啡(",
+    "rating": 4.2,
+    "avg_price": 39,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "出片",
+      "约会"
+    ],
+    "intro": "网红咖啡,氛围适合出片,约会。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R124",
+    "name": "Tims(虹口店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "网红咖啡",
+    "lat": 31.270304,
+    "lng": 121.488839,
+    "address": "上海市虹口区Tims(",
+    "rating": 4.2,
+    "avg_price": 52,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "网红",
+      "插座"
+    ],
+    "intro": "网红咖啡,氛围适合网红,插座。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R125",
+    "name": "% 浓郁(四川北路店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "连锁咖啡",
+    "lat": 31.263906,
+    "lng": 121.488677,
+    "address": "上海市虹口区% 浓郁(四川",
+    "rating": 4.3,
+    "avg_price": 31,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "约会"
+    ],
+    "intro": "连锁咖啡,氛围适合约会。",
+    "base_queue_at_peak": 12,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 24
+  },
+  {
+    "id": "R126",
+    "name": "% 浓郁(北外滩店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "精品咖啡",
+    "lat": 31.268404,
+    "lng": 121.479729,
+    "address": "上海市虹口区% 浓郁(北",
+    "rating": 4.8,
+    "avg_price": 31,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作",
+      "约会"
+    ],
+    "intro": "精品咖啡,氛围适合工作,约会。",
+    "base_queue_at_peak": 10,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 20
+  },
+  {
+    "id": "R127",
+    "name": "Blue Bottle(乍浦路店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "精品咖啡",
+    "lat": 31.260488,
+    "lng": 121.483336,
+    "address": "上海市虹口区Blue Bottle(乍",
+    "rating": 4.8,
+    "avg_price": 54,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "插座",
+      "约会"
+    ],
+    "intro": "精品咖啡,氛围适合插座,约会。",
+    "base_queue_at_peak": 11,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 22
+  },
+  {
+    "id": "R128",
+    "name": "% 浓郁(凉城店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "连锁咖啡",
+    "lat": 31.272999,
+    "lng": 121.487894,
+    "address": "上海市虹口区% 浓郁(",
+    "rating": 4.7,
+    "avg_price": 67,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "约会",
+      "工作"
+    ],
+    "intro": "连锁咖啡,氛围适合约会,工作。",
+    "base_queue_at_peak": 17,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 34
+  },
+  {
+    "id": "R129",
+    "name": "M Stand(今潮8弄店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "连锁咖啡",
+    "lat": 31.258632,
+    "lng": 121.490737,
+    "address": "上海市虹口区M Stand(今潮",
+    "rating": 4.8,
+    "avg_price": 51,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作",
+      "网红"
+    ],
+    "intro": "连锁咖啡,氛围适合工作,网红。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R130",
+    "name": "M Stand(永和路店)",
+    "cuisine": "咖啡馆",
+    "sub_category": "连锁咖啡",
+    "lat": 31.274638,
+    "lng": 121.495013,
+    "address": "上海市虹口区M Stand(永",
+    "rating": 4.5,
+    "avg_price": 43,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "出片",
+      "工作"
+    ],
+    "intro": "连锁咖啡,氛围适合出片,工作。",
+    "base_queue_at_peak": 7,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 14
+  },
+  {
+    "id": "R131",
+    "name": "GAGA鲜语(瑞虹店)",
+    "cuisine": "轻食",
+    "sub_category": "沙拉",
+    "lat": 31.257998,
+    "lng": 121.480629,
+    "address": "上海市虹口区GAGA鲜语(",
+    "rating": 4.6,
+    "avg_price": 62,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 9,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "白领",
+      "工作日"
+    ],
+    "intro": "沙拉,健康选择,白领,工作日。",
+    "base_queue_at_peak": 22,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 44
+  },
+  {
+    "id": "R132",
+    "name": "甜心摇滚(东宝兴店)",
+    "cuisine": "轻食",
+    "sub_category": "沙拉",
+    "lat": 31.272816,
+    "lng": 121.494018,
+    "address": "上海市虹口区甜心摇滚(东",
+    "rating": 4.4,
+    "avg_price": 53,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "白领",
+      "健康"
+    ],
+    "intro": "沙拉,健康选择,白领,健康。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R133",
+    "name": "Green & Safe(乍浦路店)",
+    "cuisine": "轻食",
+    "sub_category": "健康餐",
+    "lat": 31.263143,
+    "lng": 121.488223,
+    "address": "上海市虹口区Green & Safe(乍",
+    "rating": 4.7,
+    "avg_price": 86,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "出片",
+      "健康"
+    ],
+    "intro": "健康餐,健康选择,出片,健康。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R134",
+    "name": "拾一沙拉(红口店)",
+    "cuisine": "轻食",
+    "sub_category": "健康餐",
+    "lat": 31.27019,
+    "lng": 121.487039,
+    "address": "上海市虹口区拾一沙拉(",
+    "rating": 4.0,
+    "avg_price": 82,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作日",
+      "健康",
+      "出片"
+    ],
+    "intro": "健康餐,健康选择,工作日,健康,出片。",
+    "base_queue_at_peak": 4,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 8
+  },
+  {
+    "id": "R135",
+    "name": "Element Fresh(凉城路店)",
+    "cuisine": "轻食",
+    "sub_category": "三明治",
+    "lat": 31.260658,
+    "lng": 121.494867,
+    "address": "上海市虹口区Element Fresh(凉",
+    "rating": 4.6,
+    "avg_price": 66,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "健康",
+      "工作日"
+    ],
+    "intro": "三明治,健康选择,健康,工作日。",
+    "base_queue_at_peak": 21,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 42
+  },
+  {
+    "id": "R136",
+    "name": "莱杯沙拉(运光店)",
+    "cuisine": "轻食",
+    "sub_category": "健康餐",
+    "lat": 31.266428,
+    "lng": 121.483136,
+    "address": "上海市虹口区莱杯沙拉(",
+    "rating": 4.7,
+    "avg_price": 71,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "白领",
+      "工作日",
+      "健康"
+    ],
+    "intro": "健康餐,健康选择,白领,工作日,健康。",
+    "base_queue_at_peak": 13,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 26
+  },
+  {
+    "id": "R137",
+    "name": "GAGA鲜语(东宝兴店)",
+    "cuisine": "轻食",
+    "sub_category": "沙拉",
+    "lat": 31.273581,
+    "lng": 121.500651,
+    "address": "上海市虹口区GAGA鲜语(东",
+    "rating": 4.3,
+    "avg_price": 94,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "出片",
+      "白领",
+      "工作日"
+    ],
+    "intro": "沙拉,健康选择,出片,白领,工作日。",
+    "base_queue_at_peak": 8,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 16
+  },
+  {
+    "id": "R138",
+    "name": "甜心摇滚(永和路店)",
+    "cuisine": "轻食",
+    "sub_category": "三明治",
+    "lat": 31.268667,
+    "lng": 121.480329,
+    "address": "上海市虹口区甜心摇滚(永",
+    "rating": 4.1,
+    "avg_price": 86,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 8,
+    "has_private_room": false,
+    "is_halal": false,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "工作日",
+      "白领"
+    ],
+    "intro": "三明治,健康选择,工作日,白领。",
+    "base_queue_at_peak": 2,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 4
+  },
+  {
+    "id": "R139",
+    "name": "白家牛肉拉面(广中店)",
+    "cuisine": "清真",
+    "sub_category": "清真菜",
+    "lat": 31.271208,
+    "lng": 121.499284,
+    "address": "上海市虹口区白家牛肉拉面(",
+    "rating": 4.5,
+    "avg_price": 105,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": true,
+    "is_halal": true,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "清真"
+    ],
+    "intro": "清真菜,清真认证,清真。",
+    "base_queue_at_peak": 10,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 20
+  },
+  {
+    "id": "R140",
+    "name": "西部马华(凉城店)",
+    "cuisine": "清真",
+    "sub_category": "清真菜",
+    "lat": 31.267628,
+    "lng": 121.498383,
+    "address": "上海市虹口区西部马华(",
+    "rating": 4.4,
+    "avg_price": 60,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "实惠",
+      "西北"
+    ],
+    "intro": "清真菜,清真认证,实惠,西北。",
+    "base_queue_at_peak": 3,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 6
+  },
+  {
+    "id": "R141",
+    "name": "回民街(瑞虹店)",
+    "cuisine": "清真",
+    "sub_category": "新疆菜",
+    "lat": 31.26125,
+    "lng": 121.487683,
+    "address": "上海市虹口区回民街(",
+    "rating": 4.8,
+    "avg_price": 57,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 12,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "清真",
+      "实惠"
+    ],
+    "intro": "新疆菜,清真认证,清真,实惠。",
+    "base_queue_at_peak": 7,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 14
+  },
+  {
+    "id": "R142",
+    "name": "西部马华(海伦店)",
+    "cuisine": "清真",
+    "sub_category": "新疆菜",
+    "lat": 31.258719,
+    "lng": 121.486859,
+    "address": "上海市虹口区西部马华(",
+    "rating": 4.7,
+    "avg_price": 87,
+    "open_hours": [
+      [
+        10,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "清真",
+      "实惠",
+      "西北"
+    ],
+    "intro": "新疆菜,清真认证,清真,实惠,西北。",
+    "base_queue_at_peak": 19,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 38
+  },
+  {
+    "id": "R143",
+    "name": "西域风情(红口店)",
+    "cuisine": "清真",
+    "sub_category": "西北菜",
+    "lat": 31.260532,
+    "lng": 121.485897,
+    "address": "上海市虹口区西域风情(",
+    "rating": 4.6,
+    "avg_price": 120,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 7,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "西北",
+      "实惠"
+    ],
+    "intro": "西北菜,清真认证,西北,实惠。",
+    "base_queue_at_peak": 9,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 18
+  },
+  {
+    "id": "R144",
+    "name": "回民街(凉城店)",
+    "cuisine": "清真",
+    "sub_category": "新疆菜",
+    "lat": 31.259343,
+    "lng": 121.480352,
+    "address": "上海市虹口区回民街(",
+    "rating": 4.2,
+    "avg_price": 98,
+    "open_hours": [
+      [
+        7,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": false,
+    "has_seafood": false,
+    "tags": [
+      "实惠",
+      "西北",
+      "清真"
+    ],
+    "intro": "新疆菜,清真认证,实惠,西北,清真。",
+    "base_queue_at_peak": 1,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 2
+  },
+  {
+    "id": "R145",
+    "name": "枣子树(欧阳店)",
+    "cuisine": "素食",
+    "sub_category": "素食馆",
+    "lat": 31.270659,
+    "lng": 121.484083,
+    "address": "上海市虹口区枣子树(",
+    "rating": 4.2,
+    "avg_price": 129,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 4,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "健康"
+    ],
+    "intro": "全素菜单,健康。",
+    "base_queue_at_peak": 5,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 10
+  },
+  {
+    "id": "R146",
+    "name": "净心斋(花园路店)",
+    "cuisine": "素食",
+    "sub_category": "素食馆",
+    "lat": 31.256105,
+    "lng": 121.484072,
+    "address": "上海市虹口区净心斋(花",
+    "rating": 4.0,
+    "avg_price": 137,
+    "open_hours": [
+      [
+        11,
+        24
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 9,
+    "has_private_room": true,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "健康",
+      "禅意"
+    ],
+    "intro": "全素菜单,健康,禅意。",
+    "base_queue_at_peak": 0,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 0
+  },
+  {
+    "id": "R147",
+    "name": "净心斋(北外滩店)",
+    "cuisine": "素食",
+    "sub_category": "素食馆",
+    "lat": 31.274656,
+    "lng": 121.482782,
+    "address": "上海市虹口区净心斋(北",
+    "rating": 4.4,
+    "avg_price": 73,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": false,
+    "max_party_size": 6,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "禅意",
+      "素食"
+    ],
+    "intro": "全素菜单,禅意,素食。",
+    "base_queue_at_peak": 6,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 12
+  },
+  {
+    "id": "R148",
+    "name": "蔬食家(四川北路店)",
+    "cuisine": "素食",
+    "sub_category": "素食馆",
+    "lat": 31.274756,
+    "lng": 121.481882,
+    "address": "上海市虹口区蔬食家(四川",
+    "rating": 4.8,
+    "avg_price": 81,
+    "open_hours": [
+      [
+        10,
+        14
+      ],
+      [
+        17,
+        22
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 10,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "禅意",
+      "健康"
+    ],
+    "intro": "全素菜单,禅意,健康。",
+    "base_queue_at_peak": 24,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 48
+  },
+  {
+    "id": "R149",
+    "name": "禅意斋(虹口店)",
+    "cuisine": "素食",
+    "sub_category": "素食馆",
+    "lat": 31.273536,
+    "lng": 121.485327,
+    "address": "上海市虹口区禅意斋(",
+    "rating": 4.9,
+    "avg_price": 98,
+    "open_hours": [
+      [
+        11,
+        23
+      ]
+    ],
+    "supports_queue_ticket": true,
+    "supports_table_booking": true,
+    "max_party_size": 11,
+    "has_private_room": false,
+    "is_halal": true,
+    "is_vegetarian_friendly": true,
+    "has_seafood": false,
+    "tags": [
+      "禅意",
+      "健康"
+    ],
+    "intro": "全素菜单,禅意,健康。",
+    "base_queue_at_peak": 16,
+    "queue_speed_per_minute": 0.5,
+    "typical_wait_minutes_at_peak": 32
+  }
+]

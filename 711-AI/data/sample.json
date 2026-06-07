@@ -1,0 +1,105 @@
+[
+  {
+    "case_id": "case_001_citywalk_afternoon",
+    "description": "静安下午 citywalk,选了咖啡+书店,期望紧凑路线",
+    "intent": {
+      "origin_lat": 31.2280,
+      "origin_lng": 121.4490,
+      "origin_name": "静安",
+      "time_slot": "下午",
+      "people_count": 2,
+      "people_group": "情侣",
+      "transport_mode": "walk",
+      "moods": ["静下来"],
+      "sub_categories": ["窗边咖啡", "图书馆"],
+      "free_text": "想找个安静的下午"
+    },
+    "weather": {"condition": "晴"},
+    "expected": {
+      "min_routes": 2,
+      "max_routes": 3,
+      "max_total_commute_minutes": 90,
+      "should_include_categories": ["窗边咖啡", "图书馆"],
+      "should_not_include_pois": []
+    }
+  },
+  {
+    "case_id": "case_002_rainy_indoor",
+    "description": "小雨天,室内活动应被加权,室外应被降权",
+    "intent": {
+      "origin_lat": 31.2280,
+      "origin_lng": 121.4490,
+      "origin_name": "静安",
+      "time_slot": "全天",
+      "people_count": 2,
+      "people_group": "情侣",
+      "transport_mode": "transit",
+      "moods": ["休闲娱乐", "静下来"],
+      "sub_categories": [],
+      "free_text": "下雨天想室内"
+    },
+    "weather": {"condition": "大雨"},
+    "expected": {
+      "min_routes": 1,
+      "all_pois_must_be_indoor": true
+    }
+  },
+  {
+    "case_id": "case_003_extreme_weather_hard_filter",
+    "description": "暴雨硬过滤户外,所有路线 POI 必须 100% 室内",
+    "intent": {
+      "origin_lat": 31.2280,
+      "origin_lng": 121.4490,
+      "time_slot": "下午",
+      "people_count": 1,
+      "people_group": "独行",
+      "transport_mode": "transit",
+      "moods": [],
+      "sub_categories": ["窗边咖啡", "图书馆"],
+      "free_text": ""
+    },
+    "weather": {"condition": "暴雨"},
+    "expected": {
+      "all_pois_must_be_indoor": true
+    }
+  },
+  {
+    "case_id": "case_004_too_many_categories",
+    "description": "选了 5 个类别但时间只够 3 个,应砍 dropped_categories",
+    "intent": {
+      "origin_lat": 31.2280,
+      "origin_lng": 121.4490,
+      "time_slot": "下午",
+      "people_count": 2,
+      "people_group": "情侣",
+      "transport_mode": "walk",
+      "moods": [],
+      "sub_categories": ["窗边咖啡", "图书馆", "DIY工坊", "网红地标", "草坪时光"],
+      "free_text": ""
+    },
+    "weather": {"condition": "晴"},
+    "expected": {
+      "should_drop_some_categories": true
+    }
+  },
+  {
+    "case_id": "case_005_health_constraint_knee",
+    "description": "膝盖不好应排除长时间户外大景区",
+    "intent": {
+      "origin_lat": 31.2280,
+      "origin_lng": 121.4490,
+      "time_slot": "全天",
+      "people_count": 2,
+      "people_group": "情侣",
+      "transport_mode": "transit",
+      "moods": ["热门打卡"],
+      "sub_categories": [],
+      "free_text": "膝盖不好,少走点路",
+      "health_constraints": ["膝盖不好"]
+    },
+    "weather": {"condition": "晴"},
+    "expected": {
+      "should_not_include_pois": ["p030"]
+    }
+  }
+]
