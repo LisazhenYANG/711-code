@@ -9,11 +9,9 @@ import 'package:flutter/widgets.dart';
 
 const String _amapWebKey = String.fromEnvironment(
   'AMAP_WEB_KEY',
-  defaultValue: 'ad60231527de01346ff42986cf9db6bc',
 );
 const String _amapSecurityCode = String.fromEnvironment(
   'AMAP_SECURITY_CODE',
-  defaultValue: '160ec6f3657d17ee36c316ce6baff3f7',
 );
 
 int _viewSeq = 0;
