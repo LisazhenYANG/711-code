@@ -8,8 +8,22 @@
 711-code/
 ├── 711-frontend/   Flutter 前端
 ├── backend/        FastAPI 业务后端
-├── 711-AI/         FastAPI + LangGraph AI 路线规划服务
+├── 711-AI/         Git submodule：FastAPI + LangGraph AI 路线规划服务
 └── README.md
+```
+
+## 克隆说明
+
+`711-AI` 现在作为 Git submodule 挂在主仓库中。首次拉取项目后，请执行：
+
+```bash
+git submodule update --init --recursive
+```
+
+如果你是首次克隆整个仓库，也可以直接使用：
+
+```bash
+git clone --recurse-submodules git@github.com:LisazhenYANG/711-code.git
 ```
 
 ## 模块说明
@@ -45,6 +59,7 @@ backend/data/manyou.sqlite3
 - 作用：提供路线规划、反馈回写、餐厅查询、排队取号、订座等 AI / 智能能力
 - 默认端口：`8001`
 - 健康检查：`GET /health`
+- 仓库形态：作为主仓库的 Git submodule 管理
 
 该服务支持 `.env` 配置，已提供 `.env.example` 模板。若接入真实 LLM 或地图服务，需要在本地 `.env` 中填写对应密钥。
 
